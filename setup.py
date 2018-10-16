@@ -20,7 +20,7 @@ setup(name='kipy',
       license="MIT",
       packages=["kipy"],
       install_requires=[
-          'kinparse',
+          'sexpdata',
       ],
       test_suit='nose.collector',
       test_requires=['nose'],
