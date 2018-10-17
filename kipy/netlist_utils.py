@@ -173,6 +173,36 @@ class ListOfNetsObj(object):
         """
         raise NotImplementedError("Cannot instantiate base class")
 
+    def get_nodes(self):
+        """
+        return a list of all of the nodes
+        """
+        d = self.get_dict()
+        nodes = []
+        for k in d.keys():
+            nodes.extend(d[k])
+        return nodes
+
+    def get_nets(self):
+        """
+        return a list of all of the net names
+        """
+        d = self.get_dict()
+        return d.keys()
+    
+    def get_nodelist(self):
+        node_list = {}
+        nodes = self.get_nodes()
+        nets = self.get_nets()
+        my_dict = self.get_dict()
+        for node in nodes:
+            for net in nets:
+                if node in my_dict[net]:
+                    node_list[node] = list(set(my_dict[net]) - set([node]))
+        return node_list
+        
+            
+
 class Net(object):
     """
     Object to hold the following properties of a net:
@@ -748,13 +778,13 @@ def compare_partlists(nl1, nl2):
 
     d = {}
     
-    d['subtractions'] = []
+    d['deletions'] = []
     d['additions'] = []
     d['changes'] = []
 
     for k1 in p1.keys():
         if k1 not in p2.keys():
-            d['subtractions'].append(k1) 
+            d['deletions'].append(k1) 
         else:
             #compare footrpints
             if p1[k1] != p2[k1]:
@@ -785,13 +815,13 @@ def compare_netlists(nl1, nl2):
 
     d = {}
     
-    d['subtractions'] = []
+    d['deletions'] = []
     d['additions'] = []
     d['changes'] = []
 
     for k1 in n1.keys():
         if k1 not in n2.keys():
-            d['subtractions'].append(k1) 
+            d['deletions'].append(k1) 
         else:
             #compare nodes
             pass
@@ -805,14 +835,46 @@ def compare_netlists(nl1, nl2):
     for k2 in n2.keys():
         if k2 not in n1.keys():
             d['additions'].append(k2) 
+   
+    d['matched_nets_new'] = []
+    d['matched_nets_old'] = []
+    d['name_changed'] = {'old': [], 'new': []}
+   
+    for k1 in n1.keys():
+        for k2 in n2.keys():
+            if compare_lists(n1[k1], n2[k2]):
+                d['matched_nets_new'].append(k2)        # net is matched add new net name to list
+                d['matched_nets_old'].append(k1)        # net is matched add new net name to list
+                if k1 != k2:
+                    # net is matched, but the name changed
+                    d['name_changed']['old'].append(k1)
+                    d['name_changed']['new'].append(k2)
+
+    d['unmatched_new'] = list(set(n2.keys()) - set(d['matched_nets_new']))
+    d['unmatched_old'] = list(set(n1.keys()) - set(d['matched_nets_old']))
     
     return n1, n2, d
 
+def compare_lists(net1, net2):
+    """
+    a net is a list of nodes
+    """
+    if set(net1) == set(net2):
+        return True
+    else:
+        return False
 
 
+def compare_nodes(nl1, nl2):
+    """
+    """
+    nodes1 = nl1.list_of_nets.get_nodes()
+    nodes2 = nl2.list_of_nets.get_nodes()
 
-
-
+    d = {}
+    d['additions'] = list(set(nodes2) - set(nodes1))
+    d['deletions'] = list(set(nodes1) - set(nodes2))
+    return d
 
 
 
