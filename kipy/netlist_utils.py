@@ -210,7 +210,17 @@ class ListOfNetsObj(object):
                     node_list[node] = list(set(my_dict[net]) - set([node]))
         return node_list
         
-            
+        
+    def find_net_from_node(self, node):
+        """
+        Return the net name to which the given node is attached. 
+        If it doesn't exist, return None
+        """
+        d = self.get_dict()         
+        for k in d.keys():
+            if node in d[k]:
+                return k
+        
 
 class Net(object):
     """
@@ -818,6 +828,11 @@ def compare_netlists(nl1, nl2):
         :nl1 (Netlist()): old netlist
         :nl2 (Netlist()): net netlist
     :Returns (dict):
+        :deletions: list of nets that are in nl1 but not nl2
+        :additions: list of nets that are in nl2 but not nl1
+        :name_changed: dict
+            :keys:      old net name from nl1
+            :values:    net net name in nl2
     """
     n1 = nl1.list_of_nets.get_dict()
     n2 = nl2.list_of_nets.get_dict()
@@ -847,7 +862,7 @@ def compare_netlists(nl1, nl2):
    
     d['matched_nets_new'] = []
     d['matched_nets_old'] = []
-    d['name_changed'] = {'old': [], 'new': []}
+    d['name_changed'] = {}  # keys are nl1 net names, values are nl2 net names
    
     for k1 in n1.keys():
         for k2 in n2.keys():
@@ -855,14 +870,80 @@ def compare_netlists(nl1, nl2):
                 d['matched_nets_new'].append(k2)        # net is matched add new net name to list
                 d['matched_nets_old'].append(k1)        # net is matched add new net name to list
                 if k1 != k2:
-                    # net is matched, but the name changed
-                    d['name_changed']['old'].append(k1)
-                    d['name_changed']['new'].append(k2)
+                    d['name_changed'][k1] = k2
 
     d['unmatched_new'] = list(set(n2.keys()) - set(d['matched_nets_new']))
     d['unmatched_old'] = list(set(n1.keys()) - set(d['matched_nets_old']))
     
     return n1, n2, d
+
+
+def match_nets(nl1, nl2):
+    """
+    Return a dict of matched nets
+    """
+    n1 = nl1.list_of_nets.get_dict()
+    n2 = nl2.list_of_nets.get_dict()
+    
+    d = {}
+    d['name_changed'] = {}  # keys are nl1 net names, values are nl2 net names
+    d['unmatched_old'] = []
+    d['unmatched_new'] = []
+    for k1 in n1.keys():
+        for k2 in n2.keys():
+            if compare_lists(n1[k1], n2[k2]):
+                d[k2] = k1
+                if k1 != k2:
+                    d['name_changed'][k1] = k2
+
+    return d
+
+
+def find_correlated_nets(in_net, in_netlist, thresh=0.0):
+    ret = []
+    for k in in_netlist.keys():
+        val = correlate_lists(in_net, in_netlist[k])
+        if val > thresh:
+            ret.append({k: val})
+    return ret
+
+def correlate_nets(nl1, nl2, fo="corr_nets.txt"):
+    """
+    Return a dict of matched nets
+    """
+    fo = open(fo, "w")
+    n1 = nl1.list_of_nets.get_dict()
+    n2 = nl2.list_of_nets.get_dict()
+   
+    n_map = {}
+    un_mapped = {}
+    d = {}
+    n2_keys = n2.keys()
+    n1_keys = n1.keys()
+    for k2 in n2.keys():
+        d[k2] = find_correlated_nets(n2[k2], n1)
+        if len(d[k2]) == 1:
+            n_map[k2] = d[k2][0].keys()[0]
+        else:
+            un_mapped[k2] = d[k2]
+    # for k2 in n2.keys():
+    #     temp = 0
+    #     d[k2] = ("", temp)
+    #     for k1 in n1.keys():
+    #         cor_value = correlate_lists(n1[k1], n2[k2])
+    #         if cor_value > temp:
+    #             temp = cor_value
+    #             d[k2] = (k1, temp)
+    return d, n_map, un_mapped
+
+def correlate_lists(lst1, lst2):
+    """
+    """
+    num_in_common = len(set(lst1) & set(lst2))
+    num_not_in_common = len(set(lst2) - set(lst1)) + len(set(lst1) - set(lst2))
+
+    return float(num_in_common)/(num_in_common + num_not_in_common) 
+
 
 def compare_lists(net1, net2):
     """
@@ -879,12 +960,41 @@ def compare_nodes(nl1, nl2):
     """
     nodes1 = nl1.list_of_nets.get_nodes()
     nodes2 = nl2.list_of_nets.get_nodes()
-
+   
     d = {}
-    d['additions'] = list(set(nodes2) - set(nodes1))
-    d['deletions'] = list(set(nodes1) - set(nodes2))
+    d['added'] = sort_alpha_num(list(set(nodes2) - set(nodes1)))
+    d['deleted'] = sort_alpha_num(list(set(nodes1) - set(nodes2)))
+    d['moved'] = [] 
+    
+    match = match_nets(nl1, nl2)
+    d1 = nl1.list_of_nets.get_dict()
+    d2 = nl2.list_of_nets.get_dict()
+    old_keys_left = match['unmatched_old']
+    new_keys_left = match['unmatched_new']
+    
+    nodes_left = list(set(nodes2) - set(d['added']))
+    for node in nodes_left:
+        old_net = find_net_from_node(node, nl1, old_keys_left)
+        new_net = find_net_from_node(node, nl2, new_keys_left)
+        if new_net != old_net:
+            d['moved'].append({
+                               'old': old_net,
+                               'new': new_net
+                                })
+    d['nodes_left'] = nodes_left 
     return d
 
+
+
+def find_net_from_node(node, in_dict, in_keys):
+    """
+    Return the net name to which the given node is attached. 
+    If it doesn't exist, return None
+    """
+    for k in in_keys:
+        if node in in_dict[k]:
+            return k
+        
 def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     """
     """
@@ -894,105 +1004,111 @@ def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     nlst1 = PadsNetlist(file1)
     nlst2 = PadsNetlist(file2)
 
-
     fo = open(diff_file, "w")
-    col_width = 50 
+    col_width = 35 
 
-    line = (bcolors.HEADER +\
-            "{:<{w}}|{:<{w}}".format("OLD: {}".format(fname1), "NEW: {}".format(fname2), w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:=<{w}}|{:=<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
+    line = ""
+    line += ("{:<{w}}|{:<{w}}\n".format("OLD: {}".format(fname1), "NEW: {}".format(fname2), w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    print(line),
+    if fo != None:
+        fo.write(line)
 
     # PARTS DIFF
     p1, p2, d = compare_partlists(nlst1, nlst2) 
+    output_parts_diff(p1, p2, d, fo=fo, col_width=col_width)
 
-    # DELETIONS
-    line = (bcolors.HEADER +\
-            "{:<{w}}|{:<{w}}".format("PART DELETIONS", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    for k in d['deletions']:
-        line = (bcolors.RED + "{:<10}{:<40}".format(k +":", p1[k]) + bcolors.HEADER +"|")
-        print(line)
-        fo.write(line + "\n")
+    # NETS DIFF
+    n1, n2, d = compare_netlists(nlst1, nlst2)
+    output_nets_diff(n1, n2, d, col_width=col_width)
 
-    # ADDITIONS
-    line = (bcolors.HEADER +\
-            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:<{w}}|{:<{w}}".format("", "PART ADDITIONS", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    for k in d['additions']:
-        line = (bcolors.HEADER +\
-                "{:<{w}}|{:<{w}}".format("", bcolors.GREEN + "{:<10}{:<40}".format(k, p2[k]) + bcolors.HEADER, w=col_width) +\
-                bcolors.ENDC)
-        print(line)
-        fo.write(line + "\n")
-
-    # CHANGES
-    line = (bcolors.HEADER +\
-            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:<{w}}|{:<{w}}".format("FOOTPRINT CHANGES", "FOOTPRINT CHANGES", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    line = (bcolors.HEADER +\
-            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
-            bcolors.ENDC)
-    print(line)
-    fo.write(line + "\n")
-    
-    for k in d['changes']:
-        ref = k['ref']
-        line = "{}{:<10}{:<40}{}|{}{:<10}{:<40}{}".format(bcolors.YELLOW, ref, p1[ref], bcolors.HEADER, bcolors.YELLOW, ref, p2[ref], bcolors.ENDC)
-        print(line)
-    fo.write(line + "\n")
     
     fo.close()
+    return d, n1, n2
 
+def output_nets_diff(n1, n2, d, fo=None, col_width=50):
+    """
+    :Args:
+        :p1 (list of nets):
+        :p2 (list of nets):
+        :d (dict):
+    """
+    line = ""
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+    line += ("{:<{w}}|{:<{w}}\n".format("NET NAME CHANGES", "", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+   
+    for k in d['name_changed'].keys():
+        line += ("{:<{w}}|{:<{w}}\n".format(k , d['name_changed'][k], w=col_width))
+        # line += get_netlines(nl1[k], nl2[d['name_changed'][k], col_width=col_width)
 
+    print(line)
+    if fo != None:
+        fo.write(line)
+    
+def get_netlines(lst1, lst2, col_width=50):
+    """
+    """
+    l1 = "  "   # indent 2 spaces
+    len_line = 2
+    for item in lst1:
+        if (len_line + len(item)) > (col_width - 1):
+            l1 += "\n  " + item + " "
+            len_line = len(item) + 3
+        else:
+            l1 += item + " "
+            len_line += len(item) + 1 
 
-    return d, p1, p2
+    l2 = "  "   # indent 2 spaces
+    len_line = 2
+    for item in lst2:
+        if (len_line + len(item)) > (col_width - 1):
+            l2 += "\n  " + item + " "
+            len_line = len(item) + 3
+        else:
+            l2 += item + " "
+            len_line += len(item) + 1 
+    return l1, l2
 
+def output_parts_diff(p1, p2, d, fo=None, col_width=50):
+    """
+    :Args:
+        :p1 (list of parts):
+        :p2 (list of parts):
+        :d (dict):
+    """
+    ref_w = 8
+    pn_w = col_width - ref_w
+    # DELETIONS
+    line = ""
+    line += ("{:<{w}}|{:<{w}}\n".format("PART DELETIONS", "", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+    
+    for k in d['deletions']:
+        line += ("{:<{ref_w}}{:<{pn_w}}|\n".format(k +":", p1[k], ref_w=ref_w, pn_w=pn_w))
 
-
-
-
-
+    # ADDITIONS
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+    line += ("{:<{w}}|{:<{w}}\n".format("", "PART ADDITIONS", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width))
+            
+    
+    for k in d['additions']:
+        line += ("{:<{w}}|{:<{ref_w}}{:<{pn_w}}\n".format("", k, p2[k], w=col_width, ref_w=ref_w, pn_w=pn_w))
+        # line += ("{:<{w}}|{:<{w}}\n".format(k, p2[k], w=col_width))
+    
+    # CHANGES
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("FOOTPRINT CHANGES", "", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width))
+            
+    for k in d['changes']:
+        ref = k['ref']
+        line += ("{:<{ref_w}}{:<{pn_w}}|{:<{ref_w}}{:<{pn_w}}\n".format(ref, p1[ref], ref, p2[ref], ref_w=ref_w, pn_w=pn_w))
+        # line += ("{:<10}{:<40}|{:<10}{:<40}\n".format(ref, p1[ref], ref, p2[ref]))
+    print(line),
+    if fo != None:
+        fo.write(line)
 
 
 
