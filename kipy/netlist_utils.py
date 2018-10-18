@@ -10,6 +10,16 @@ netlist_utils.py
 import re
 import sexpdata
 
+class bcolors:
+    HEADER = '\033[95m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 def load_kicad_netlist(in_file):
     """
     """
@@ -36,7 +46,6 @@ def load_kicad_netlist(in_file):
             objs.append(elem[0])
     return s, objs, nlst, cmplst
     # return nlst, cmplst
-
 
 ######################################################################
 #       BASE CLASSES
@@ -799,7 +808,7 @@ def compare_partlists(nl1, nl2):
         if k2 not in p1.keys():
             d['additions'].append(k2) 
     
-    return d
+    return p1, p2, d
 
 
 def compare_netlists(nl1, nl2):
@@ -876,6 +885,108 @@ def compare_nodes(nl1, nl2):
     d['deletions'] = list(set(nodes1) - set(nodes2))
     return d
 
+def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
+    """
+    """
+    fname1 = file1.split("/")[-1]
+    fname2 = file2.split("/")[-1]
+    
+    nlst1 = PadsNetlist(file1)
+    nlst2 = PadsNetlist(file2)
+
+
+    fo = open(diff_file, "w")
+    col_width = 50 
+
+    line = (bcolors.HEADER +\
+            "{:<{w}}|{:<{w}}".format("OLD: {}".format(fname1), "NEW: {}".format(fname2), w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:=<{w}}|{:=<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+
+    # PARTS DIFF
+    p1, p2, d = compare_partlists(nlst1, nlst2) 
+
+    # DELETIONS
+    line = (bcolors.HEADER +\
+            "{:<{w}}|{:<{w}}".format("PART DELETIONS", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    for k in d['deletions']:
+        line = (bcolors.RED + "{:<10}{:<40}".format(k +":", p1[k]) + bcolors.HEADER +"|")
+        print(line)
+        fo.write(line + "\n")
+
+    # ADDITIONS
+    line = (bcolors.HEADER +\
+            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:<{w}}|{:<{w}}".format("", "PART ADDITIONS", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    for k in d['additions']:
+        line = (bcolors.HEADER +\
+                "{:<{w}}|{:<{w}}".format("", bcolors.GREEN + "{:<10}{:<40}".format(k, p2[k]) + bcolors.HEADER, w=col_width) +\
+                bcolors.ENDC)
+        print(line)
+        fo.write(line + "\n")
+
+    # CHANGES
+    line = (bcolors.HEADER +\
+            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:<{w}}|{:<{w}}".format("FOOTPRINT CHANGES", "FOOTPRINT CHANGES", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    line = (bcolors.HEADER +\
+            "{:-<{w}}|{:-<{w}}".format("", "", w=col_width) +\
+            bcolors.ENDC)
+    print(line)
+    fo.write(line + "\n")
+    
+    for k in d['changes']:
+        ref = k['ref']
+        line = "{}{:<10}{:<40}{}|{}{:<10}{:<40}{}".format(bcolors.YELLOW, ref, p1[ref], bcolors.HEADER, bcolors.YELLOW, ref, p2[ref], bcolors.ENDC)
+        print(line)
+    fo.write(line + "\n")
+    
+    fo.close()
+
+
+
+    return d, p1, p2
 
 
 

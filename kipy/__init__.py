@@ -1,6 +1,6 @@
 # from .sch_utils import *
 # from .convert_net import *
 
-import convert_net
-import sch_utils
-import compare_boms
+from . import netlist_utils
+from . import sch_utils
+from . import compare_boms
