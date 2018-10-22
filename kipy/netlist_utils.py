@@ -1118,20 +1118,6 @@ def compare_nodes(nl1, nl2):
 
     return netcat, node_dict
 
-    # for node in list(set(nodes1) | set(nodes2)):
-    #     old_net = nl1.list_of_nets.find_net_from_node(node)
-    #     new_net = nl2.list_of_nets.find_net_from_node(node)
-    #     if old_net and new_net:         # node is in both sets. check if moved
-    #         if old_net != new_net:      # net name changed. node moved
-    #             d['moved'].append(new_net)
-    #         else:
-    #             d['unchanged'].append(new_net)
-    #     if old_net and not new_net:     # node was deleted
-    #         d['deleted'].append(old_net)
-    #     if not old_net and new_net:     # node was added
-    #         d['added'].append(new_net)
-
-    # return d
 
 def find_net_from_node(node, in_dict, in_keys):
     """
@@ -1144,6 +1130,8 @@ def find_net_from_node(node, in_dict, in_keys):
         
 def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     """
+    Evaluate the netlists from both files and print the differences. Also,
+    write to a diff_file if provided.
     """
     fname1 = file1.split("/")[-1]
     fname2 = file2.split("/")[-1]
@@ -1165,95 +1153,13 @@ def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     p1, p2, d = compare_partlists(nlst1, nlst2) 
     output_parts_diff(p1, p2, d, fo=fo, col_width=col_width)
 
-    # NETS DIFF
-    # n1, n2, d = compare_netlists(nlst1, nlst2)
-    # output_nets_diff(n1, n2, d, col_width=col_width)
-
-    # n1 = nlst1.list_of_nets.get_dict() 
-    # n2 = nlst2.list_of_nets.get_dict() 
-    nets_changed, nodes_changed = compare_nodes(n1, n2) 
-    # d = get_net_map(nlst1, nlst2)
-    output_nets_diff(nets_changed, nodes_changed,fo=fo, col_width=col_width)
+    n1 = nlst1.list_of_nets.get_dict() 
+    n2 = nlst2.list_of_nets.get_dict() 
+    nets_changed, nodes_changed = compare_nodes(nlst1, nlst2)
+    output_nets_diff(nlst1, nlst2, fo=fo, col_width=col_width)
 
     fo.close()
-    return d, n1, n2
-
-def output_nets_diff(nets, nodes, fo=None, col_width=50):
-    """
-    :Args:
-        :p1 (list of nets):
-        :p2 (list of nets):
-        :d (dict):
-    """
-    changed_nets = nets['changed']
-    name_change_nets = nets['name_changed']
-    deleted_nets = nets['deleted']
-    added_nets = nets['added']
-    
-    line = ""
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-    line += ("{:<{w}}|{:<{w}}\n".format("NET NAME CHANGES", "", w=col_width))
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-   
-    for item in name_change_nets:
-        line += ("{:<{w}}|{:<{w}}\n".format("", item,  w=col_width))
-
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-    line += ("{:<{w}}|{:<{w}}\n".format("DELETED NETS", "", w=col_width))
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-   
-    for item in deleted_nets:
-        line += ("{:<{w}}|{:<{w}}\n".format(item, "",  w=col_width))
-
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-    line += ("{:<{w}}|{:<{w}}\n".format("ADDED NETS", "", w=col_width))
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-   
-    for item in added_nets:
-        line += ("{:<{w}}|{:<{w}}\n".format("", item,  w=col_width))
-
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-    line += ("{:<{w}}|{:<{w}}\n".format("CHANGED NETS", "", w=col_width))
-    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-   
-    for item in changed_nets:
-        line += ("{:<{w}}|{:<{w}}\n".format("", item,  w=col_width))
-
-    # line = ""
-    # line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-    # line += ("{:<{w}}|{:<{w}}\n".format("NET CHANGES", "", w=col_width))
-    # line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
-   
-    # for item in d['new_added']:
-    #     line += ("{:<{w}}|{:<{w}}\n".format("", item,  w=col_width))
-
-    print(line)
-    if fo != None:
-        fo.write(line)
-    
-def get_netlines(lst1, lst2, col_width=50):
-    """
-    """
-    l1 = "  "   # indent 2 spaces
-    len_line = 2
-    for item in lst1:
-        if (len_line + len(item)) > (col_width - 1):
-            l1 += "\n  " + item + " "
-            len_line = len(item) + 3
-        else:
-            l1 += item + " "
-            len_line += len(item) + 1 
-
-    l2 = "  "   # indent 2 spaces
-    len_line = 2
-    for item in lst2:
-        if (len_line + len(item)) > (col_width - 1):
-            l2 += "\n  " + item + " "
-            len_line = len(item) + 3
-        else:
-            l2 += item + " "
-            len_line += len(item) + 1 
-    return l1, l2
+    return
 
 def output_parts_diff(p1, p2, d, fo=None, col_width=50):
     """
@@ -1296,9 +1202,71 @@ def output_parts_diff(p1, p2, d, fo=None, col_width=50):
         fo.write(line)
 
 
+def output_nets_diff(nl1, nl2, fo=None, col_width=50):
+    """
+    """
+    nodes1 = nl1.list_of_nets.get_nodes()
+    nodes2 = nl2.list_of_nets.get_nodes()
+  
+    nets1 = nl1.list_of_nets.get_dict()
+    nets2 = nl2.list_of_nets.get_dict()
 
+    nodes_d = {}
+    nodes_d['added'] = sort_alpha_num(list(set(nodes2) - set(nodes1)))
+    nodes_d['deleted'] = sort_alpha_num(list(set(nodes1) - set(nodes2)))
+    nodes_d['changed'] = [] 
+    nodes_d['unchanged'] = []
+   
+    nets_d = {}
+    nets_d['added'] = sort_alpha_num(list(set(nets2) - set(nets1)))
+    nets_d['deleted'] = sort_alpha_num(list(set(nets1) - set(nets2)))
+    nets_d['changed'] = [] 
+    nets_d['unchanged'] = []
+   
+    common_nets = list(set(nets2) - set(nets_d['added']))
+    for net in common_nets:
+        if nets1[net] != nets2[net]:
+            nets_d['changed'].append(net)
+        else:
+            nets_d['unchanged'].append(net)
+    
+    line = ""
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("NETLIST CHANGES", "NETLIST CHANGES", w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
 
+    master_nets = sort_alpha_num(list(set(nets1.keys()) | set(nets2.keys())))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+    line += ("{:<{w}}|{:<{w}}\n".format("OLD", "NEW", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+   
+    for item in master_nets:
+        if item in nets_d['deleted']:   # net name deleted
+            line += ("{:<{w}}|{:<{w}}\n".format("*" + item + "* --> DELETED", "",  w=col_width))
+            for node in nets1[item]:
+                line += ("{:<{w}}|{:<{w}}\n".format("  " + node + " -", "",  w=col_width))
+                
+        elif item in nets_d['added']:   # new net name
+            line += ("{:<{w}}|{:<{w}}\n".format("", "*" + item + "* --> NEW NET", w=col_width))
+            for node in nets2[item]:
+                line += ("{:<{w}}|{:<{w}}\n".format("", "  " + node + " +",  w=col_width))
+        
+        else:   # net name is common to both sets
+            if nets1[item] != nets2[item]:  # node list is different
+                line += ("{:<{w}}|{:<{w}}\n".format("*" + item + "* --> CHANGED" ,"*" + item + "* --> CHANGED",  w=col_width))
+                lst_node = sort_alpha_num(list(set(nets1[item]) | set(nets2[item])))
 
+                for node in lst_node:
+                    if node not in nets2[item]:     # deleted node
+                        line += ("{:<{w}}|{:<{w}}\n".format("  " + node + " -", "",  w=col_width))
+                    elif node not in nets1[item]:   # added node
+                        line += ("{:<{w}}|{:<{w}}\n".format("", "  " + node + " +",  w=col_width))
+                    else:
+                        pass
+        
+    print(line),
+    if fo != None:
+        fo.write(line)
 
 
 
