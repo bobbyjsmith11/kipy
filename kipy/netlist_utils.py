@@ -6,6 +6,10 @@ netlist_utils.py
     :Description:
         Utilities for reading and manipulating Kicad netlist files
 
+    :Usage:
+        >>> from kipy import netlist_utils
+        >>> netlist_utils.diff_netlist_file("old_netlist.NET", "new_netlist.NET", diff_file="diff.txt")
+
 """
 import re
 import sexpdata
