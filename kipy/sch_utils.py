@@ -135,6 +135,7 @@ def change_schematic_fp_libs(sch_file, new_lib, keep_old=True):
                           False = overwrite the old files
             If None, sch_file is used
     """
+    pass
 
 def find_all_child_sheet_file_names(sch_file):
     """
@@ -211,6 +212,67 @@ def change_fp_libs_sheet(sch_file, new_lib, keep_old=True):
                         if ":" in lib_lst[1]:
                             lib_str = lib_lst[1].split(":")[0]
                             file_data[i] = file_data[i].replace(lib_str, new_lib)
+    if not keep_old:
+        out_file = open(sch_file.name, 'w')
+    else:
+        new_name = sch_file.name.replace(".sch","_tmp") + ".sch"
+        out_file = open(new_name, 'w')
+
+    for line in file_data:
+        out_file.write(line)
+    out_file.close()
+
+def change_sch_libs_schematic(root_sch_file, new_lib, keep_old=True):
+    """ change all of the symbol libraries in an entire schematic
+    point to a single library. Use this when preparing for distribution.
+    See here: 
+    https://hackaday.com/2017/05/18/kicad-best-practises-library-management/
+
+    Parameters
+        root_sch_file (file-object or str)
+        new_lib (str) - name of new library
+        keep_old (bool) - True = add _tmp to the file name of the new 
+                                 file and keep the old files
+                          False = overwrite the old files
+            If None, sch_file is used
+    """
+    
+    child_list = find_all_child_sheet_file_names(root_sch_file)
+    change_sch_libs_sheet(root_sch_file, new_lib, keep_old=keep_old)
+    for child_sheet in child_list:
+        change_sch_libs_sheet(child_sheet, new_lib, keep_old=keep_old)
+
+def change_sch_libs_sheet(sch_file, new_lib, keep_old=True):
+    """ change all of the symbol libraries in a .sch file to
+    point to a single library. Use this when preparing for distribution.
+    See here: 
+    https://hackaday.com/2017/05/18/kicad-best-practises-library-management/
+
+    Parameters
+        sch_file (file-object or str)
+        new_lib (str) - name of new library
+        keep_old (bool) - True = add _tmp to the file name of the new 
+                                 file and keep the old files
+                          False = overwrite the old files
+            If None, sch_file is used
+    """
+    if isinstance(sch_file, str):
+        sch_file = open(sch_file, 'r')
+    file_data = sch_file.readlines()
+    sch_file.close()
+    for i in range(len(file_data)):
+        if file_data[i].startswith("$Comp"):
+            while True:
+                i += 1
+                if file_data[i].startswith("$EndComp"):
+                    break
+                if file_data[i].startswith("L"):
+                    print(file_data[i])
+                    lib_lst = file_data[i].split(' ')
+                    if ":" in lib_lst[1]:
+                        lib_str = lib_lst[1]
+                        new_lib_str = new_lib + ":" + lib_str.replace(":","_")
+                        file_data[i] = file_data[i].replace(lib_str, new_lib_str)
     if not keep_old:
         out_file = open(sch_file.name, 'w')
     else:

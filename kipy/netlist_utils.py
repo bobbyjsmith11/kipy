@@ -1143,7 +1143,11 @@ def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     nlst1 = PadsNetlist(file1)
     nlst2 = PadsNetlist(file2)
 
-    fo = open(diff_file, "w")
+    if diff_file != None:
+        fo = open(diff_file, "w")
+    else:
+        fo = None
+    
     col_width = 35 
 
     line = ""
@@ -1162,7 +1166,9 @@ def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
     nets_changed, nodes_changed = compare_nodes(nlst1, nlst2)
     output_nets_diff(nlst1, nlst2, fo=fo, col_width=col_width)
 
-    fo.close()
+    if diff_file != None:
+        fo.close()
+    
     return
 
 def output_parts_diff(p1, p2, d, fo=None, col_width=50):
@@ -1200,7 +1206,6 @@ def output_parts_diff(p1, p2, d, fo=None, col_width=50):
     for k in d['changes']:
         ref = k['ref']
         line += ("{:<{ref_w}}{:<{pn_w}}|{:<{ref_w}}{:<{pn_w}}\n".format(ref, p1[ref], ref, p2[ref], ref_w=ref_w, pn_w=pn_w))
-        # line += ("{:<10}{:<40}|{:<10}{:<40}\n".format(ref, p1[ref], ref, p2[ref]))
     print(line),
     if fo != None:
         fo.write(line)
@@ -1227,12 +1232,12 @@ def output_nets_diff(nl1, nl2, fo=None, col_width=50):
     nets_d['changed'] = [] 
     nets_d['unchanged'] = []
    
-    common_nets = list(set(nets2) - set(nets_d['added']))
-    for net in common_nets:
-        if nets1[net] != nets2[net]:
-            nets_d['changed'].append(net)
-        else:
-            nets_d['unchanged'].append(net)
+    # common_nets = list(set(nets2) - set(nets_d['added']))
+    # for net in common_nets:
+    #     if nets1[net] != nets2[net]:
+    #         nets_d['changed'].append(net)
+    #     else:
+    #         nets_d['unchanged'].append(net)
     
     line = ""
     line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
@@ -1256,10 +1261,9 @@ def output_nets_diff(nl1, nl2, fo=None, col_width=50):
                 line += ("{:<{w}}|{:<{w}}\n".format("", "  " + node + " +",  w=col_width))
         
         else:   # net name is common to both sets
-            if nets1[item] != nets2[item]:  # node list is different
+            if set(nets1[item]) != set(nets2[item]):  # node list is different
                 line += ("{:<{w}}|{:<{w}}\n".format("*" + item + "* --> CHANGED" ,"*" + item + "* --> CHANGED",  w=col_width))
                 lst_node = sort_alpha_num(list(set(nets1[item]) | set(nets2[item])))
-
                 for node in lst_node:
                     if node not in nets2[item]:     # deleted node
                         line += ("{:<{w}}|{:<{w}}\n".format("  " + node + " -", "",  w=col_width))
