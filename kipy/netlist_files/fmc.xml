@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<pinout name="FMC-VITA-57.1">
+    <pin number="A1" name="GND" description="GND" />
+    <pin number="A2" name="DP1_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A3" name="DP1_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A4" name="GND" description="GND" />
+    <pin number="A5" name="GND" description="GND" />
+    <pin number="A6" name="DP2_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A7" name="DP2_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A8" name="GND" description="GND" />
+    <pin number="A9" name="GND" description="GND" />
+    <pin number="A10" name="DP3_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A11" name="DP3_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A12" name="GND" description="GND" />
+    <pin number="A13" name="GND" description="GND" />
+    <pin number="A14" name="DP4_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A15" name="DP4_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A16" name="GND" description="GND" />
+    <pin number="A17" name="GND" description="GND" />
+    <pin number="A18" name="DP5_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A19" name="DP5_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A20" name="GND" description="GND" />
+    <pin number="A21" name="GND" description="GND" />
+    <pin number="A22" name="DP1_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="A23" name="DP1_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="A24" name="GND" description="GND" />
+    <pin number="A25" name="GND" description="GND" />
+    <pin number="A26" name="DP2_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="A27" name="DP2_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="A28" name="GND" description="GND" />
+    <pin number="A29" name="GND" description="GND" />
+    <pin number="A30" name="DP3_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="A31" name="DP3_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="A32" name="GND" description="GND" />
+    <pin number="A33" name="GND" description="GND" />
+    <pin number="A34" name="DP4_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="A35" name="DP4_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="A36" name="GND" description="GND" />
+    <pin number="A37" name="GND" description="GND" />
+    <pin number="A38" name="DP5_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="A39" name="DP5_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="A40" name="GND" description="GND" />
+</pinout>

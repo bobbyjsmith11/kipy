@@ -1,0 +1,215 @@
+row,FMC_A Signal Name,Signal Description,FPGA Pin #
+0,FMC_A_CLK[0]_M2C_N,Mezzanine Card  to Carrier Card Clock,G19
+1,FMC_A_CLK[0]_M2C_P,Mezzanine Card  to Carrier Card Clock,H19
+2,FMC_A_CLK[1]_M2C_N,Mezzanine Card  to Carrier Card Clock,G15
+3,FMC_A_CLK[1]_M2C_P,Mezzanine Card  to Carrier Card Clock,G16
+4,FMC_A_DP[0]_C2M_N,Serial I/O: Carrier to Mezzanine,AF5
+5,FMC_A_DP[0]_C2M_P,Serial I/O: Carrier to Mezzanine,AF6
+6,FMC_A_DP[0]_M2C_N,Serial I/O: Mezzanine to Carrier,AF1
+7,FMC_A_DP[0]_M2C_P,Serial I/O: Mezzanine to Carrier,AF2
+8,FMC_A_DP[1]_C2M_N,Serial I/O: Carrier to Mezzanine,AD5
+9,FMC_A_DP[1]_C2M_P,Serial I/O: Carrier to Mezzanine,AD6
+10,FMC_A_DP[1]_M2C_N,Serial I/O: Mezzanine to Carrier,AC3
+11,FMC_A_DP[1]_M2C_P,Serial I/O: Mezzanine to Carrier,AC4
+12,FMC_A_DP[2]_C2M_N,Serial I/O: Carrier to Mezzanine,AE3
+13,FMC_A_DP[2]_C2M_P,Serial I/O: Carrier to Mezzanine,AE4
+14,FMC_A_DP[2]_M2C_N,Serial I/O: Mezzanine to Carrier,AD1
+15,FMC_A_DP[2]_M2C_P,Serial I/O: Mezzanine to Carrier,AD2
+16,FMC_A_DP[3]_C2M_N,Serial I/O: Carrier to Mezzanine,AG7
+17,FMC_A_DP[3]_C2M_P,Serial I/O: Carrier to Mezzanine,AG8
+18,FMC_A_DP[3]_M2C_N,Serial I/O: Mezzanine to Carrier,AG3
+19,FMC_A_DP[3]_M2C_P,Serial I/O: Mezzanine to Carrier,AG4
+20,FMC_A_DP[4]_C2M_N,Serial I/O: Carrier to Mezzanine,AJ7
+21,FMC_A_DP[4]_C2M_P,Serial I/O: Carrier to Mezzanine,AJ8
+22,FMC_A_DP[4]_M2C_N,Serial I/O: Mezzanine to Carrier,AJ3
+23,FMC_A_DP[4]_M2C_P,Serial I/O: Mezzanine to Carrier,AJ4
+24,FMC_A_DP[5]_C2M_N,Serial I/O: Carrier to Mezzanine,AL7
+25,FMC_A_DP[5]_C2M_P,Serial I/O: Carrier to Mezzanine,AL8
+26,FMC_A_DP[5]_M2C_N,Serial I/O: Mezzanine to Carrier,AL3
+27,FMC_A_DP[5]_M2C_P,Serial I/O: Mezzanine to Carrier,AL4
+28,FMC_A_DP[6]_C2M_N,Serial I/O: Carrier to Mezzanine,AK5
+29,FMC_A_DP[6]_C2M_P,Serial I/O: Carrier to Mezzanine,AK6
+30,FMC_A_DP[6]_M2C_N,Serial I/O: Mezzanine to Carrier,AK1
+31,FMC_A_DP[6]_M2C_P,Serial I/O: Mezzanine to Carrier,AK2
+32,FMC_A_DP[7]_C2M_N,Serial I/O: Carrier to Mezzanine,AH5
+33,FMC_A_DP[7]_C2M_P,Serial I/O: Carrier to Mezzanine,AH6
+34,FMC_A_DP[7]_M2C_N,Serial I/O: Mezzanine to Carrier,AH1
+35,FMC_A_DP[7]_M2C_P,Serial I/O: Mezzanine to Carrier,AH2
+36,FMC_A_DP[8]_C2M_N,Serial I/O: Carrier to Mezzanine,AA3
+37,FMC_A_DP[8]_C2M_P,Serial I/O: Carrier to Mezzanine,AA4
+38,FMC_A_DP[8]_M2C_N,Serial I/O: Mezzanine to Carrier,Y1
+39,FMC_A_DP[8]_M2C_P,Serial I/O: Mezzanine to Carrier,Y2
+40,FMC_A_DP[9]_C2M_N,Serial I/O: Carrier to Mezzanine,AB5
+41,FMC_A_DP[9]_C2M_P,Serial I/O: Carrier to Mezzanine,AB6
+42,FMC_A_DP[9]_M2C_N,Serial I/O: Mezzanine to Carrier,AB1
+43,FMC_A_DP[9]_M2C_P,Serial I/O: Mezzanine to Carrier,AB2
+44,FMC_A_GBTCLK[0]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AC7
+45,FMC_A_GBTCLK[0]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AC8
+46,FMC_A_GBTCLK[1]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AA7
+47,FMC_A_GBTCLK[1]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AA8
+48,FMC_A_HA[0]_CC_N,User Defined I/O (clock capable),K23
+49,FMC_A_HA[0]_CC_P,User Defined I/O (clock capable),K22
+50,FMC_A_HA[1]_CC_N,User Defined I/O (clock capable),J24
+51,FMC_A_HA[1]_CC_P,User Defined I/O (clock capable),J23
+52,FMC_A_HA[2]_N,User Defined I/O,C24
+53,FMC_A_HA[2]_P,User Defined I/O,D24
+54,FMC_A_HA[3]_N,User Defined I/O,F24
+55,FMC_A_HA[3]_P,User Defined I/O,G24
+56,FMC_A_HA[4]_N,User Defined I/O,E22
+57,FMC_A_HA[4]_P,User Defined I/O,E21
+58,FMC_A_HA[5]_N,User Defined I/O,E23
+59,FMC_A_HA[5]_P,User Defined I/O,F23
+60,FMC_A_HA[6]_N,User Defined I/O,J21
+61,FMC_A_HA[6]_P,User Defined I/O,K21
+62,FMC_A_HA[7]_N,User Defined I/O,B22
+63,FMC_A_HA[7]_P,User Defined I/O,C22
+64,FMC_A_HA[8]_N,User Defined I/O,A22
+65,FMC_A_HA[8]_P,User Defined I/O,B21
+66,FMC_A_HA[9]_N,User Defined I/O,A24
+67,FMC_A_HA[9]_P,User Defined I/O,B24
+68,FMC_A_HA[10]_N,User Defined I/O,P20
+69,FMC_A_HA[10]_P,User Defined I/O,R20
+70,FMC_A_HA[11]_N,User Defined I/O,N22
+71,FMC_A_HA[11]_P,User Defined I/O,N21
+72,FMC_A_HA[12]_N,User Defined I/O,L24
+73,FMC_A_HA[12]_P,User Defined I/O,L23
+74,FMC_A_HA[13]_N,User Defined I/O,C21
+75,FMC_A_HA[13]_P,User Defined I/O,D21
+76,FMC_A_HA[14]_N,User Defined I/O,P21
+77,FMC_A_HA[14]_P,User Defined I/O,R21
+78,FMC_A_HA[15]_N,User Defined I/O,M21
+79,FMC_A_HA[15]_P,User Defined I/O,M20
+80,FMC_A_HA[16]_N,User Defined I/O,K20
+81,FMC_A_HA[16]_P,User Defined I/O,L20
+82,FMC_A_HA[17]_CC_N,User Defined I/O (clock capable),H24
+83,FMC_A_HA[17]_CC_P,User Defined I/O (clock capable),H23
+84,FMC_A_HA[18]_CC_N,User Defined I/O (clock capable),H22
+85,FMC_A_HA[18]_CC_P,User Defined I/O (clock capable),H21
+86,FMC_A_HA[19]_N,User Defined I/O,G22
+87,FMC_A_HA[19]_P,User Defined I/O,G21
+88,FMC_A_HA[20]_N,User Defined I/O,R23
+89,FMC_A_HA[20]_P,User Defined I/O,T23
+90,FMC_A_HA[21]_N,User Defined I/O,C23
+91,FMC_A_HA[21]_P,User Defined I/O,D23
+92,FMC_A_HA[22]_N,User Defined I/O,N23
+93,FMC_A_HA[22]_P,User Defined I/O,P23
+94,FMC_A_HA[23]_N,User Defined I/O,R22
+95,FMC_A_HA[23]_P,User Defined I/O,T22
+96,FMC_A_HB[0]_CC_N,User Defined I/O (clock capable),AN19
+97,FMC_A_HB[0]_CC_P,User Defined I/O (clock capable),AM19
+98,FMC_A_HB[1]_N,User Defined I/O,AV17
+99,FMC_A_HB[1]_P,User Defined I/O,AV18
+100,FMC_A_HB[2]_N,User Defined I/O,AW18
+101,FMC_A_HB[2]_P,User Defined I/O,AV19
+102,FMC_A_HB[3]_N,User Defined I/O,AT20
+103,FMC_A_HB[3]_P,User Defined I/O,AR20
+104,FMC_A_HB[4]_N,User Defined I/O,AL18
+105,FMC_A_HB[4]_P,User Defined I/O,AL19
+106,FMC_A_HB[5]_N,User Defined I/O,AU19
+107,FMC_A_HB[5]_P,User Defined I/O,AT19
+108,FMC_A_HB[6]_CC_N,User Defined I/O (clock capable),AM17
+109,FMC_A_HB[6]_CC_P,User Defined I/O (clock capable),AL17
+110,FMC_A_HB[7]_N,User Defined I/O,AT17
+111,FMC_A_HB[7]_P,User Defined I/O,AT18
+112,FMC_A_HB[8]_N,User Defined I/O,AH18
+113,FMC_A_HB[8]_P,User Defined I/O,AH19
+114,FMC_A_HB[9]_N,User Defined I/O,AP18
+115,FMC_A_HB[9]_P,User Defined I/O,AP19
+116,FMC_A_HB[10]_N,User Defined I/O,AR17
+117,FMC_A_HB[10]_P,User Defined I/O,AR18
+118,FMC_A_HB[11]_N,User Defined I/O,AR16
+119,FMC_A_HB[11]_P,User Defined I/O,AP16
+120,FMC_A_HB[12]_N,User Defined I/O,AG19
+121,FMC_A_HB[12]_P,User Defined I/O,AF19
+122,FMC_A_HB[13]_N,User Defined I/O,AJ18
+123,FMC_A_HB[13]_P,User Defined I/O,AJ19
+124,FMC_A_HB[14]_N,User Defined I/O,AH16
+125,FMC_A_HB[14]_P,User Defined I/O,AH17
+126,FMC_A_HB[15]_N,User Defined I/O,AK16
+127,FMC_A_HB[15]_P,User Defined I/O,AJ16
+128,FMC_A_HB[16]_N,User Defined I/O,AK17
+129,FMC_A_HB[16]_P,User Defined I/O,AK18
+130,FMC_A_HB[17]_CC_N,User Defined I/O (clock capable),AN17
+131,FMC_A_HB[17]_CC_P,User Defined I/O (clock capable),AN18
+132,FMC_A_HB[18]_N,User Defined I/O,AE16
+133,FMC_A_HB[18]_P,User Defined I/O,AD16
+134,FMC_A_HB[19]_N,User Defined I/O,AF18
+135,FMC_A_HB[19]_P,User Defined I/O,AE18
+136,FMC_A_HB[20]_N,User Defined I/O,AG16
+137,FMC_A_HB[20]_P,User Defined I/O,AG17
+138,FMC_A_HB[21]_N,User Defined I/O,AF17
+139,FMC_A_HB[21]_P,User Defined I/O,AE17
+140,FMC_A_LA[0]_CC_N,User Defined I/O (clock capable),J19
+141,FMC_A_LA[0]_CC_P,User Defined I/O (clock capable),J20
+142,FMC_A_LA[1]_CC_N,User Defined I/O (clock capable),J18
+143,FMC_A_LA[1]_CC_P,User Defined I/O (clock capable),K18
+144,FMC_A_LA[2]_N,User Defined I/O,E20
+145,FMC_A_LA[2]_P,User Defined I/O,F20
+146,FMC_A_LA[3]_N,User Defined I/O,A20
+147,FMC_A_LA[3]_P,User Defined I/O,B20
+148,FMC_A_LA[4]_N,User Defined I/O,C19
+149,FMC_A_LA[4]_P,User Defined I/O,D19
+150,FMC_A_LA[5]_N,User Defined I/O,A17
+151,FMC_A_LA[5]_P,User Defined I/O,A18
+152,FMC_A_LA[6]_N,User Defined I/O,A19
+153,FMC_A_LA[6]_P,User Defined I/O,B19
+154,FMC_A_LA[7]_N,User Defined I/O,C18
+155,FMC_A_LA[7]_P,User Defined I/O,D18
+156,FMC_A_LA[8]_N,User Defined I/O,B17
+157,FMC_A_LA[8]_P,User Defined I/O,C17
+158,FMC_A_LA[9]_N,User Defined I/O,E17
+159,FMC_A_LA[9]_P,User Defined I/O,F17
+160,FMC_A_LA[10]_N,User Defined I/O,E18
+161,FMC_A_LA[10]_P,User Defined I/O,F18
+162,FMC_A_LA[11]_N,User Defined I/O,P18
+163,FMC_A_LA[11]_P,User Defined I/O,P19
+164,FMC_A_LA[12]_N,User Defined I/O,N18
+165,FMC_A_LA[12]_P,User Defined I/O,N19
+166,FMC_A_LA[13]_N,User Defined I/O,J16
+167,FMC_A_LA[13]_P,User Defined I/O,K16
+168,FMC_A_LA[14]_N,User Defined I/O,K17
+169,FMC_A_LA[14]_P,User Defined I/O,L17
+170,FMC_A_LA[15]_N,User Defined I/O,N16
+171,FMC_A_LA[15]_P,User Defined I/O,N17
+172,FMC_A_LA[16]_N,User Defined I/O,M16
+173,FMC_A_LA[16]_P,User Defined I/O,M17
+174,FMC_A_LA[17]_CC_N,User Defined I/O (clock capable),E15
+175,FMC_A_LA[17]_CC_P,User Defined I/O (clock capable),F15
+176,FMC_A_LA[18]_CC_N,User Defined I/O (clock capable),H14
+177,FMC_A_LA[18]_CC_P,User Defined I/O (clock capable),J14
+178,FMC_A_LA[19]_N,User Defined I/O,C13
+179,FMC_A_LA[19]_P,User Defined I/O,D13
+180,FMC_A_LA[20]_N,User Defined I/O,B12
+181,FMC_A_LA[20]_P,User Defined I/O,C12
+182,FMC_A_LA[21]_N,User Defined I/O,J15
+183,FMC_A_LA[21]_P,User Defined I/O,K15
+184,FMC_A_LA[22]_N,User Defined I/O,F14
+185,FMC_A_LA[22]_P,User Defined I/O,G14
+186,FMC_A_LA[23]_N,User Defined I/O,A12
+187,FMC_A_LA[23]_P,User Defined I/O,A13
+188,FMC_A_LA[24]_N,User Defined I/O,L15
+189,FMC_A_LA[24]_P,User Defined I/O,M15
+190,FMC_A_LA[25]_N,User Defined I/O,H13
+191,FMC_A_LA[25]_P,User Defined I/O,J13
+192,FMC_A_LA[26]_N,User Defined I/O,F12
+193,FMC_A_LA[26]_P,User Defined I/O,F13
+194,FMC_A_LA[27]_N,User Defined I/O,E12
+195,FMC_A_LA[27]_P,User Defined I/O,E13
+196,FMC_A_LA[28]_N,User Defined I/O,M14
+197,FMC_A_LA[28]_P,User Defined I/O,N14
+198,FMC_A_LA[29]_N,User Defined I/O,L12
+199,FMC_A_LA[29]_P,User Defined I/O,L13
+200,FMC_A_LA[30]_N,User Defined I/O,N13
+201,FMC_A_LA[30]_P,User Defined I/O,P13
+202,FMC_A_LA[31]_N,User Defined I/O,M12
+203,FMC_A_LA[31]_P,User Defined I/O,N12
+204,FMC_A_LA[32]_N,User Defined I/O,R12
+205,FMC_A_LA[32]_P,User Defined I/O,R13
+206,FMC_A_LA[33]_N,User Defined I/O,P14
+207,FMC_A_LA[33]_P,User Defined I/O,P15
+208,FPGA_GC_FMC_A_N,,H17
+209,FPGA_GC_FMC_A_P,,H18
+210,FMC_A_PG_M2C_F,,A14
+211,FMC_A_PRSNT_M2C_L_F,,B16
+212,CLK_GTH_FMC_A_N,,AE7
+213,CLK_GTH_FMC_A_P,,AE8

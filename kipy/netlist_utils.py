@@ -164,6 +164,28 @@ class Netlist(object):
             print("PADS .NET file: {}".format(net_file.name))
             net_file.close()
 
+    def get_pinout(self, ref_des):
+        """
+        return a pinout for the given reference designator.
+        :Args:
+            :ref_des (str): reference designator
+        :Returns:
+            :dict:
+                :keys:      pin number as str
+                :values:    net name as str
+        """
+        d = {}
+        my_dict = self.list_of_nets.get_dict()
+        for net in my_dict:
+            for node in my_dict[net]:
+                if node.split(".")[0] == ref_des:
+                    pin = node.split(".")[-1]
+                    # print("{} : {}".format(pin, net))
+                    d[pin] = net
+        return d
+
+
+
 class ListOfNetsObj(object):
     """
     Object to hold the entire list of nets for the netlist and
@@ -1209,7 +1231,6 @@ def output_parts_diff(p1, p2, d, fo=None, col_width=50):
     print(line),
     if fo != None:
         fo.write(line)
-
 
 def output_nets_diff(nl1, nl2, fo=None, col_width=50):
     """
