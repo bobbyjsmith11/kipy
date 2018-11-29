@@ -1,0 +1,2208 @@
+<?xml version="1.0" ?>
+<pin_map>
+    <pin>
+        <HTG_fpga_pin>AC4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP1_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[1]_M2C_P</HTG_name>
+        <number>A2</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AC3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP1_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[1]_M2C_N</HTG_name>
+        <number>A3</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AD2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP2_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP2_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[2]_M2C_P</HTG_name>
+        <number>A6</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AD1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP2_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP2_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[2]_M2C_N</HTG_name>
+        <number>A7</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP3_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP3_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[3]_M2C_P</HTG_name>
+        <number>A10</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP3_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP3_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[3]_M2C_N</HTG_name>
+        <number>A11</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP4_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP4_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[4]_M2C_P</HTG_name>
+        <number>A14</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP4_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP4_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[4]_M2C_N</HTG_name>
+        <number>A15</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP5_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP5_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[5]_M2C_P</HTG_name>
+        <number>A18</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP5_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP5_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[5]_M2C_N</HTG_name>
+        <number>A19</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AD6</HTG_fpga_pin>
+        <SKIQ-X4_name>DP1_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP1_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[1]_C2M_P</HTG_name>
+        <number>A22</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AD5</HTG_fpga_pin>
+        <SKIQ-X4_name>DP1_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP1_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[1]_C2M_N</HTG_name>
+        <number>A23</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP2_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP2_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[2]_C2M_P</HTG_name>
+        <number>A26</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP2_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP2_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[2]_C2M_N</HTG_name>
+        <number>A27</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG8</HTG_fpga_pin>
+        <SKIQ-X4_name>DP3_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP3_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[3]_C2M_P</HTG_name>
+        <number>A30</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG7</HTG_fpga_pin>
+        <SKIQ-X4_name>DP3_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP3_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[3]_C2M_N</HTG_name>
+        <number>A31</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ8</HTG_fpga_pin>
+        <SKIQ-X4_name>DP4_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP4_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[4]_C2M_P</HTG_name>
+        <number>A34</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ7</HTG_fpga_pin>
+        <SKIQ-X4_name>DP4_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP4_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[4]_C2M_N</HTG_name>
+        <number>A35</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL8</HTG_fpga_pin>
+        <SKIQ-X4_name>DP5_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP5_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[5]_C2M_P</HTG_name>
+        <number>A38</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL7</HTG_fpga_pin>
+        <SKIQ-X4_name>DP5_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP5_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[5]_C2M_N</HTG_name>
+        <number>A39</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>RES1</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>B1</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>RESERVED</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AB2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP9_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[9]_M2C_P</HTG_name>
+        <number>B4</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AB1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP9_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[9]_M2C_N</HTG_name>
+        <number>B5</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>Y2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP8_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[8]_M2C_P</HTG_name>
+        <number>B8</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>Y1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP8_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[8]_M2C_N</HTG_name>
+        <number>B9</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP7_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP7_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[7]_M2C_P</HTG_name>
+        <number>B12</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP7_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP7_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[7]_M2C_N</HTG_name>
+        <number>B13</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP6_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP6_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[6]_M2C_P</HTG_name>
+        <number>B16</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP6_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP6_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[6]_M2C_N</HTG_name>
+        <number>B17</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AA8</HTG_fpga_pin>
+        <SKIQ-X4_name>GBT_CLK1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GBTCLK1.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_GBTCLK[1]_M2C_P</HTG_name>
+        <number>B20</number>
+        <HTG_description>Serial I/O Clock: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AA7</HTG_fpga_pin>
+        <SKIQ-X4_name>GBT_CLK1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GBTCLK1.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_GBTCLK[1]_M2C_N</HTG_name>
+        <number>B21</number>
+        <HTG_description>Serial I/O Clock: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AB6</HTG_fpga_pin>
+        <SKIQ-X4_name>DP9_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[9]_C2M_P</HTG_name>
+        <number>B24</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AB5</HTG_fpga_pin>
+        <SKIQ-X4_name>DP9_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[9]_C2M_N</HTG_name>
+        <number>B25</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AA4</HTG_fpga_pin>
+        <SKIQ-X4_name>DP8_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[8]_C2M_P</HTG_name>
+        <number>B28</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AA3</HTG_fpga_pin>
+        <SKIQ-X4_name>DP8_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[8]_C2M_N</HTG_name>
+        <number>B29</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH6</HTG_fpga_pin>
+        <SKIQ-X4_name>DP7_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP7_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[7]_C2M_P</HTG_name>
+        <number>B32</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH5</HTG_fpga_pin>
+        <SKIQ-X4_name>DP7_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP7_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[7]_C2M_N</HTG_name>
+        <number>B33</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK6</HTG_fpga_pin>
+        <SKIQ-X4_name>DP6_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP6_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[6]_C2M_P</HTG_name>
+        <number>B36</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK5</HTG_fpga_pin>
+        <SKIQ-X4_name>DP6_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP6_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[6]_C2M_N</HTG_name>
+        <number>B37</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>RES0</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>B40</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>RESERVED</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF6</HTG_fpga_pin>
+        <SKIQ-X4_name>DP0_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP0_C2M.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[0]_C2M_P</HTG_name>
+        <number>C2</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF5</HTG_fpga_pin>
+        <SKIQ-X4_name>DP0_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP0_C2M.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[0]_C2M_N</HTG_name>
+        <number>C3</number>
+        <HTG_description>Serial I/O: Carrier to Mezzanine</HTG_description>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF2</HTG_fpga_pin>
+        <SKIQ-X4_name>DP0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>DP0_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[0]_M2C_P</HTG_name>
+        <number>C6</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF1</HTG_fpga_pin>
+        <SKIQ-X4_name>DP0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>DP0_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_DP[0]_M2C_N</HTG_name>
+        <number>C7</number>
+        <HTG_description>Serial I/O: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA06_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_CLK</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[6]_P</HTG_name>
+        <number>C10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA06_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_MOSI</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[6]_N</HTG_name>
+        <number>C11</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA10_P</SKIQ-X4_name>
+        <SKIQ-X4_net>RESETB_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[10]_P</HTG_name>
+        <number>C14</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA10_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GP_INTERRUPT_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[10]_N</HTG_name>
+        <number>C15</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA14_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN0_B.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[14]_P</HTG_name>
+        <number>C18</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA14_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN0_B.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[14]_N</HTG_name>
+        <number>C19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA18_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>TX1_ENABLE_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[18]_CC_P</HTG_name>
+        <number>C22</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA18_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>RX1_ENABLE_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[18]_CC_N</HTG_name>
+        <number>C23</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA27_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA3</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[27]_P</HTG_name>
+        <number>C26</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA27_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB3</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[27]_N</HTG_name>
+        <number>C27</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>SCL</SKIQ-X4_name>
+        <SKIQ-X4_net>SCL_EEPROM</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C30</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>FMC EEPROM I2C clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>SDA</SKIQ-X4_name>
+        <SKIQ-X4_net>SDA_EEPROM</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C31</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>FMC EEPROM I2C data</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>GA0</SKIQ-X4_name>
+        <SKIQ-X4_net>GA0</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C34</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>geographical address 1 for EEPROM (intentionally opposite)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>12P0V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_12V+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C35</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 12V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>12P0V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_12V+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C37</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 12V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>C39</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>PG_C2M</SKIQ-X4_name>
+        <SKIQ-X4_net>PG_C2M</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D1</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>power good host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AC8</HTG_fpga_pin>
+        <SKIQ-X4_name>GBT_CLK0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GBT_CLK0_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_GBTCLK[0]_M2C_P</HTG_name>
+        <number>D4</number>
+        <HTG_description>Serial I/O Clock: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AC7</HTG_fpga_pin>
+        <SKIQ-X4_name>GBT_CLK0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GBT_CLK0_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_GBTCLK[0]_M2C_N</HTG_name>
+        <number>D5</number>
+        <HTG_description>Serial I/O Clock: Mezzanine to Carrier</HTG_description>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA01_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_VCXO_SEL</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[1]_CC_P</HTG_name>
+        <number>D8</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA01_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_40M_EN</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[1]_CC_N</HTG_name>
+        <number>D9</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA05_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SCL</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[5]_P</HTG_name>
+        <number>D11</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA05_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_MISO</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[5]_N</HTG_name>
+        <number>D12</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA09_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT1_A.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[9]_P</HTG_name>
+        <number>D14</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA09_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT1_A.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[9]_N</HTG_name>
+        <number>D15</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K16</HTG_fpga_pin>
+        <SKIQ-X4_name>LA13_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT0_B.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[13]_P</HTG_name>
+        <number>D17</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J16</HTG_fpga_pin>
+        <SKIQ-X4_name>LA13_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT0_B.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[13]_N</HTG_name>
+        <number>D18</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA17_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>RESETB_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[17]_CC_P</HTG_name>
+        <number>D20</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA17_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>GP_INTERRUPT_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[17]_CC_N</HTG_name>
+        <number>D21</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA23_P</SKIQ-X4_name>
+        <SKIQ-X4_net>LED_BLU</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[23]_P</HTG_name>
+        <number>D23</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA23_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[23]_N</HTG_name>
+        <number>D24</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA26_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA2</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[26]_P</HTG_name>
+        <number>D26</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA26_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB2</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[26]_N</HTG_name>
+        <number>D27</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>TCK</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D29</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>JTAG clock</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>TDI</SKIQ-X4_name>
+        <SKIQ-X4_net>TDI_2_TDO</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D30</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>JTAG data in</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>TDO</SKIQ-X4_name>
+        <SKIQ-X4_net>TDI_2_TDO</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D31</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>JTAG data out</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>3P3VAUX</SKIQ-X4_name>
+        <SKIQ-X4_net>3P3V_AUX</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D32</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>auxilliary 3.3V power supply</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>TMS</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D33</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>JTAG mode select</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>TRST_L</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D34</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>JTAG reset</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>GA1</SKIQ-X4_name>
+        <SKIQ-X4_net>GA1</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D35</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>geographical address 0 for EEPROM (intentionally opposite)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D36</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D38</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>D40</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA01_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA11</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[1]_CC_P</HTG_name>
+        <number>E2</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA01_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB11</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[1]_CC_N</HTG_name>
+        <number>E3</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA05_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA15</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[5]_P</HTG_name>
+        <number>E6</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA05_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB15</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[5]_N</HTG_name>
+        <number>E7</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA09_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[9]_P</HTG_name>
+        <number>E9</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA09_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[9]_N</HTG_name>
+        <number>E10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA13_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[13]_P</HTG_name>
+        <number>E12</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA13_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[13]_N</HTG_name>
+        <number>E13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L20</HTG_fpga_pin>
+        <SKIQ-X4_name>HA16_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[16]_P</HTG_name>
+        <number>E15</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K20</HTG_fpga_pin>
+        <SKIQ-X4_name>HA16_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[16]_N</HTG_name>
+        <number>E16</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>T23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA20_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[20]_P</HTG_name>
+        <number>E18</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA20_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[20]_N</HTG_name>
+        <number>E19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AR20</HTG_fpga_pin>
+        <SKIQ-X4_name>HB03_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[3]_P</HTG_name>
+        <number>E21</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AT20</HTG_fpga_pin>
+        <SKIQ-X4_name>HB03_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[3]_N</HTG_name>
+        <number>E22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AT19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB05_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[5]_P</HTG_name>
+        <number>E24</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AU19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB05_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[5]_N</HTG_name>
+        <number>E25</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AP19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB09_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[9]_P</HTG_name>
+        <number>E27</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AP18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB09_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[9]_N</HTG_name>
+        <number>E28</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB13_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[13]_P</HTG_name>
+        <number>E30</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB13_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[13]_N</HTG_name>
+        <number>E31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB19_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[19]_P</HTG_name>
+        <number>E33</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB19_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[19]_N</HTG_name>
+        <number>E34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB21_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[21]_P</HTG_name>
+        <number>E36</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB21_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[21]_N</HTG_name>
+        <number>E37</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_net>VADJ</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>E39</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A14</HTG_fpga_pin>
+        <SKIQ-X4_name>PG_M2C</SKIQ-X4_name>
+        <SKIQ-X4_net>PWR_GOOD</SKIQ-X4_net>
+        <HTG_name>FMC_A_PG_M2C_F</HTG_name>
+        <number>F1</number>
+        <HTG_description/>
+        <SKIQ-X4_description>power good mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA10</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[0]_CC_P</HTG_name>
+        <number>F4</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB10</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[0]_CC_N</HTG_name>
+        <number>F5</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA04_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA14</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[4]_P</HTG_name>
+        <number>F7</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA04_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB14</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[4]_N</HTG_name>
+        <number>F8</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA08_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA18</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[8]_P</HTG_name>
+        <number>F10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA08_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB18</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[8]_N</HTG_name>
+        <number>F11</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA12_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[12]_P</HTG_name>
+        <number>F13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA12_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[12]_N</HTG_name>
+        <number>F14</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M20</HTG_fpga_pin>
+        <SKIQ-X4_name>HA15_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[15]_P</HTG_name>
+        <number>F16</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA15_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[15]_N</HTG_name>
+        <number>F17</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA19_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[19]_P</HTG_name>
+        <number>F19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA19_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[19]_N</HTG_name>
+        <number>F20</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AV19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB02_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[2]_P</HTG_name>
+        <number>F22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AW18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB02_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[2]_N</HTG_name>
+        <number>F23</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB04_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[4]_P</HTG_name>
+        <number>F25</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB04_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[4]_N</HTG_name>
+        <number>F26</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB08_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[8]_P</HTG_name>
+        <number>F28</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB08_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[8]_N</HTG_name>
+        <number>F29</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AF19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB12_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[12]_P</HTG_name>
+        <number>F31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB12_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[12]_N</HTG_name>
+        <number>F32</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB16_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[16]_P</HTG_name>
+        <number>F34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB16_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[16]_N</HTG_name>
+        <number>F35</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB20_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[20]_P</HTG_name>
+        <number>F37</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AG16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB20_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[20]_N</HTG_name>
+        <number>F38</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_net>VADJ</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>F40</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK0_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>CL1_M2C_N</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>G2</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK0_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>CLK1_M2C_P</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>G3</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J20</HTG_fpga_pin>
+        <SKIQ-X4_name>LA00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN0_A.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[0]_CC_P</HTG_name>
+        <number>G6</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN0_A.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[0]_CC_N</HTG_name>
+        <number>G7</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B20</HTG_fpga_pin>
+        <SKIQ-X4_name>LA03_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_PPS</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[3]_P</HTG_name>
+        <number>G9</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>A20</HTG_fpga_pin>
+        <SKIQ-X4_name>LA03_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SDA</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[3]_N</HTG_name>
+        <number>G10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA08_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN1_A.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[8]_P</HTG_name>
+        <number>G12</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA08_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN1_A.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[8]_N</HTG_name>
+        <number>G13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA12_P</SKIQ-X4_name>
+        <SKIQ-X4_net>TX2_ENABLE_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[12]_P</HTG_name>
+        <number>G15</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA12_N</SKIQ-X4_name>
+        <SKIQ-X4_net>RX2_ENABLE_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[12]_N</HTG_name>
+        <number>G16</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA16_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN1_B.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[16]_P</HTG_name>
+        <number>G18</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M16</HTG_fpga_pin>
+        <SKIQ-X4_name>LA16_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCIN1_B.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[16]_N</HTG_name>
+        <number>G19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA20_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_EXT_CLK_SEL</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[20]_P</HTG_name>
+        <number>G21</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA20_N</SKIQ-X4_name>
+        <SKIQ-X4_net>EXT_REF_EN</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[20]_N</HTG_name>
+        <number>G22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA22_P</SKIQ-X4_name>
+        <SKIQ-X4_net>LED_RED</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[22]_P</HTG_name>
+        <number>G24</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA22_N</SKIQ-X4_name>
+        <SKIQ-X4_net>LED_GRN</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[22]_N</HTG_name>
+        <number>G25</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA25_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA1</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[25]_P</HTG_name>
+        <number>G27</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA25_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB1</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[25]_N</HTG_name>
+        <number>G28</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA29_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA5</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[29]_P</HTG_name>
+        <number>G30</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA29_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB5</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[29]_N</HTG_name>
+        <number>G31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA31_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA7</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[31]_P</HTG_name>
+        <number>G33</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA31_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB7</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[31]_N</HTG_name>
+        <number>G34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA33_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA9</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[33]_P</HTG_name>
+        <number>G36</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA33_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB9</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[33]_N</HTG_name>
+        <number>G37</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_net>VADJ</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>G39</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VREF_A_M2C</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>H1</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>reference voltage for signal standard on Band A (LAxx and HAxx)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B16</HTG_fpga_pin>
+        <SKIQ-X4_name>PRSNT_M2C_L</SKIQ-X4_name>
+        <SKIQ-X4_net>GND</SKIQ-X4_net>
+        <HTG_name>FMC_A_PRSNT_M2C_L_F</HTG_name>
+        <number>H2</number>
+        <HTG_description/>
+        <SKIQ-X4_description>module present signal (active low)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H19</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>CLK0_M2C.DP</SKIQ-X4_net>
+        <HTG_name>FMC_A_CLK[0]_M2C_P</HTG_name>
+        <number>H4</number>
+        <HTG_description>Mezzanine Card  to Carrier Card Clock</HTG_description>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G19</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>CLK0_M2C.DN</SKIQ-X4_net>
+        <HTG_name>FMC_A_CLK[0]_M2C_N</HTG_name>
+        <number>H5</number>
+        <HTG_description>Mezzanine Card  to Carrier Card Clock</HTG_description>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F20</HTG_fpga_pin>
+        <SKIQ-X4_name>LA02_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT0_A.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[2]_P</HTG_name>
+        <number>H7</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>E20</HTG_fpga_pin>
+        <SKIQ-X4_name>LA02_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT0_A.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[2]_N</HTG_name>
+        <number>H8</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA04_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_CS_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[4]_P</HTG_name>
+        <number>H10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA04_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_CS_9528</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[4]_N</HTG_name>
+        <number>H11</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA07_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SPI_CS_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[7]_P</HTG_name>
+        <number>H13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA07_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_CLK_RESETB</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[7]_N</HTG_name>
+        <number>H14</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P19</HTG_fpga_pin>
+        <SKIQ-X4_name>LA11_P</SKIQ-X4_name>
+        <SKIQ-X4_net>TX1_ENABLE_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[11]_P</HTG_name>
+        <number>H16</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P18</HTG_fpga_pin>
+        <SKIQ-X4_name>LA11_N</SKIQ-X4_name>
+        <SKIQ-X4_net>RX1_ENABLE_A</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[11]_N</HTG_name>
+        <number>H17</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N17</HTG_fpga_pin>
+        <SKIQ-X4_name>LA15_P</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT1_B.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[15]_P</HTG_name>
+        <number>H19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N16</HTG_fpga_pin>
+        <SKIQ-X4_name>LA15_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SYNCOUT1_B.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[15]_N</HTG_name>
+        <number>H20</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA19_P</SKIQ-X4_name>
+        <SKIQ-X4_net>TX2_ENABLE_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[19]_P</HTG_name>
+        <number>H22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA19_N</SKIQ-X4_name>
+        <SKIQ-X4_net>RX2_ENABLE_B</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[19]_N</HTG_name>
+        <number>H23</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA21_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_SYSREF_REQ</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[21]_P</HTG_name>
+        <number>H25</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA21_N</SKIQ-X4_name>
+        <SKIQ-X4_net>SPI_CS_DAC</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[21]_N</HTG_name>
+        <number>H26</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA24_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA0</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[24]_P</HTG_name>
+        <number>H28</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>L15</HTG_fpga_pin>
+        <SKIQ-X4_name>LA24_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB0</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[24]_N</HTG_name>
+        <number>H29</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA28_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA4</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[28]_P</HTG_name>
+        <number>H31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>M14</HTG_fpga_pin>
+        <SKIQ-X4_name>LA28_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB4</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[28]_N</HTG_name>
+        <number>H32</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA30_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA6</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[30]_P</HTG_name>
+        <number>H34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA30_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB6</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[30]_N</HTG_name>
+        <number>H35</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R13</HTG_fpga_pin>
+        <SKIQ-X4_name>LA32_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA8</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[32]_P</HTG_name>
+        <number>H37</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R12</HTG_fpga_pin>
+        <SKIQ-X4_name>LA32_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB8</SKIQ-X4_net>
+        <HTG_name>FMC_A_LA[32]_N</HTG_name>
+        <number>H38</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_net>VADJ</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>H40</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK1_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_net>CLK3_BIDIR.DP</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>J2</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK1_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_net>CLK3_BIDIR.DN</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>J3</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA03_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA13</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[3]_P</HTG_name>
+        <number>J6</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>F24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA03_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB13</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[3]_N</HTG_name>
+        <number>J7</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA07_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA17</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[7]_P</HTG_name>
+        <number>J9</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>B22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA07_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB17</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[7]_N</HTG_name>
+        <number>J10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA11_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[11]_P</HTG_name>
+        <number>J12</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA11_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[11]_N</HTG_name>
+        <number>J13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA14_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[14]_P</HTG_name>
+        <number>J15</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA14_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[14]_N</HTG_name>
+        <number>J16</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>HA18_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>J18</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>HA18_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>J19</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA22_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[22]_P</HTG_name>
+        <number>J21</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>N23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA22_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[22]_N</HTG_name>
+        <number>J22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AV18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB01_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[1]_P</HTG_name>
+        <number>J24</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AV17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB01_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[1]_N</HTG_name>
+        <number>J25</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AT18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB07_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[7]_P</HTG_name>
+        <number>J27</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AT17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB07_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[7]_N</HTG_name>
+        <number>J28</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AP16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB11_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[11]_P</HTG_name>
+        <number>J30</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AR16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB11_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[11]_N</HTG_name>
+        <number>J31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AJ16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB15_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[15]_P</HTG_name>
+        <number>J33</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AK16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB15_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[15]_N</HTG_name>
+        <number>J34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AD16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB18_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[18]_P</HTG_name>
+        <number>J36</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB18_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[18]_N</HTG_name>
+        <number>J37</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VIO_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_net>VDD_INTERFACE</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>J39</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>voltage generated from mezzanine to power IO band B on FPGA</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VREF_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>K1</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>reference voltage for signal standard on Band B (LBxx and HBxx)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G16</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_REF_IN.D_P</SKIQ-X4_net>
+        <HTG_name>FMC_A_CLK[1]_M2C_P</HTG_name>
+        <number>K4</number>
+        <HTG_description>Mezzanine Card  to Carrier Card Clock</HTG_description>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>G15</HTG_fpga_pin>
+        <SKIQ-X4_name>CLK1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_net>FMC_REF_IN.D_N</SKIQ-X4_net>
+        <HTG_name>FMC_A_CLK[1]_M2C_N</HTG_name>
+        <number>K5</number>
+        <HTG_description>Mezzanine Card  to Carrier Card Clock</HTG_description>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA02_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA12</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[2]_P</HTG_name>
+        <number>K7</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA02_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB12</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[2]_N</HTG_name>
+        <number>K8</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>K21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA06_P</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOA16</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[6]_P</HTG_name>
+        <number>K10</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>J21</HTG_fpga_pin>
+        <SKIQ-X4_name>HA06_N</SKIQ-X4_name>
+        <SKIQ-X4_net>GPIOB16</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[6]_N</HTG_name>
+        <number>K11</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R20</HTG_fpga_pin>
+        <SKIQ-X4_name>HA10_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[10]_P</HTG_name>
+        <number>K13</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>P20</HTG_fpga_pin>
+        <SKIQ-X4_name>HA10_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[10]_N</HTG_name>
+        <number>K14</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA17_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[17]_CC_P</HTG_name>
+        <number>K16</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H24</HTG_fpga_pin>
+        <SKIQ-X4_name>HA17_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[17]_CC_N</HTG_name>
+        <number>K17</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>D23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA21_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[21]_P</HTG_name>
+        <number>K19</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>C23</HTG_fpga_pin>
+        <SKIQ-X4_name>HA21_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[21]_N</HTG_name>
+        <number>K20</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>T22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA23_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[23]_P</HTG_name>
+        <number>K22</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>R22</HTG_fpga_pin>
+        <SKIQ-X4_name>HA23_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HA[23]_N</HTG_name>
+        <number>K23</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AM19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[0]_CC_P</HTG_name>
+        <number>K25</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AN19</HTG_fpga_pin>
+        <SKIQ-X4_name>HB00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[0]_CC_N</HTG_name>
+        <number>K26</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AL17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB06_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[6]_CC_P</HTG_name>
+        <number>K28</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AM17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB06_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[6]_CC_N</HTG_name>
+        <number>K29</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AR18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB10_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[10]_P</HTG_name>
+        <number>K31</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AR17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB10_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[10]_N</HTG_name>
+        <number>K32</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB14_P</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[14]_P</HTG_name>
+        <number>K34</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AH16</HTG_fpga_pin>
+        <SKIQ-X4_name>HB14_N</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[14]_N</HTG_name>
+        <number>K35</number>
+        <HTG_description>User Defined I/O</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AN18</HTG_fpga_pin>
+        <SKIQ-X4_name>HB17_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[17]_CC_P</HTG_name>
+        <number>K37</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AN17</HTG_fpga_pin>
+        <SKIQ-X4_name>HB17_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FMC_A_HB[17]_CC_N</HTG_name>
+        <number>K38</number>
+        <HTG_description>User Defined I/O (clock capable)</HTG_description>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>NC</HTG_fpga_pin>
+        <SKIQ-X4_name>VIO_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_net>VDD_INTERFACE</SKIQ-X4_net>
+        <HTG_name>NC</HTG_name>
+        <number>K40</number>
+        <HTG_description>NC</HTG_description>
+        <SKIQ-X4_description>voltage generated from mezzanine to power IO band B on FPGA</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE8</HTG_fpga_pin>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>CLK_GTH_FMC_A_P</HTG_name>
+        <number>TBD1</number>
+        <HTG_description/>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>AE7</HTG_fpga_pin>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>CLK_GTH_FMC_A_N</HTG_name>
+        <number>TBD2</number>
+        <HTG_description/>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H18</HTG_fpga_pin>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FPGA_GC_FMC_A_P</HTG_name>
+        <number>TBD3</number>
+        <HTG_description/>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+    </pin>
+    <pin>
+        <HTG_fpga_pin>H17</HTG_fpga_pin>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <HTG_name>FPGA_GC_FMC_A_N</HTG_name>
+        <number>TBD4</number>
+        <HTG_description/>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+    </pin>
+</pin_map>

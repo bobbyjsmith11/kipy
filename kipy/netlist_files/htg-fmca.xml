@@ -1,0 +1,217 @@
+<?xml version="1.0" ?>
+<pinout>
+    <pin description="Mezzanine Card  to Carrier Card Clock" fpga_pin="G19" name="FMC_A_CLK[0]_M2C_N" number="H5"/>
+    <pin description="Mezzanine Card  to Carrier Card Clock" fpga_pin="H19" name="FMC_A_CLK[0]_M2C_P" number="H4"/>
+    <pin description="Mezzanine Card  to Carrier Card Clock" fpga_pin="G15" name="FMC_A_CLK[1]_M2C_N" number="K5"/>
+    <pin description="Mezzanine Card  to Carrier Card Clock" fpga_pin="G16" name="FMC_A_CLK[1]_M2C_P" number="K4"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AF5" name="FMC_A_DP[0]_C2M_N" number="C3"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AF6" name="FMC_A_DP[0]_C2M_P" number="C2"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AF1" name="FMC_A_DP[0]_M2C_N" number="C7"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AF2" name="FMC_A_DP[0]_M2C_P" number="C6"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AD5" name="FMC_A_DP[1]_C2M_N" number="A23"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AD6" name="FMC_A_DP[1]_C2M_P" number="A22"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AC3" name="FMC_A_DP[1]_M2C_N" number="A3"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AC4" name="FMC_A_DP[1]_M2C_P" number="A2"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AE3" name="FMC_A_DP[2]_C2M_N" number="A27"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AE4" name="FMC_A_DP[2]_C2M_P" number="A26"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AD1" name="FMC_A_DP[2]_M2C_N" number="A7"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AD2" name="FMC_A_DP[2]_M2C_P" number="A6"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AG7" name="FMC_A_DP[3]_C2M_N" number="A31"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AG8" name="FMC_A_DP[3]_C2M_P" number="A30"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AG3" name="FMC_A_DP[3]_M2C_N" number="A11"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AG4" name="FMC_A_DP[3]_M2C_P" number="A10"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AJ7" name="FMC_A_DP[4]_C2M_N" number="A35"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AJ8" name="FMC_A_DP[4]_C2M_P" number="A34"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AJ3" name="FMC_A_DP[4]_M2C_N" number="A15"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AJ4" name="FMC_A_DP[4]_M2C_P" number="A14"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AL7" name="FMC_A_DP[5]_C2M_N" number="A39"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AL8" name="FMC_A_DP[5]_C2M_P" number="A38"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AL3" name="FMC_A_DP[5]_M2C_N" number="A19"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AL4" name="FMC_A_DP[5]_M2C_P" number="A18"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AK5" name="FMC_A_DP[6]_C2M_N" number="B37"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AK6" name="FMC_A_DP[6]_C2M_P" number="B36"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AK1" name="FMC_A_DP[6]_M2C_N" number="B17"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AK2" name="FMC_A_DP[6]_M2C_P" number="B16"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AH5" name="FMC_A_DP[7]_C2M_N" number="B33"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AH6" name="FMC_A_DP[7]_C2M_P" number="B32"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AH1" name="FMC_A_DP[7]_M2C_N" number="B13"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AH2" name="FMC_A_DP[7]_M2C_P" number="B12"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AA3" name="FMC_A_DP[8]_C2M_N" number="B29"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AA4" name="FMC_A_DP[8]_C2M_P" number="B28"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="Y1" name="FMC_A_DP[8]_M2C_N" number="B9"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="Y2" name="FMC_A_DP[8]_M2C_P" number="B8"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AB5" name="FMC_A_DP[9]_C2M_N" number="B25"/>
+    <pin description="Serial I/O: Carrier to Mezzanine" fpga_pin="AB6" name="FMC_A_DP[9]_C2M_P" number="B24"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AB1" name="FMC_A_DP[9]_M2C_N" number="B5"/>
+    <pin description="Serial I/O: Mezzanine to Carrier" fpga_pin="AB2" name="FMC_A_DP[9]_M2C_P" number="B4"/>
+    <pin description="Serial I/O Clock: Mezzanine to Carrier" fpga_pin="AC7" name="FMC_A_GBTCLK[0]_M2C_N" number="D5"/>
+    <pin description="Serial I/O Clock: Mezzanine to Carrier" fpga_pin="AC8" name="FMC_A_GBTCLK[0]_M2C_P" number="D4"/>
+    <pin description="Serial I/O Clock: Mezzanine to Carrier" fpga_pin="AA7" name="FMC_A_GBTCLK[1]_M2C_N" number="B21"/>
+    <pin description="Serial I/O Clock: Mezzanine to Carrier" fpga_pin="AA8" name="FMC_A_GBTCLK[1]_M2C_P" number="B20"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="K23" name="FMC_A_HA[0]_CC_N" number="F5"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="K22" name="FMC_A_HA[0]_CC_P" number="F4"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J24" name="FMC_A_HA[1]_CC_N" number="E3"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J23" name="FMC_A_HA[1]_CC_P" number="E2"/>
+    <pin description="User Defined I/O" fpga_pin="C24" name="FMC_A_HA[2]_N" number="K8"/>
+    <pin description="User Defined I/O" fpga_pin="D24" name="FMC_A_HA[2]_P" number="K7"/>
+    <pin description="User Defined I/O" fpga_pin="F24" name="FMC_A_HA[3]_N" number="J7"/>
+    <pin description="User Defined I/O" fpga_pin="G24" name="FMC_A_HA[3]_P" number="J6"/>
+    <pin description="User Defined I/O" fpga_pin="E22" name="FMC_A_HA[4]_N" number="F8"/>
+    <pin description="User Defined I/O" fpga_pin="E21" name="FMC_A_HA[4]_P" number="F7"/>
+    <pin description="User Defined I/O" fpga_pin="E23" name="FMC_A_HA[5]_N" number="E7"/>
+    <pin description="User Defined I/O" fpga_pin="F23" name="FMC_A_HA[5]_P" number="E6"/>
+    <pin description="User Defined I/O" fpga_pin="J21" name="FMC_A_HA[6]_N" number="K11"/>
+    <pin description="User Defined I/O" fpga_pin="K21" name="FMC_A_HA[6]_P" number="K10"/>
+    <pin description="User Defined I/O" fpga_pin="B22" name="FMC_A_HA[7]_N" number="J10"/>
+    <pin description="User Defined I/O" fpga_pin="C22" name="FMC_A_HA[7]_P" number="J9"/>
+    <pin description="User Defined I/O" fpga_pin="A22" name="FMC_A_HA[8]_N" number="F11"/>
+    <pin description="User Defined I/O" fpga_pin="B21" name="FMC_A_HA[8]_P" number="F10"/>
+    <pin description="User Defined I/O" fpga_pin="A24" name="FMC_A_HA[9]_N" number="E10"/>
+    <pin description="User Defined I/O" fpga_pin="B24" name="FMC_A_HA[9]_P" number="E9"/>
+    <pin description="User Defined I/O" fpga_pin="P20" name="FMC_A_HA[10]_N" number="K14"/>
+    <pin description="User Defined I/O" fpga_pin="R20" name="FMC_A_HA[10]_P" number="K13"/>
+    <pin description="User Defined I/O" fpga_pin="N22" name="FMC_A_HA[11]_N" number="J13"/>
+    <pin description="User Defined I/O" fpga_pin="N21" name="FMC_A_HA[11]_P" number="J12"/>
+    <pin description="User Defined I/O" fpga_pin="L24" name="FMC_A_HA[12]_N" number="F14"/>
+    <pin description="User Defined I/O" fpga_pin="L23" name="FMC_A_HA[12]_P" number="F13"/>
+    <pin description="User Defined I/O" fpga_pin="C21" name="FMC_A_HA[13]_N" number="E13"/>
+    <pin description="User Defined I/O" fpga_pin="D21" name="FMC_A_HA[13]_P" number="E12"/>
+    <pin description="User Defined I/O" fpga_pin="P21" name="FMC_A_HA[14]_N" number="J16"/>
+    <pin description="User Defined I/O" fpga_pin="R21" name="FMC_A_HA[14]_P" number="J15"/>
+    <pin description="User Defined I/O" fpga_pin="M21" name="FMC_A_HA[15]_N" number="F17"/>
+    <pin description="User Defined I/O" fpga_pin="M20" name="FMC_A_HA[15]_P" number="F16"/>
+    <pin description="User Defined I/O" fpga_pin="K20" name="FMC_A_HA[16]_N" number="E16"/>
+    <pin description="User Defined I/O" fpga_pin="L20" name="FMC_A_HA[16]_P" number="E15"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="H24" name="FMC_A_HA[17]_CC_N" number="K17"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="H23" name="FMC_A_HA[17]_CC_P" number="K16"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="H22" name="FMC_A_HA[18]_CC_N" number="NC"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="H21" name="FMC_A_HA[18]_CC_P" number="NC"/>
+    <pin description="User Defined I/O" fpga_pin="G22" name="FMC_A_HA[19]_N" number="F20"/>
+    <pin description="User Defined I/O" fpga_pin="G21" name="FMC_A_HA[19]_P" number="F19"/>
+    <pin description="User Defined I/O" fpga_pin="R23" name="FMC_A_HA[20]_N" number="E19"/>
+    <pin description="User Defined I/O" fpga_pin="T23" name="FMC_A_HA[20]_P" number="E18"/>
+    <pin description="User Defined I/O" fpga_pin="C23" name="FMC_A_HA[21]_N" number="K20"/>
+    <pin description="User Defined I/O" fpga_pin="D23" name="FMC_A_HA[21]_P" number="K19"/>
+    <pin description="User Defined I/O" fpga_pin="N23" name="FMC_A_HA[22]_N" number="J22"/>
+    <pin description="User Defined I/O" fpga_pin="P23" name="FMC_A_HA[22]_P" number="J21"/>
+    <pin description="User Defined I/O" fpga_pin="R22" name="FMC_A_HA[23]_N" number="K23"/>
+    <pin description="User Defined I/O" fpga_pin="T22" name="FMC_A_HA[23]_P" number="K22"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AN19" name="FMC_A_HB[0]_CC_N" number="K26"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AM19" name="FMC_A_HB[0]_CC_P" number="K25"/>
+    <pin description="User Defined I/O" fpga_pin="AV17" name="FMC_A_HB[1]_N" number="J25"/>
+    <pin description="User Defined I/O" fpga_pin="AV18" name="FMC_A_HB[1]_P" number="J24"/>
+    <pin description="User Defined I/O" fpga_pin="AW18" name="FMC_A_HB[2]_N" number="F23"/>
+    <pin description="User Defined I/O" fpga_pin="AV19" name="FMC_A_HB[2]_P" number="F22"/>
+    <pin description="User Defined I/O" fpga_pin="AT20" name="FMC_A_HB[3]_N" number="E22"/>
+    <pin description="User Defined I/O" fpga_pin="AR20" name="FMC_A_HB[3]_P" number="E21"/>
+    <pin description="User Defined I/O" fpga_pin="AL18" name="FMC_A_HB[4]_N" number="F26"/>
+    <pin description="User Defined I/O" fpga_pin="AL19" name="FMC_A_HB[4]_P" number="F25"/>
+    <pin description="User Defined I/O" fpga_pin="AU19" name="FMC_A_HB[5]_N" number="E25"/>
+    <pin description="User Defined I/O" fpga_pin="AT19" name="FMC_A_HB[5]_P" number="E24"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AM17" name="FMC_A_HB[6]_CC_N" number="K29"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AL17" name="FMC_A_HB[6]_CC_P" number="K28"/>
+    <pin description="User Defined I/O" fpga_pin="AT17" name="FMC_A_HB[7]_N" number="J28"/>
+    <pin description="User Defined I/O" fpga_pin="AT18" name="FMC_A_HB[7]_P" number="J27"/>
+    <pin description="User Defined I/O" fpga_pin="AH18" name="FMC_A_HB[8]_N" number="F29"/>
+    <pin description="User Defined I/O" fpga_pin="AH19" name="FMC_A_HB[8]_P" number="F28"/>
+    <pin description="User Defined I/O" fpga_pin="AP18" name="FMC_A_HB[9]_N" number="E28"/>
+    <pin description="User Defined I/O" fpga_pin="AP19" name="FMC_A_HB[9]_P" number="E27"/>
+    <pin description="User Defined I/O" fpga_pin="AR17" name="FMC_A_HB[10]_N" number="K32"/>
+    <pin description="User Defined I/O" fpga_pin="AR18" name="FMC_A_HB[10]_P" number="K31"/>
+    <pin description="User Defined I/O" fpga_pin="AR16" name="FMC_A_HB[11]_N" number="J31"/>
+    <pin description="User Defined I/O" fpga_pin="AP16" name="FMC_A_HB[11]_P" number="J30"/>
+    <pin description="User Defined I/O" fpga_pin="AG19" name="FMC_A_HB[12]_N" number="F32"/>
+    <pin description="User Defined I/O" fpga_pin="AF19" name="FMC_A_HB[12]_P" number="F31"/>
+    <pin description="User Defined I/O" fpga_pin="AJ18" name="FMC_A_HB[13]_N" number="E31"/>
+    <pin description="User Defined I/O" fpga_pin="AJ19" name="FMC_A_HB[13]_P" number="E30"/>
+    <pin description="User Defined I/O" fpga_pin="AH16" name="FMC_A_HB[14]_N" number="K35"/>
+    <pin description="User Defined I/O" fpga_pin="AH17" name="FMC_A_HB[14]_P" number="K34"/>
+    <pin description="User Defined I/O" fpga_pin="AK16" name="FMC_A_HB[15]_N" number="J34"/>
+    <pin description="User Defined I/O" fpga_pin="AJ16" name="FMC_A_HB[15]_P" number="J33"/>
+    <pin description="User Defined I/O" fpga_pin="AK17" name="FMC_A_HB[16]_N" number="F35"/>
+    <pin description="User Defined I/O" fpga_pin="AK18" name="FMC_A_HB[16]_P" number="F34"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AN17" name="FMC_A_HB[17]_CC_N" number="K38"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="AN18" name="FMC_A_HB[17]_CC_P" number="K37"/>
+    <pin description="User Defined I/O" fpga_pin="AE16" name="FMC_A_HB[18]_N" number="J37"/>
+    <pin description="User Defined I/O" fpga_pin="AD16" name="FMC_A_HB[18]_P" number="J36"/>
+    <pin description="User Defined I/O" fpga_pin="AF18" name="FMC_A_HB[19]_N" number="E34"/>
+    <pin description="User Defined I/O" fpga_pin="AE18" name="FMC_A_HB[19]_P" number="E33"/>
+    <pin description="User Defined I/O" fpga_pin="AG16" name="FMC_A_HB[20]_N" number="F38"/>
+    <pin description="User Defined I/O" fpga_pin="AG17" name="FMC_A_HB[20]_P" number="F37"/>
+    <pin description="User Defined I/O" fpga_pin="AF17" name="FMC_A_HB[21]_N" number="E37"/>
+    <pin description="User Defined I/O" fpga_pin="AE17" name="FMC_A_HB[21]_P" number="E36"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J19" name="FMC_A_LA[0]_CC_N" number="G7"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J20" name="FMC_A_LA[0]_CC_P" number="G6"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J18" name="FMC_A_LA[1]_CC_N" number="D9"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="K18" name="FMC_A_LA[1]_CC_P" number="D8"/>
+    <pin description="User Defined I/O" fpga_pin="E20" name="FMC_A_LA[2]_N" number="H8"/>
+    <pin description="User Defined I/O" fpga_pin="F20" name="FMC_A_LA[2]_P" number="H7"/>
+    <pin description="User Defined I/O" fpga_pin="A20" name="FMC_A_LA[3]_N" number="G10"/>
+    <pin description="User Defined I/O" fpga_pin="B20" name="FMC_A_LA[3]_P" number="G9"/>
+    <pin description="User Defined I/O" fpga_pin="C19" name="FMC_A_LA[4]_N" number="H11"/>
+    <pin description="User Defined I/O" fpga_pin="D19" name="FMC_A_LA[4]_P" number="H10"/>
+    <pin description="User Defined I/O" fpga_pin="A17" name="FMC_A_LA[5]_N" number="D12"/>
+    <pin description="User Defined I/O" fpga_pin="A18" name="FMC_A_LA[5]_P" number="D11"/>
+    <pin description="User Defined I/O" fpga_pin="A19" name="FMC_A_LA[6]_N" number="C11"/>
+    <pin description="User Defined I/O" fpga_pin="B19" name="FMC_A_LA[6]_P" number="C10"/>
+    <pin description="User Defined I/O" fpga_pin="C18" name="FMC_A_LA[7]_N" number="H14"/>
+    <pin description="User Defined I/O" fpga_pin="D18" name="FMC_A_LA[7]_P" number="H13"/>
+    <pin description="User Defined I/O" fpga_pin="B17" name="FMC_A_LA[8]_N" number="G13"/>
+    <pin description="User Defined I/O" fpga_pin="C17" name="FMC_A_LA[8]_P" number="G12"/>
+    <pin description="User Defined I/O" fpga_pin="E17" name="FMC_A_LA[9]_N" number="D15"/>
+    <pin description="User Defined I/O" fpga_pin="F17" name="FMC_A_LA[9]_P" number="D14"/>
+    <pin description="User Defined I/O" fpga_pin="E18" name="FMC_A_LA[10]_N" number="C15"/>
+    <pin description="User Defined I/O" fpga_pin="F18" name="FMC_A_LA[10]_P" number="C14"/>
+    <pin description="User Defined I/O" fpga_pin="P18" name="FMC_A_LA[11]_N" number="H17"/>
+    <pin description="User Defined I/O" fpga_pin="P19" name="FMC_A_LA[11]_P" number="H16"/>
+    <pin description="User Defined I/O" fpga_pin="N18" name="FMC_A_LA[12]_N" number="G16"/>
+    <pin description="User Defined I/O" fpga_pin="N19" name="FMC_A_LA[12]_P" number="G15"/>
+    <pin description="User Defined I/O" fpga_pin="J16" name="FMC_A_LA[13]_N" number="D18"/>
+    <pin description="User Defined I/O" fpga_pin="K16" name="FMC_A_LA[13]_P" number="D17"/>
+    <pin description="User Defined I/O" fpga_pin="K17" name="FMC_A_LA[14]_N" number="C19"/>
+    <pin description="User Defined I/O" fpga_pin="L17" name="FMC_A_LA[14]_P" number="C18"/>
+    <pin description="User Defined I/O" fpga_pin="N16" name="FMC_A_LA[15]_N" number="H20"/>
+    <pin description="User Defined I/O" fpga_pin="N17" name="FMC_A_LA[15]_P" number="H19"/>
+    <pin description="User Defined I/O" fpga_pin="M16" name="FMC_A_LA[16]_N" number="G19"/>
+    <pin description="User Defined I/O" fpga_pin="M17" name="FMC_A_LA[16]_P" number="G18"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="E15" name="FMC_A_LA[17]_CC_N" number="D21"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="F15" name="FMC_A_LA[17]_CC_P" number="D20"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="H14" name="FMC_A_LA[18]_CC_N" number="C23"/>
+    <pin description="User Defined I/O (clock capable)" fpga_pin="J14" name="FMC_A_LA[18]_CC_P" number="C22"/>
+    <pin description="User Defined I/O" fpga_pin="C13" name="FMC_A_LA[19]_N" number="H23"/>
+    <pin description="User Defined I/O" fpga_pin="D13" name="FMC_A_LA[19]_P" number="H22"/>
+    <pin description="User Defined I/O" fpga_pin="B12" name="FMC_A_LA[20]_N" number="G22"/>
+    <pin description="User Defined I/O" fpga_pin="C12" name="FMC_A_LA[20]_P" number="G21"/>
+    <pin description="User Defined I/O" fpga_pin="J15" name="FMC_A_LA[21]_N" number="H26"/>
+    <pin description="User Defined I/O" fpga_pin="K15" name="FMC_A_LA[21]_P" number="H25"/>
+    <pin description="User Defined I/O" fpga_pin="F14" name="FMC_A_LA[22]_N" number="G25"/>
+    <pin description="User Defined I/O" fpga_pin="G14" name="FMC_A_LA[22]_P" number="G24"/>
+    <pin description="User Defined I/O" fpga_pin="A12" name="FMC_A_LA[23]_N" number="D24"/>
+    <pin description="User Defined I/O" fpga_pin="A13" name="FMC_A_LA[23]_P" number="D23"/>
+    <pin description="User Defined I/O" fpga_pin="L15" name="FMC_A_LA[24]_N" number="H29"/>
+    <pin description="User Defined I/O" fpga_pin="M15" name="FMC_A_LA[24]_P" number="H28"/>
+    <pin description="User Defined I/O" fpga_pin="H13" name="FMC_A_LA[25]_N" number="G28"/>
+    <pin description="User Defined I/O" fpga_pin="J13" name="FMC_A_LA[25]_P" number="G27"/>
+    <pin description="User Defined I/O" fpga_pin="F12" name="FMC_A_LA[26]_N" number="D27"/>
+    <pin description="User Defined I/O" fpga_pin="F13" name="FMC_A_LA[26]_P" number="D26"/>
+    <pin description="User Defined I/O" fpga_pin="E12" name="FMC_A_LA[27]_N" number="C27"/>
+    <pin description="User Defined I/O" fpga_pin="E13" name="FMC_A_LA[27]_P" number="C26"/>
+    <pin description="User Defined I/O" fpga_pin="M14" name="FMC_A_LA[28]_N" number="H32"/>
+    <pin description="User Defined I/O" fpga_pin="N14" name="FMC_A_LA[28]_P" number="H31"/>
+    <pin description="User Defined I/O" fpga_pin="L12" name="FMC_A_LA[29]_N" number="G31"/>
+    <pin description="User Defined I/O" fpga_pin="L13" name="FMC_A_LA[29]_P" number="G30"/>
+    <pin description="User Defined I/O" fpga_pin="N13" name="FMC_A_LA[30]_N" number="H35"/>
+    <pin description="User Defined I/O" fpga_pin="P13" name="FMC_A_LA[30]_P" number="H34"/>
+    <pin description="User Defined I/O" fpga_pin="M12" name="FMC_A_LA[31]_N" number="G34"/>
+    <pin description="User Defined I/O" fpga_pin="N12" name="FMC_A_LA[31]_P" number="G33"/>
+    <pin description="User Defined I/O" fpga_pin="R12" name="FMC_A_LA[32]_N" number="H38"/>
+    <pin description="User Defined I/O" fpga_pin="R13" name="FMC_A_LA[32]_P" number="H37"/>
+    <pin description="User Defined I/O" fpga_pin="P14" name="FMC_A_LA[33]_N" number="G37"/>
+    <pin description="User Defined I/O" fpga_pin="P15" name="FMC_A_LA[33]_P" number="G36"/>
+    <pin description="" fpga_pin="H17" name="FPGA_GC_FMC_A_N" number="TBD4"/>
+    <pin description="" fpga_pin="H18" name="FPGA_GC_FMC_A_P" number="TBD3"/>
+    <pin description="" fpga_pin="A14" name="FMC_A_PG_M2C_F" number="F1"/>
+    <pin description="" fpga_pin="B16" name="FMC_A_PRSNT_M2C_L_F" number="H2"/>
+    <pin description="" fpga_pin="AE7" name="CLK_GTH_FMC_A_N" number="TBD2"/>
+    <pin description="" fpga_pin="AE8" name="CLK_GTH_FMC_A_P" number="TBD1"/>
+</pinout>

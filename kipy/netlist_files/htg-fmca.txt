@@ -43,10 +43,10 @@ row,FMC_A Signal Name,Signal Description,FPGA Pin #
 41,FMC_A_DP[9]_C2M_P,Serial I/O: Carrier to Mezzanine,AB6
 42,FMC_A_DP[9]_M2C_N,Serial I/O: Mezzanine to Carrier,AB1
 43,FMC_A_DP[9]_M2C_P,Serial I/O: Mezzanine to Carrier,AB2
-44,FMC_A_GBTCLK[0]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AC7
-45,FMC_A_GBTCLK[0]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AC8
-46,FMC_A_GBTCLK[1]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AA7
-47,FMC_A_GBTCLK[1]_M2C_,Serial I/O Clock: Mezzanine to Carrier,AA8
+44,FMC_A_GBTCLK[0]_M2C_N,Serial I/O Clock: Mezzanine to Carrier,AC7
+45,FMC_A_GBTCLK[0]_M2C_P,Serial I/O Clock: Mezzanine to Carrier,AC8
+46,FMC_A_GBTCLK[1]_M2C_N,Serial I/O Clock: Mezzanine to Carrier,AA7
+47,FMC_A_GBTCLK[1]_M2C_P,Serial I/O Clock: Mezzanine to Carrier,AA8
 48,FMC_A_HA[0]_CC_N,User Defined I/O (clock capable),K23
 49,FMC_A_HA[0]_CC_P,User Defined I/O (clock capable),K22
 50,FMC_A_HA[1]_CC_N,User Defined I/O (clock capable),J24

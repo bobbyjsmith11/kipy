@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <pinout name="FMC-VITA-57.1">
-    <pin number="A1" name="GND" description="GND" />
-    <pin number="A2" name="DP1_M2C_P" description="high speed diff pair mezzanine to host" />
-    <pin number="A3" name="DP1_M2C_N" description="high speed diff pair mezzanine to host" />
-    <pin number="A4" name="GND" description="GND" />
-    <pin number="A5" name="GND" description="GND" />
-    <pin number="A6" name="DP2_M2C_P" description="high speed diff pair mezzanine to host" />
-    <pin number="A7" name="DP2_M2C_N" description="high speed diff pair mezzanine to host" />
-    <pin number="A8" name="GND" description="GND" />
-    <pin number="A9" name="GND" description="GND" />
+    <pin number="A1"  name="GND" description="GND" />
+    <pin number="A2"  name="DP1_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A3"  name="DP1_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A4"  name="GND" description="GND" />
+    <pin number="A5"  name="GND" description="GND" />
+    <pin number="A6"  name="DP2_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="A7"  name="DP2_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="A8"  name="GND" description="GND" />
+    <pin number="A9"  name="GND" description="GND" />
     <pin number="A10" name="DP3_M2C_P" description="high speed diff pair mezzanine to host" />
     <pin number="A11" name="DP3_M2C_N" description="high speed diff pair mezzanine to host" />
     <pin number="A12" name="GND" description="GND" />
@@ -40,4 +40,374 @@
     <pin number="A38" name="DP5_C2M_P" description="high speed diff pair host to mezzanine" />
     <pin number="A39" name="DP5_C2M_N" description="high speed diff pair host to mezzanine" />
     <pin number="A40" name="GND" description="GND" />
+
+    <pin number="B1"  name="RES1" description="RESERVED" />
+    <pin number="B2"  name="GND" description="GND" />
+    <pin number="B3"  name="GND" description="GND" />
+    <pin number="B4"  name="DP9_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="B5"  name="DP9_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="B6"  name="GND" description="GND" />
+    <pin number="B7"  name="GND" description="GND" />
+    <pin number="B8"  name="DP8_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="B9"  name="DP8_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="B10" name="GND" description="GND" />
+    <pin number="B11" name="GND" description="GND" />
+    <pin number="B12" name="DP7_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="B13" name="DP7_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="B14" name="GND" description="GND" />
+    <pin number="B15" name="GND" description="GND" />
+    <pin number="B16" name="DP6_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="B17" name="DP6_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="B18" name="GND" description="GND" />
+    <pin number="B19" name="GND" description="GND" />
+    <pin number="B20" name="GBT_CLK1_M2C_P" description="gigabit transceiver clock" />
+    <pin number="B21" name="GBT_CLK1_M2C_N" description="gigabit transceiver clock" />
+    <pin number="B22" name="GND" description="GND" />
+    <pin number="B23" name="GND" description="GND" />
+    <pin number="B24" name="DP9_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="B25" name="DP9_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="B26" name="GND" description="GND" />
+    <pin number="B27" name="GND" description="GND" />
+    <pin number="B28" name="DP8_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="B29" name="DP8_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="B30" name="GND" description="GND" />
+    <pin number="B31" name="GND" description="GND" />
+    <pin number="B32" name="DP7_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="B33" name="DP7_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="B34" name="GND" description="GND" />
+    <pin number="B35" name="GND" description="GND" />
+    <pin number="B36" name="DP6_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="B37" name="DP6_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="B38" name="GND" description="GND" />
+    <pin number="B39" name="GND" description="GND" />
+    <pin number="B40" name="RES0" description="RESERVED" />
+
+    <pin number="C1"  name="GND" description="GND" />
+    <pin number="C2"  name="DP0_C2M_P" description="high speed diff pair host to mezzanine" />
+    <pin number="C3"  name="DP0_C2M_N" description="high speed diff pair host to mezzanine" />
+    <pin number="C4"  name="GND" description="GND" />
+    <pin number="C5"  name="GND" description="GND" />
+    <pin number="C6"  name="DP0_M2C_P" description="high speed diff pair mezzanine to host" />
+    <pin number="C7"  name="DP0_M2C_N" description="high speed diff pair mezzanine to host" />
+    <pin number="C8"  name="GND" description="GND" />
+    <pin number="C9"  name="GND" description="GND" />
+    <pin number="C10" name="LA06_P" description="user defined signal on bank A" />
+    <pin number="C11" name="LA06_N" description="user defined signal on bank A" />
+    <pin number="C12" name="GND" description="GND" />
+    <pin number="C13" name="GND" description="GND" />
+    <pin number="C14" name="LA10_P" description="user defined signal on bank A" />
+    <pin number="C15" name="LA10_N" description="user defined signal on bank A" />
+    <pin number="C16" name="GND" description="GND" />
+    <pin number="C17" name="GND" description="GND" />
+    <pin number="C18" name="LA14_P" description="user defined signal on bank A" />
+    <pin number="C19" name="LA14_N" description="user defined signal on bank A" />
+    <pin number="C20" name="GND" description="GND" />
+    <pin number="C21" name="GND" description="GND" />
+    <pin number="C22" name="LA18_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="C23" name="LA18_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="C24" name="GND" description="GND" />
+    <pin number="C25" name="GND" description="GND" />
+    <pin number="C26" name="LA27_P" description="user defined signal on bank A" />
+    <pin number="C27" name="LA27_N" description="user defined signal on bank A" />
+    <pin number="C28" name="GND" description="GND" />
+    <pin number="C29" name="GND" description="GND" />
+    <pin number="C30" name="SCL" description="FMC EEPROM I2C clock" />
+    <pin number="C31" name="SDA" description="FMC EEPROM I2C data" />
+    <pin number="C32" name="GND" description="GND" />
+    <pin number="C33" name="GND" description="GND" />
+    <pin number="C34" name="GA0" description="geographical address 1 for EEPROM (intentionally opposite)" />
+    <pin number="C35" name="12P0V" description="main 12V supply input" />
+    <pin number="C36" name="GND" description="GND" />
+    <pin number="C37" name="12P0V" description="main 12V supply input" />
+    <pin number="C38" name="GND" description="GND" />
+    <pin number="C39" name="3P3V" description="main 3.3V supply input" />
+    <pin number="C40" name="GND" description="GND" />
+
+    <pin number="D1"  name="PG_C2M" description="power good host to mezzanine" />
+    <pin number="D2"  name="GND" description="GND" />
+    <pin number="D3"  name="GND" description="GND" />
+    <pin number="D4"  name="GBT_CLK0_M2C_P" description="gigabit transceiver clock" />
+    <pin number="D5"  name="GBT_CLK0_M2C_N" description="gigabit transceiver clock" />
+    <pin number="D6"  name="GND" description="GND" />
+    <pin number="D7"  name="GND" description="GND" />
+    <pin number="D8"  name="LA01_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="D9"  name="LA01_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="D10" name="GND" description="GND" />
+    <pin number="D11" name="LA05_P" description="user defined signal on bank A" />
+    <pin number="D12" name="LA05_N" description="user defined signal on bank A" />
+    <pin number="D13" name="GND" description="GND" />
+    <pin number="D14" name="LA09_P" description="user defined signal on bank A" />
+    <pin number="D15" name="LA09_N" description="user defined signal on bank A" />
+    <pin number="D16" name="GND" description="GND" />
+    <pin number="D17" name="LA13_P" description="user defined signal on bank A" />
+    <pin number="D18" name="LA13_N" description="user defined signal on bank A" />
+    <pin number="D19" name="GND" description="GND" />
+    <pin number="D20" name="LA17_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="D21" name="LA17_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="D22" name="GND" description="GND" />
+    <pin number="D23" name="LA23_P" description="user defined signal on bank A" />
+    <pin number="D24" name="LA23_N" description="user defined signal on bank A" />
+    <pin number="D25" name="GND" description="GND" />
+    <pin number="D26" name="LA26_P" description="user defined signal on bank A" />
+    <pin number="D27" name="LA26_N" description="user defined signal on bank A" />
+    <pin number="D28" name="GND" description="GND" />
+    <pin number="D29" name="TCK" description="JTAG clock" />
+    <pin number="D30" name="TDI" description="JTAG data in" />
+    <pin number="D31" name="TDO" description="JTAG data out" />
+    <pin number="D32" name="3P3VAUX" description="auxilliary 3.3V power supply" />
+    <pin number="D33" name="TMS" description="JTAG mode select" />
+    <pin number="D34" name="TRST_L" description="JTAG reset" />
+    <pin number="D35" name="GA1" description="geographical address 0 for EEPROM (intentionally opposite)" />
+    <pin number="D36" name="3P3V" description="main 3.3V supply input" />
+    <pin number="D37" name="GND" description="GND" />
+    <pin number="D38" name="3P3V" description="main 3.3V supply input" />
+    <pin number="D39" name="GND" description="GND" />
+    <pin number="D40" name="3P3V" description="main 3.3V supply input" />
+
+    <pin number="E1"  name="GND" description="GND"  />
+    <pin number="E2"  name="HA01_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="E3"  name="HA01_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="E4"  name="GND" description="GND"  />
+    <pin number="E5"  name="GND" description="GND"  />
+    <pin number="E6"  name="HA05_P" description="user defined signal on bank A" />
+    <pin number="E7"  name="HA05_N" description="user defined signal on bank A" />
+    <pin number="E8"  name="GND" description="GND"  />
+    <pin number="E9"  name="HA09_P" description="user defined signal on bank A" />
+    <pin number="E10" name="HA09_N" description="user defined signal on bank A" />
+    <pin number="E11" name="GND" description="GND"  />
+    <pin number="E12" name="HA13_P" description="user defined signal on bank A" />
+    <pin number="E13" name="HA13_N" description="user defined signal on bank A" />
+    <pin number="E14" name="GND" description="GND"  />
+    <pin number="E15" name="HA16_P" description="user defined signal on bank A" />
+    <pin number="E16" name="HA16_N" description="user defined signal on bank A" />
+    <pin number="E17" name="GND" description="GND"  />
+    <pin number="E18" name="HA20_P" description="user defined signal on bank A" />
+    <pin number="E19" name="HA20_N" description="user defined signal on bank A" />
+    <pin number="E20" name="GND" description="GND"  />
+    <pin number="E21" name="HB03_P" description="user defined signal on bank B" />
+    <pin number="E22" name="HB03_N" description="user defined signal on bank B" />
+    <pin number="E23" name="GND" description="GND"  />
+    <pin number="E24" name="HB05_P" description="user defined signal on bank B" />
+    <pin number="E25" name="HB05_N" description="user defined signal on bank B" />
+    <pin number="E26" name="GND" description="GND"  />
+    <pin number="E27" name="HB09_P" description="user defined signal on bank B" />
+    <pin number="E28" name="HB09_N" description="user defined signal on bank B" />
+    <pin number="E29" name="GND" description="GND"  />
+    <pin number="E30" name="HB13_P" description="user defined signal on bank B" />
+    <pin number="E31" name="HB13_N" description="user defined signal on bank B" />
+    <pin number="E32" name="GND" description="GND"  />
+    <pin number="E33" name="HB19_P" description="user defined signal on bank B" />
+    <pin number="E34" name="HB19_N" description="user defined signal on bank B" />
+    <pin number="E35" name="GND" description="GND"  />
+    <pin number="E36" name="HB21_P" description="user defined signal on bank B" />
+    <pin number="E37" name="HB21_N" description="user defined signal on bank B" />
+    <pin number="E38" name="GND" description="GND"  />
+    <pin number="E39" name="VADJ" description="adjustable power supply from host to mezzanine"  />
+    <pin number="E40" name="GND" description="GND"  />
+
+    <pin number="F1"  name="PG_M2C" description="power good mezzanine to host"  />
+    <pin number="F2"  name="GND" description="GND"  />
+    <pin number="F3"  name="GND" description="GND"  />
+    <pin number="F4"  name="HA00_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="F5"  name="HA00_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="F6"  name="GND" description="GND"  />
+    <pin number="F7"  name="HA04_P" description="user defined signal on bank A" />
+    <pin number="F8"  name="HA04_N" description="user defined signal on bank A" />
+    <pin number="F9"  name="GND" description="GND"  />
+    <pin number="F10" name="HA08_P" description="user defined signal on bank A" />
+    <pin number="F11" name="HA08_N" description="user defined signal on bank A" />
+    <pin number="F12" name="GND" description="GND"  />
+    <pin number="F13" name="HA12_P" description="user defined signal on bank A" />
+    <pin number="F14" name="HA12_N" description="user defined signal on bank A" />
+    <pin number="F15" name="GND" description="GND"  />
+    <pin number="F16" name="HA15_P" description="user defined signal on bank A" />
+    <pin number="F17" name="HA15_N" description="user defined signal on bank A" />
+    <pin number="F18" name="GND" description="GND"  />
+    <pin number="F19" name="HA19_P" description="user defined signal on bank A" />
+    <pin number="F20" name="HA19_N" description="user defined signal on bank A" />
+    <pin number="F21" name="GND" description="GND"  />
+    <pin number="F22" name="HB02_P" description="user defined signal on bank B" />
+    <pin number="F23" name="HB02_N" description="user defined signal on bank B" />
+    <pin number="F24" name="GND" description="GND"  />
+    <pin number="F25" name="HB04_P" description="user defined signal on bank B" />
+    <pin number="F26" name="HB04_N" description="user defined signal on bank B" />
+    <pin number="F27" name="GND" description="GND"  />
+    <pin number="F28" name="HB08_P" description="user defined signal on bank B" />
+    <pin number="F29" name="HB08_N" description="user defined signal on bank B" />
+    <pin number="F30" name="GND" description="GND"  />
+    <pin number="F31" name="HB12_P" description="user defined signal on bank B" />
+    <pin number="F32" name="HB12_N" description="user defined signal on bank B" />
+    <pin number="F33" name="GND" description="GND"  />
+    <pin number="F34" name="HB16_P" description="user defined signal on bank B" />
+    <pin number="F35" name="HB16_N" description="user defined signal on bank B" />
+    <pin number="F36" name="GND" description="GND"  />
+    <pin number="F37" name="HB20_P" description="user defined signal on bank B" />
+    <pin number="F38" name="HB20_N" description="user defined signal on bank B" />
+    <pin number="F39" name="GND" description="GND"  />
+    <pin number="F40" name="VADJ" description="adjustable power supply from host to mezzanine"  />
+
+    <pin number="G1"  name="GND" description="GND"  />
+    <pin number="G2"  name="CLK0_C2M_P" description="diff pair clock from host to mezzanine" />
+    <pin number="G3"  name="CLK0_C2M_N" description="diff pair clock from host to mezzanine" />
+    <pin number="G4"  name="GND" description="GND"  />
+    <pin number="G5"  name="GND" description="GND"  />
+    <pin number="G6"  name="LA00_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="G7"  name="LA00_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="G8"  name="GND" description="GND"  />
+    <pin number="G9"  name="LA03_P" description="user defined signal on bank A" />
+    <pin number="G10" name="LA03_N" description="user defined signal on bank A" />
+    <pin number="G11" name="GND" description="GND"  />
+    <pin number="G12" name="LA08_P" description="user defined signal on bank A" />
+    <pin number="G13" name="LA08_N" description="user defined signal on bank A" />
+    <pin number="G14" name="GND" description="GND"  />
+    <pin number="G15" name="LA12_P" description="user defined signal on bank A" />
+    <pin number="G16" name="LA12_N" description="user defined signal on bank A" />
+    <pin number="G17" name="GND" description="GND"  />
+    <pin number="G18" name="LA16_P" description="user defined signal on bank A" />
+    <pin number="G19" name="LA16_N" description="user defined signal on bank A" />
+    <pin number="G20" name="GND" description="GND"  />
+    <pin number="G21" name="LA20_P" description="user defined signal on bank A" />
+    <pin number="G22" name="LA20_N" description="user defined signal on bank A" />
+    <pin number="G23" name="GND" description="GND"  />
+    <pin number="G24" name="LA22_P" description="user defined signal on bank A" />
+    <pin number="G25" name="LA22_N" description="user defined signal on bank A" />
+    <pin number="G26" name="GND" description="GND"  />
+    <pin number="G27" name="LA25_P" description="user defined signal on bank A" />
+    <pin number="G28" name="LA25_N" description="user defined signal on bank A" />
+    <pin number="G29" name="GND" description="GND"  />
+    <pin number="G30" name="LA29_P" description="user defined signal on bank A" />
+    <pin number="G31" name="LA29_N" description="user defined signal on bank A" />
+    <pin number="G32" name="GND" description="GND"  />
+    <pin number="G33" name="LA31_P" description="user defined signal on bank A" />
+    <pin number="G34" name="LA31_N" description="user defined signal on bank A" />
+    <pin number="G35" name="GND" description="GND"  />
+    <pin number="G36" name="LA33_P" description="user defined signal on bank A" />
+    <pin number="G37" name="LA33_N" description="user defined signal on bank A" />
+    <pin number="G38" name="GND" description="GND"  />
+    <pin number="G39" name="VADJ" description="adjustable power supply from host to mezzanine"  />
+    <pin number="G40" name="GND" description="GND"  />
+
+    <pin number="H1"  name="VREF_A_M2C" description="reference voltage for signal standard on Band A (LAxx and HAxx)"  />
+    <pin number="H2"  name="PRSNT_M2C_L" description="module present signal (active low)"  />
+    <pin number="H3"  name="GND" description="GND"  />
+    <pin number="H4"  name="CLK0_M2C_P" description="diff pair clock from mezzanine to host" />
+    <pin number="H5"  name="CLK0_M2C_N" description="diff pair clock from mezzanine to host" />
+    <pin number="H6"  name="GND" description="GND"  />
+    <pin number="H7"  name="LA02_P" description="user defined signal on bank A" />
+    <pin number="H8"  name="LA02_N" description="user defined signal on bank A" />
+    <pin number="H9"  name="GND" description="GND"  />
+    <pin number="H10" name="LA04_P" description="user defined signal on bank A" />
+    <pin number="H11" name="LA04_N" description="user defined signal on bank A" />
+    <pin number="H12" name="GND" description="GND"  />
+    <pin number="H13" name="LA07_P" description="user defined signal on bank A" />
+    <pin number="H14" name="LA07_N" description="user defined signal on bank A" />
+    <pin number="H15" name="GND" description="GND"  />
+    <pin number="H16" name="LA11_P" description="user defined signal on bank A" />
+    <pin number="H17" name="LA11_N" description="user defined signal on bank A" />
+    <pin number="H18" name="GND" description="GND"  />
+    <pin number="H19" name="LA15_P" description="user defined signal on bank A" />
+    <pin number="H20" name="LA15_N" description="user defined signal on bank A" />
+    <pin number="H21" name="GND" description="GND"  />
+    <pin number="H22" name="LA19_P" description="user defined signal on bank A" />
+    <pin number="H23" name="LA19_N" description="user defined signal on bank A" />
+    <pin number="H24" name="GND" description="GND"  />
+    <pin number="H25" name="LA21_P" description="user defined signal on bank A" />
+    <pin number="H26" name="LA21_N" description="user defined signal on bank A" />
+    <pin number="H27" name="GND" description="GND"  />
+    <pin number="H28" name="LA24_P" description="user defined signal on bank A" />
+    <pin number="H29" name="LA24_N" description="user defined signal on bank A" />
+    <pin number="H30" name="GND" description="GND"  />
+    <pin number="H31" name="LA28_P" description="user defined signal on bank A" />
+    <pin number="H32" name="LA28_N" description="user defined signal on bank A" />
+    <pin number="H33" name="GND" description="GND"  />
+    <pin number="H34" name="LA30_P" description="user defined signal on bank A" />
+    <pin number="H35" name="LA30_N" description="user defined signal on bank A" />
+    <pin number="H36" name="GND" description="GND"  />
+    <pin number="H37" name="LA32_P" description="user defined signal on bank A" />
+    <pin number="H38" name="LA32_N" description="user defined signal on bank A" />
+    <pin number="H39" name="GND" description="GND"  />
+    <pin number="H40" name="VADJ" description="adjustable power supply from host to mezzanine"  />
+
+    <pin number="J1"  name="GND" description="GND"  />
+    <pin number="J2"  name="CLK1_C2M_P" description="diff pair clock from host to mezzanine" />
+    <pin number="J3"  name="CLK1_C2M_N" description="diff pair clock from host to mezzanine" />
+    <pin number="J4"  name="GND" description="GND"  />
+    <pin number="J5"  name="GND" description="GND"  />
+    <pin number="J6"  name="HA03_P" description="user defined signal on bank A" />
+    <pin number="J7"  name="HA03_N" description="user defined signal on bank A" />
+    <pin number="J8"  name="GND" description="GND"  />
+    <pin number="J9"  name="HA07_P" description="user defined signal on bank A" />
+    <pin number="J10" name="HA07_N" description="user defined signal on bank A" />
+    <pin number="J11" name="GND" description="GND"  />
+    <pin number="J12" name="HA11_P" description="user defined signal on bank A" />
+    <pin number="J13" name="HA11_N" description="user defined signal on bank A" />
+    <pin number="J14" name="GND" description="GND"  />
+    <pin number="J15" name="HA14_P" description="user defined signal on bank A" />
+    <pin number="J16" name="HA14_N" description="user defined signal on bank A" />
+    <pin number="J17" name="GND" description="GND"  />
+    <pin number="J18" name="HA18_P" description="user defined signal on bank A" />
+    <pin number="J19" name="HA18_N" description="user defined signal on bank A" />
+    <pin number="J20" name="GND" description="GND"  />
+    <pin number="J21" name="HA22_P" description="user defined signal on bank A" />
+    <pin number="J22" name="HA22_N" description="user defined signal on bank A" />
+    <pin number="J23" name="GND" description="GND"  />
+    <pin number="J24" name="HB01_P" description="user defined signal on bank B" />
+    <pin number="J25" name="HB01_N" description="user defined signal on bank B" />
+    <pin number="J26" name="GND" description="GND"  />
+    <pin number="J27" name="HB07_P" description="user defined signal on bank B" />
+    <pin number="J28" name="HB07_N" description="user defined signal on bank B" />
+    <pin number="J29" name="GND" description="GND"  />
+    <pin number="J30" name="HB11_P" description="user defined signal on bank B" />
+    <pin number="J31" name="HB11_N" description="user defined signal on bank B" />
+    <pin number="J32" name="GND" description="GND"  />
+    <pin number="J33" name="HB15_P" description="user defined signal on bank B" />
+    <pin number="J34" name="HB15_N" description="user defined signal on bank B" />
+    <pin number="J35" name="GND" description="GND"  />
+    <pin number="J36" name="HB18_P" description="user defined signal on bank B" />
+    <pin number="J37" name="HB18_N" description="user defined signal on bank B" />
+    <pin number="J38" name="GND" description="GND"  />
+    <pin number="J39" name="VIO_B_M2C" description="voltage generated from mezzanine to power IO band B on FPGA" />
+    <pin number="J40" name="GND" description="GND"  />
+
+    <pin number="K1"  name="VREF_B_M2C" description="reference voltage for signal standard on Band B (LBxx and HBxx)"  />
+    <pin number="K2"  name="GND" description="GND"  />
+    <pin number="K3"  name="GND" description="GND"  />
+    <pin number="K4"  name="CLK1_M2C_P" description="diff pair clock from mezzanine to host" />
+    <pin number="K5"  name="CLK1_M2C_N" description="diff pair clock from mezzanine to host" />
+    <pin number="K6"  name="GND" description="GND"  />
+    <pin number="K7"  name="HA02_P" description="user defined signal on bank A" />
+    <pin number="K8"  name="HA02_N" description="user defined signal on bank A" />
+    <pin number="K9"  name="GND" description="GND"  />
+    <pin number="K10" name="HA06_P" description="user defined signal on bank A" />
+    <pin number="K11" name="HA06_N" description="user defined signal on bank A" />
+    <pin number="K12" name="GND" description="GND"  />
+    <pin number="K13" name="HA10_P" description="user defined signal on bank A" />
+    <pin number="K14" name="HA10_N" description="user defined signal on bank A" />
+    <pin number="K15" name="GND" description="GND"  />
+    <pin number="K16" name="HA17_P_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="K17" name="HA17_N_CC" description="user defined signal on bank A (clock capable)" />
+    <pin number="K18" name="GND" description="GND"  />
+    <pin number="K19" name="HA21_P" description="user defined signal on bank A" />
+    <pin number="K20" name="HA21_N" description="user defined signal on bank A" />
+    <pin number="K21" name="GND" description="GND"  />
+    <pin number="K22" name="HA23_P" description="user defined signal on bank A" />
+    <pin number="K23" name="HA23_N" description="user defined signal on bank A" />
+    <pin number="K24" name="GND" description="GND"  />
+    <pin number="K25" name="HB00_P_CC" description="user defined signal on bank B (clock capable)" />
+    <pin number="K26" name="HB00_N_CC" description="user defined signal on bank B (clock capable)" />
+    <pin number="K27" name="GND" description="GND"  />
+    <pin number="K28" name="HB06_P_CC" description="user defined signal on bank B (clock capable)" />
+    <pin number="K29" name="HB06_N_CC" description="user defined signal on bank B (clock capable)" />
+    <pin number="K30" name="GND" description="GND"  />
+    <pin number="K31" name="HB10_P" description="user defined signal on bank B" />
+    <pin number="K32" name="HB10_N" description="user defined signal on bank B" />
+    <pin number="K33" name="GND" description="GND"  />
+    <pin number="K34" name="HB14_P" description="user defined signal on bank B" />
+    <pin number="K35" name="HB14_N" description="user defined signal on bank B" />
+    <pin number="K36" name="GND" description="GND"  />
+    <pin number="K37" name="HB17_P" description="user defined signal on bank B" />
+    <pin number="K38" name="HB17_N" description="user defined signal on bank B" />
+    <pin number="K39" name="GND" description="GND"  />
+    <pin number="K40" name="VIO_B_M2C" description="voltage generated from mezzanine to power IO band B on FPGA" />
+
 </pinout>

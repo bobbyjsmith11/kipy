@@ -1,0 +1,244 @@
+<?xml version="1.0" ?>
+<pinout>
+    <pin description="user defined signal on bank A" name="LA25_P" net="GPIOA1" number="G27"/>
+    <pin description="user defined signal on bank A" name="LA22_P" net="LED_RED" number="G24"/>
+    <pin description="user defined signal on bank A" name="LA22_N" net="LED_GRN" number="G25"/>
+    <pin description="user defined signal on bank A" name="LA20_N" net="EXT_REF_EN" number="G22"/>
+    <pin description="user defined signal on bank A" name="LA20_P" net="FMC_EXT_CLK_SEL" number="G21"/>
+    <pin description="user defined signal on bank A" name="LA25_N" net="GPIOB1" number="G28"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA00_N_CC" net="SYNCIN0_A.D_N" number="G7"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA00_P_CC" net="SYNCIN0_A.D_P" number="G6"/>
+    <pin description="diff pair clock from host to mezzanine" name="CLK0_C2M_N" net="CLK1_M2C_P" number="G3"/>
+    <pin description="diff pair clock from host to mezzanine" name="CLK0_C2M_P" net="CL1_M2C_N" number="G2"/>
+    <pin description="user defined signal on bank A" name="LA03_P" net="FMC_PPS" number="G9"/>
+    <pin description="user defined signal on bank A" name="HA09_P" net="NC" number="E9"/>
+    <pin description="user defined signal on bank B" name="HB11_N" net="NC" number="J31"/>
+    <pin description="voltage generated from mezzanine to power IO band B on FPGA" name="VIO_B_M2C" net="VDD_INTERFACE" number="K40"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP8_C2M_N" net="NC" number="B29"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP8_C2M_P" net="NC" number="B28"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP9_C2M_N" net="NC" number="B25"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP9_C2M_P" net="NC" number="B24"/>
+    <pin description="gigabit transceiver clock" name="GBT_CLK1_M2C_N" net="GBTCLK1.DN" number="B21"/>
+    <pin description="gigabit transceiver clock" name="GBT_CLK1_M2C_P" net="GBTCLK1.DP" number="B20"/>
+    <pin description="user defined signal on bank B" name="HB07_P" net="NC" number="J27"/>
+    <pin description="user defined signal on bank B" name="HB01_N" net="NC" number="J25"/>
+    <pin description="user defined signal on bank B" name="HB01_P" net="NC" number="J24"/>
+    <pin description="user defined signal on bank A" name="HA22_N" net="NC" number="J22"/>
+    <pin description="user defined signal on bank A" name="HA22_P" net="NC" number="J21"/>
+    <pin description="user defined signal on bank B" name="HB07_N" net="NC" number="J28"/>
+    <pin description="user defined signal on bank A" name="LA15_P" net="SYNCOUT1_B.D_P" number="H19"/>
+    <pin description="user defined signal on bank A" name="LA04_P" net="FMC_SPI_CS_A" number="H10"/>
+    <pin description="user defined signal on bank A" name="LA04_N" net="FMC_SPI_CS_9528" number="H11"/>
+    <pin description="user defined signal on bank A" name="LA07_P" net="FMC_SPI_CS_B" number="H13"/>
+    <pin description="user defined signal on bank A" name="LA07_N" net="FMC_CLK_RESETB" number="H14"/>
+    <pin description="user defined signal on bank A" name="LA11_P" net="TX1_ENABLE_A" number="H16"/>
+    <pin description="user defined signal on bank A" name="LA11_N" net="RX1_ENABLE_A" number="H17"/>
+    <pin description="user defined signal on bank B" name="HB14_P" net="NC" number="K34"/>
+    <pin description="main 3.3V supply input" name="3P3V" net="VSENSE_3V3+" number="D38"/>
+    <pin description="user defined signal on bank B" name="HB10_N" net="NC" number="K32"/>
+    <pin description="user defined signal on bank B" name="HB05_P" net="NC" number="E24"/>
+    <pin description="user defined signal on bank B" name="HB05_N" net="NC" number="E25"/>
+    <pin description="user defined signal on bank B" name="HB09_P" net="NC" number="E27"/>
+    <pin description="user defined signal on bank B" name="HB03_P" net="NC" number="E21"/>
+    <pin description="user defined signal on bank B" name="HB03_N" net="NC" number="E22"/>
+    <pin description="auxilliary 3.3V power supply" name="3P3VAUX" net="3P3V_AUX" number="D32"/>
+    <pin description="user defined signal on bank B" name="HB09_N" net="NC" number="E28"/>
+    <pin description="JTAG mode select" name="TMS" net="NC" number="D33"/>
+    <pin description="user defined signal on bank A" name="LA16_N" net="SYNCIN1_B.D_N" number="G19"/>
+    <pin description="user defined signal on bank A" name="LA16_P" net="SYNCIN1_B.D_P" number="G18"/>
+    <pin description="user defined signal on bank A" name="LA12_N" net="RX2_ENABLE_A" number="G16"/>
+    <pin description="user defined signal on bank A" name="LA12_P" net="TX2_ENABLE_A" number="G15"/>
+    <pin description="user defined signal on bank A" name="LA08_N" net="SYNCIN1_A.D_N" number="G13"/>
+    <pin description="user defined signal on bank A" name="LA08_P" net="SYNCIN1_A.D_P" number="G12"/>
+    <pin description="user defined signal on bank A" name="LA03_N" net="FMC_SDA" number="G10"/>
+    <pin description="power good mezzanine to host" name="PG_M2C" net="PWR_GOOD" number="F1"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA00_P_CC" net="GPIOA10" number="F4"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA00_N_CC" net="GPIOB10" number="F5"/>
+    <pin description="user defined signal on bank A" name="HA04_P" net="GPIOA14" number="F7"/>
+    <pin description="user defined signal on bank A" name="HA04_N" net="GPIOB14" number="F8"/>
+    <pin description="user defined signal on bank B" name="HB14_N" net="NC" number="K35"/>
+    <pin description="adjustable power supply from host to mezzanine" name="VADJ" net="VADJ" number="F40"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB17_P_CC" net="NC" number="K37"/>
+    <pin description="user defined signal on bank B" name="HB10_P" net="NC" number="K31"/>
+    <pin description="main 3.3V supply input" name="3P3V" net="VSENSE_3V3+" number="D36"/>
+    <pin description="JTAG reset" name="TRST_L" net="NC" number="D34"/>
+    <pin description="geographical address 0 for EEPROM (intentionally opposite)" name="GA1" net="GA1" number="D35"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB17_N_CC" net="NC" number="K38"/>
+    <pin description="JTAG data in" name="TDI" net="TDI_2_TDO" number="D30"/>
+    <pin description="JTAG data out" name="TDO" net="TDI_2_TDO" number="D31"/>
+    <pin description="main 3.3V supply input" name="3P3V" net="VSENSE_3V3+" number="D40"/>
+    <pin description="main 3.3V supply input" name="3P3V" net="VSENSE_3V3+" number="C39"/>
+    <pin description="main 12V supply input" name="12P0V" net="VSENSE_12V+" number="C35"/>
+    <pin description="geographical address 1 for EEPROM (intentionally opposite)" name="GA0" net="GA0" number="C34"/>
+    <pin description="main 12V supply input" name="12P0V" net="VSENSE_12V+" number="C37"/>
+    <pin description="FMC EEPROM I2C data" name="SDA" net="SDA_EEPROM" number="C31"/>
+    <pin description="FMC EEPROM I2C clock" name="SCL" net="SCL_EEPROM" number="C30"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP6_C2M_P" net="DP6_C2M.DP" number="B36"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP6_C2M_N" net="DP6_C2M.DN" number="B37"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP7_C2M_P" net="DP7_C2M.DP" number="B32"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP7_C2M_N" net="DP7_C2M.DN" number="B33"/>
+    <pin description="user defined signal on bank B" name="HB15_N" net="NC" number="J34"/>
+    <pin description="user defined signal on bank B" name="HB18_P" net="NC" number="J36"/>
+    <pin description="user defined signal on bank B" name="HB18_N" net="NC" number="J37"/>
+    <pin description="user defined signal on bank B" name="HB11_P" net="NC" number="J30"/>
+    <pin description="user defined signal on bank B" name="HB15_P" net="NC" number="J33"/>
+    <pin description="user defined signal on bank A" name="HA05_N" net="GPIOB15" number="E7"/>
+    <pin description="user defined signal on bank A" name="HA05_P" net="GPIOA15" number="E6"/>
+    <pin description="voltage generated from mezzanine to power IO band B on FPGA" name="VIO_B_M2C" net="VDD_INTERFACE" number="J39"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA01_N_CC" net="GPIOB11" number="E3"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA01_P_CC" net="GPIOA11" number="E2"/>
+    <pin description="user defined signal on bank A" name="HA19_P" net="NC" number="F19"/>
+    <pin description="user defined signal on bank A" name="HA12_P" net="NC" number="F13"/>
+    <pin description="user defined signal on bank A" name="HA08_P" net="GPIOA18" number="F10"/>
+    <pin description="user defined signal on bank A" name="HA08_N" net="GPIOB18" number="F11"/>
+    <pin description="user defined signal on bank A" name="HA15_P" net="NC" number="F16"/>
+    <pin description="user defined signal on bank A" name="HA15_N" net="NC" number="F17"/>
+    <pin description="user defined signal on bank A" name="HA12_N" net="NC" number="F14"/>
+    <pin description="user defined signal on bank A" name="LA24_N" net="GPIOB0" number="H29"/>
+    <pin description="user defined signal on bank A" name="LA24_P" net="GPIOA0" number="H28"/>
+    <pin description="user defined signal on bank A" name="LA21_P" net="FMC_SYSREF_REQ" number="H25"/>
+    <pin description="user defined signal on bank A" name="LA21_N" net="SPI_CS_DAC" number="H26"/>
+    <pin description="user defined signal on bank A" name="LA15_N" net="SYNCOUT1_B.D_N" number="H20"/>
+    <pin description="user defined signal on bank A" name="LA19_N" net="RX2_ENABLE_B" number="H23"/>
+    <pin description="user defined signal on bank A" name="LA19_P" net="TX2_ENABLE_B" number="H22"/>
+    <pin description="reference voltage for signal standard on Band B (LBxx and HBxx)" name="VREF_B_M2C" net="NC" number="K1"/>
+    <pin description="user defined signal on bank A" name="HA02_P" net="GPIOA12" number="K7"/>
+    <pin description="diff pair clock from mezzanine to host" name="CLK1_M2C_N" net="FMC_REF_IN.D_N" number="K5"/>
+    <pin description="diff pair clock from mezzanine to host" name="CLK1_M2C_P" net="FMC_REF_IN.D_P" number="K4"/>
+    <pin description="user defined signal on bank A" name="HA02_N" net="GPIOB12" number="K8"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP3_C2M_N" net="DP3_C2M.DN" number="A31"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP3_C2M_P" net="DP3_C2M.DP" number="A30"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP4_C2M_N" net="DP4_C2M.DN" number="A35"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP4_C2M_P" net="DP4_C2M.DP" number="A34"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP5_C2M_N" net="DP5_C2M.DN" number="A39"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP5_C2M_P" net="DP5_C2M.DP" number="A38"/>
+    <pin description="user defined signal on bank A" name="HA20_N" net="NC" number="E19"/>
+    <pin description="user defined signal on bank A" name="HA20_P" net="NC" number="E18"/>
+    <pin description="user defined signal on bank A" name="HA09_N" net="NC" number="E10"/>
+    <pin description="user defined signal on bank A" name="HA13_N" net="NC" number="E13"/>
+    <pin description="user defined signal on bank A" name="HA13_P" net="NC" number="E12"/>
+    <pin description="user defined signal on bank A" name="HA16_P" net="NC" number="E15"/>
+    <pin description="user defined signal on bank A" name="HA16_N" net="NC" number="E16"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB06_P_CC" net="NC" number="K28"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB06_N_CC" net="NC" number="K29"/>
+    <pin description="user defined signal on bank A" name="HA23_P" net="NC" number="K22"/>
+    <pin description="user defined signal on bank A" name="HA23_N" net="NC" number="K23"/>
+    <pin description="user defined signal on bank A" name="HA21_N" net="NC" number="K20"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB00_N_CC" net="NC" number="K26"/>
+    <pin description="user defined signal on bank B (clock capable)" name="HB00_P_CC" net="NC" number="K25"/>
+    <pin description="RESERVED" name="RES0" net="NC" number="B40"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA01_P_CC" net="FMC_VCXO_SEL" number="D8"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA01_N_CC" net="FMC_40M_EN" number="D9"/>
+    <pin description="gigabit transceiver clock" name="GBT_CLK0_M2C_P" net="GBT_CLK0_M2C.DP" number="D4"/>
+    <pin description="gigabit transceiver clock" name="GBT_CLK0_M2C_N" net="GBT_CLK0_M2C.DN" number="D5"/>
+    <pin description="power good host to mezzanine" name="PG_C2M" net="PG_C2M" number="D1"/>
+    <pin description="user defined signal on bank B" name="HB02_N" net="NC" number="F23"/>
+    <pin description="user defined signal on bank B" name="HB02_P" net="NC" number="F22"/>
+    <pin description="user defined signal on bank A" name="HA19_N" net="NC" number="F20"/>
+    <pin description="user defined signal on bank B" name="HB04_N" net="NC" number="F26"/>
+    <pin description="user defined signal on bank B" name="HB04_P" net="NC" number="F25"/>
+    <pin description="user defined signal on bank B" name="HB08_N" net="NC" number="F29"/>
+    <pin description="user defined signal on bank B" name="HB08_P" net="NC" number="F28"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA18_P_CC" net="TX1_ENABLE_B" number="C22"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA18_N_CC" net="RX1_ENABLE_B" number="C23"/>
+    <pin description="user defined signal on bank A" name="LA27_P" net="GPIOA3" number="C26"/>
+    <pin description="user defined signal on bank A" name="LA27_N" net="GPIOB3" number="C27"/>
+    <pin description="user defined signal on bank A" name="HA07_P" net="GPIOA17" number="J9"/>
+    <pin description="user defined signal on bank A" name="HA03_P" net="GPIOA13" number="J6"/>
+    <pin description="user defined signal on bank A" name="HA03_N" net="GPIOB13" number="J7"/>
+    <pin description="diff pair clock from host to mezzanine" name="CLK1_C2M_P" net="CLK3_BIDIR.DP" number="J2"/>
+    <pin description="diff pair clock from host to mezzanine" name="CLK1_C2M_N" net="CLK3_BIDIR.DN" number="J3"/>
+    <pin description="user defined signal on bank A" name="HA10_P" net="NC" number="K13"/>
+    <pin description="user defined signal on bank A" name="LA09_N" net="SYNCOUT1_A.D_N" number="D15"/>
+    <pin description="user defined signal on bank A" name="HA06_P" net="GPIOA16" number="K10"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA17_N_CC" net="NC" number="K17"/>
+    <pin description="user defined signal on bank A" name="LA05_P" net="FMC_SCL" number="D11"/>
+    <pin description="user defined signal on bank A" name="HA21_P" net="NC" number="K19"/>
+    <pin description="user defined signal on bank A" name="LA13_N" net="SYNCOUT0_B.D_N" number="D18"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP0_C2M_N" net="DP0_C2M.DN" number="C3"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP0_C2M_P" net="DP0_C2M.DP" number="C2"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP0_M2C_N" net="DP0_M2C.DN" number="C7"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP0_M2C_P" net="DP0_M2C.DP" number="C6"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP1_C2M_P" net="DP1_C2M.DP" number="A22"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP1_C2M_N" net="DP1_C2M.DN" number="A23"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP2_C2M_P" net="DP2_C2M.DP" number="A26"/>
+    <pin description="high speed diff pair host to mezzanine" name="DP2_C2M_N" net="DP2_C2M.DN" number="A27"/>
+    <pin description="user defined signal on bank A" name="LA14_N" net="SYNCIN0_B.D_N" number="C19"/>
+    <pin description="user defined signal on bank A" name="LA14_P" net="SYNCIN0_B.D_P" number="C18"/>
+    <pin description="user defined signal on bank A" name="LA06_N" net="FMC_SPI_MOSI" number="C11"/>
+    <pin description="user defined signal on bank A" name="LA06_P" net="FMC_SPI_CLK" number="C10"/>
+    <pin description="user defined signal on bank A" name="LA10_N" net="GP_INTERRUPT_A" number="C15"/>
+    <pin description="user defined signal on bank A" name="LA10_P" net="RESETB_A" number="C14"/>
+    <pin description="user defined signal on bank A" name="LA28_N" net="GPIOB4" number="H32"/>
+    <pin description="user defined signal on bank A" name="LA28_P" net="GPIOA4" number="H31"/>
+    <pin description="user defined signal on bank A" name="LA32_P" net="GPIOA8" number="H37"/>
+    <pin description="user defined signal on bank A" name="LA30_P" net="GPIOA6" number="H34"/>
+    <pin description="user defined signal on bank A" name="LA30_N" net="GPIOB6" number="H35"/>
+    <pin description="user defined signal on bank A" name="LA32_N" net="GPIOB8" number="H38"/>
+    <pin description="user defined signal on bank A" name="LA29_N" net="GPIOB5" number="G31"/>
+    <pin description="user defined signal on bank A" name="LA29_P" net="GPIOA5" number="G30"/>
+    <pin description="user defined signal on bank A" name="LA31_P" net="GPIOA7" number="G33"/>
+    <pin description="user defined signal on bank A" name="LA31_N" net="GPIOB7" number="G34"/>
+    <pin description="user defined signal on bank A" name="LA33_N" net="GPIOB9" number="G37"/>
+    <pin description="user defined signal on bank A" name="LA33_P" net="GPIOA9" number="G36"/>
+    <pin description="adjustable power supply from host to mezzanine" name="VADJ" net="VADJ" number="G39"/>
+    <pin description="user defined signal on bank A" name="LA09_P" net="SYNCOUT1_A.D_P" number="D14"/>
+    <pin description="user defined signal on bank A" name="HA06_N" net="GPIOB16" number="K11"/>
+    <pin description="user defined signal on bank A" name="LA13_P" net="SYNCOUT0_B.D_P" number="D17"/>
+    <pin description="user defined signal on bank A (clock capable)" name="HA17_P_CC" net="NC" number="K16"/>
+    <pin description="user defined signal on bank A" name="LA05_N" net="FMC_SPI_MISO" number="D12"/>
+    <pin description="user defined signal on bank A" name="HA10_N" net="NC" number="K14"/>
+    <pin description="user defined signal on bank B" name="HB12_P" net="NC" number="F31"/>
+    <pin description="user defined signal on bank B" name="HB12_N" net="NC" number="F32"/>
+    <pin description="user defined signal on bank B" name="HB16_P" net="NC" number="F34"/>
+    <pin description="user defined signal on bank B" name="HB16_N" net="NC" number="F35"/>
+    <pin description="user defined signal on bank B" name="HB20_P" net="NC" number="F37"/>
+    <pin description="user defined signal on bank B" name="HB20_N" net="NC" number="F38"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP9_M2C_P" net="NC" number="B4"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP9_M2C_N" net="NC" number="B5"/>
+    <pin description="RESERVED" name="RES1" net="NC" number="B1"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP8_M2C_P" net="NC" number="B8"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP8_M2C_N" net="NC" number="B9"/>
+    <pin description="user defined signal on bank A" name="LA02_N" net="SYNCOUT0_A.D_N" number="H8"/>
+    <pin description="module present signal (active low)" name="PRSNT_M2C_L" net="GND" number="H2"/>
+    <pin description="reference voltage for signal standard on Band A (LAxx and HAxx)" name="VREF_A_M2C" net="NC" number="H1"/>
+    <pin description="user defined signal on bank A" name="LA02_P" net="SYNCOUT0_A.D_P" number="H7"/>
+    <pin description="diff pair clock from mezzanine to host" name="CLK0_M2C_P" net="CLK0_M2C.DP" number="H4"/>
+    <pin description="diff pair clock from mezzanine to host" name="CLK0_M2C_N" net="CLK0_M2C.DN" number="H5"/>
+    <pin description="user defined signal on bank B" name="HB21_N" net="NC" number="E37"/>
+    <pin description="user defined signal on bank B" name="HB21_P" net="NC" number="E36"/>
+    <pin description="user defined signal on bank B" name="HB19_N" net="NC" number="E34"/>
+    <pin description="user defined signal on bank B" name="HB19_P" net="NC" number="E33"/>
+    <pin description="user defined signal on bank B" name="HB13_N" net="NC" number="E31"/>
+    <pin description="user defined signal on bank B" name="HB13_P" net="NC" number="E30"/>
+    <pin description="adjustable power supply from host to mezzanine" name="VADJ" net="VADJ" number="E39"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP6_M2C_P" net="DP6_M2C.DP" number="B16"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP6_M2C_N" net="DP6_M2C.DN" number="B17"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP7_M2C_P" net="DP7_M2C.DP" number="B12"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP7_M2C_N" net="DP7_M2C.DN" number="B13"/>
+    <pin description="user defined signal on bank A" name="HA18_P" net="NC" number="J18"/>
+    <pin description="user defined signal on bank A" name="HA18_N" net="NC" number="J19"/>
+    <pin description="user defined signal on bank A" name="HA14_N" net="NC" number="J16"/>
+    <pin description="user defined signal on bank A" name="HA14_P" net="NC" number="J15"/>
+    <pin description="user defined signal on bank A" name="HA11_P" net="NC" number="J12"/>
+    <pin description="user defined signal on bank A" name="HA11_N" net="NC" number="J13"/>
+    <pin description="user defined signal on bank A" name="HA07_N" net="GPIOB17" number="J10"/>
+    <pin description="JTAG clock" name="TCK" net="NC" number="D29"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA17_N_CC" net="GP_INTERRUPT_B" number="D21"/>
+    <pin description="user defined signal on bank A (clock capable)" name="LA17_P_CC" net="RESETB_B" number="D20"/>
+    <pin description="user defined signal on bank A" name="LA23_P" net="LED_BLU" number="D23"/>
+    <pin description="user defined signal on bank A" name="LA23_N" net="NC" number="D24"/>
+    <pin description="user defined signal on bank A" name="LA26_N" net="GPIOB2" number="D27"/>
+    <pin description="user defined signal on bank A" name="LA26_P" net="GPIOA2" number="D26"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP4_M2C_N" net="DP4_M2C.DN" number="A15"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP4_M2C_P" net="DP4_M2C.DP" number="A14"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP3_M2C_N" net="DP3_M2C.DN" number="A11"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP3_M2C_P" net="DP3_M2C.DP" number="A10"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP5_M2C_N" net="DP5_M2C.DN" number="A19"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP5_M2C_P" net="DP5_M2C.DP" number="A18"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP1_M2C_N" net="DP1_M2C.DN" number="A3"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP1_M2C_P" net="DP1_M2C.DP" number="A2"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP2_M2C_N" net="DP2_M2C.DN" number="A7"/>
+    <pin description="high speed diff pair mezzanine to host" name="DP2_M2C_P" net="DP2_M2C.DP" number="A6"/>
+    <pin description="adjustable power supply from host to mezzanine" name="VADJ" net="VADJ" number="H40"/>
+</pinout>
