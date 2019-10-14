@@ -7,13 +7,34 @@ netlist_utils.py
         Utilities for reading and manipulating Kicad netlist files
 
     :Usage:
+
+        >>> from kipy.netlist_utils import *
+        >>> nl1 = PadsNetlist("MDV-777-RevD.NET")   # creates a netlist from PADS netlist file
+        >>> nl2 = KicadNetlist("venom_upgrade.net") # creats a netlist from a Kicad netlist file
+        >>> diff_nets(nl1, nl2, fo="diff_nets.txt", ignore_pins=True)
+
+    :Usage to diff 2 Pads netlist files:
         >>> from kipy import netlist_utils
         >>> netlist_utils.diff_netlist_file("old_netlist.NET", "new_netlist.NET", diff_file="diff.txt")
+
 
 """
 import re
 import sexpdata
 import operator
+
+IGNORE_PINS = [
+                '1',
+                '2',
+                'A',
+                'C',
+                'B',
+                'C',
+                'D',
+                'E',
+                'S',
+                'G',
+                ]
 
 class bcolors:
     HEADER = '\033[95m'
@@ -184,7 +205,17 @@ class Netlist(object):
                     d[pin] = net
         return d
 
+    def get_net_from_node(self, node_name):
+        """
+        """
+        nlst = self.list_of_nets.get_dict()
+        for net in nlst.keys():
+            if node_name in nlst[net]:
+                return net 
+        return None
 
+    def get_nodes_from_net(self, net_name):
+        return self.list_of_nets.get_dict()[net_name]
 
 class ListOfNetsObj(object):
     """
@@ -357,7 +388,6 @@ class KicadNetlist(Netlist):
         super(KicadNetlist, self).__init__(in_file)
         self.type = "kicad"
         self.load_netlist(in_file)
-
     
     def load_netlist(self, in_file):
         """
@@ -422,7 +452,12 @@ class KicadListOfComponents(ListOfComponentsObj):
         if sexp_lst[0].value() != 'components':
             raise ValueError("expected 'components' in first item in list. received {}".format(sexp_lst[0].value()))
         for comp in sexp_lst[1:]:
-            self.components.append(KicadComponent(comp))
+            for c in comp:
+                print(c)
+            try:
+                self.components.append(KicadComponent(comp))
+            except:
+                pass # no components
     
 
 class KicadComponent(Component):
@@ -765,21 +800,37 @@ def load_pads_complist(fi):
                     })
     return comp_dict
 
+# def load_pads_netlist(fi):
+#     """ 
+#     """
+#     fo = open(fi, "r")
+#     dat = fo.read()
+#     fo.close()
+#     net_str = dat.replace("\n", " ").replace("\r", " ").split("*SIGNAL*")
+#     # print(net_str)
+#     nets = []
+#     
+#     for item in net_str[1:]:
+#         # print(item)
+#         name, nodes = parse_net(item)
+#         nets.append({'name': name, 'nodes': nodes}) 
+#     return nets 
+
 def load_pads_netlist(fi):
     """ 
     """
     fo = open(fi, "r")
-    dat = fo.read()
+    s = fo.read()
     fo.close()
-    net_str = dat.replace("\n", " ").replace("\r", " ").split("*SIGNAL*")
+    net_str = s.split("*NET*")[-1].split("*END*")[0].strip()
+    # net_str = s.replace("\n", " ").replace("\r", " ").split("*SIGNAL*")
+    net_str = net_str.replace("\n", " ").replace("\r", " ").split("*SIGNAL*")
     nets = []
-    
     for item in net_str[1:]:
-        # print(item)
+        print(item)
         name, nodes = parse_net(item)
         nets.append({'name': name, 'nodes': nodes}) 
     return nets 
-
 
 def parse_net(net_str):
     """
@@ -927,57 +978,22 @@ def match_nets(nl1, nl2):
     return d
 
 
-def find_correlated_nets(in_net, in_netlist, thresh=0.0):
+def find_correlated_nets(in_net, in_netlist, thresh=0.0, ignore_pins=False):
+    """
+    :Args:
+        :in_net (list): net, or list of nodes to look for correlation
+        :in_netlist (Netlist): 
+    :Returns:
+        list of dict of netnames as keys and values between 0 and 1 for the 
+        level of correlation
+    """
     ret = []
     for k in in_netlist.keys():
-        val = correlate_lists(in_net, in_netlist[k])
+        val = correlate_lists(in_net, in_netlist[k], ignore_pin_nums=ignore_pins)
         if val > thresh:
             ret.append({k: val})
     return ret
 
-def get_net_map(nl1, nl2):
-    """
-    """
-    d, nmap, unmap, new_nets, new_to_old, old_to_new = correlate_nets(nl1, nl2)
-    # new_to_old, old_to_new = correlate_nets(nl1, nl2)
-
-    ret = {
-           'old_deleted':[],
-           'old_mapped':[],
-           'old_unmapped': [],
-           'new_mapped':[],
-           'new_added':[],
-           'new_unmapped': [],
-           }
-
-    for k in new_to_old.keys():
-        if new_to_old[k] == None:
-            ret['new_added'].append(k)
-        else:
-            ret['new_mapped'].append(k)
-
-    for k in old_to_new.keys():
-        if old_to_new[k] == None:
-            ret['old_deleted'].append(k)
-        else:
-            ret['old_mapped'].append(k)
-    
-    for k in nl1.list_of_nets.get_dict().keys():
-        if (k not in ret['old_mapped']) and (k not in ret['old_deleted']):
-            ret['old_unmapped'].append(k) 
-    
-    for k in nl2.list_of_nets.get_dict().keys():
-        if (k not in ret['new_mapped']) and (k not in ret['new_added']):
-            ret['new_unmapped'].append(k) 
-       
-    return ret
-
-
-def max_dict_key(in_dict):
-    """
-    return key of the maximum value in the dict
-    """
-    return max(in_dict.iteritems(), key=operator.itemgetter(1))[0]
 
 def find_occurences_in_list_of_dicts(list_dict, in_val):
     """
@@ -990,10 +1006,28 @@ def find_occurences_in_list_of_dicts(list_dict, in_val):
                 n += 1
     return n
 
+def correlate_lists(lst1, lst2, ignore_pin_nums=False):
+    """
+    """
+    if ignore_pin_nums:
+        for k in range(len(lst1)):
+            lst1[k] = lst1[k].split(".")[0]
+            # try:
+            #     pin_num =  lst1[k].split(".")[1]
+            # except:
+            #     pin_num = ''
+            # if pin_num in IGNORE_PINS:
+            #     lst1[k] = lst1[k].split(".")[0]
 
-def correlate_lists(lst1, lst2):
-    """
-    """
+        for k in range(len(lst2)):
+            lst2[k] = lst2[k].split(".")[0]
+            # try:
+            #     pin_num =  lst2[k].split(".")[1]
+            # except:
+            #     pin_num = ''
+            # if pin_num in IGNORE_PINS:
+            #     lst2[k] = lst2[k].split(".")[0]
+
     num_in_common = len(set(lst1) & set(lst2))
     num_not_in_common = len(set(lst2) - set(lst1)) + len(set(lst1) - set(lst2))
 
@@ -1026,6 +1060,7 @@ def correlate_nets(nl1, nl2, fo="corr_nets.txt"):
     new_nets = []
     n_map = [] 
     un_mapped = []
+    old_names = [] 
     new_to_old = {}
     old_to_new = {}
     d = {}
@@ -1065,14 +1100,23 @@ def correlate_nets(nl1, nl2, fo="corr_nets.txt"):
             
             # print(d[k2]) 
             ret_dict['changed'].append(k2)
+            # print(k2)
             max_val = max(d[k2])    # find max value in the list of dicts
-            if find_occurences_in_list_of_dicts(d[k2], max_val) > 1:
+            # max_key = max(d.items(), key=operator.itemgetter(1))[0]
+            # max_key = max(d, key=d.get)
+            old_key = max_key
+            old_names.append(old_key)
+            if find_occurences_in_list_of_dicts(d[k2], max_key) > 1:
                 un_mapped.append(d[k2])
             else: 
-                n_map.append((k2, d[k2][0].keys()[0]))
-                new_to_old[k2] = d[k2][0].keys()[0]
-                old_to_new[d[k2][0].keys()[0]] = k2
-                if k2 != d[k2][0].keys()[0]:
+                # n_map.append((k2, d[k2][0].keys()[0]))
+                n_map.append((k2, max_key))
+                # new_to_old[k2] = d[k2][0].keys()[0]
+                new_to_old[k2] = max_key
+                # old_to_new[d[k2][0].keys()[0]] = k2
+                old_to_new[max_key] = k2
+                # if k2 != d[k2][0].keys()[0]:
+                if k2 != max_key:
                     ret_dict['name_changed'].append(k2)
    
     for k in n1.keys():
@@ -1155,7 +1199,7 @@ def find_net_from_node(node, in_dict, in_keys):
         if node in in_dict[k]:
             return k
         
-def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
+def diff_netlist_files(file1, file2, diff_file="diff_net.txt", ignore_pins=False):
     """
     Evaluate the netlists from both files and print the differences. Also,
     write to a diff_file if provided.
@@ -1186,8 +1230,9 @@ def diff_netlist_files(file1, file2, diff_file="diff_net.txt"):
 
     n1 = nlst1.list_of_nets.get_dict() 
     n2 = nlst2.list_of_nets.get_dict() 
-    nets_changed, nodes_changed = compare_nodes(nlst1, nlst2)
-    output_nets_diff(nlst1, nlst2, fo=fo, col_width=col_width)
+    # nets_changed, nodes_changed = compare_nodes(nlst1, nlst2)
+    # output_nets_diff(nlst1, nlst2, fo=fo, col_width=col_width)
+    write_nets_diff(nlst1, nlst2, fo=fo, col_width=col_width, ignore_pins=ignore_pins)
 
     if diff_file != None:
         fo.close()
@@ -1298,7 +1343,326 @@ def output_nets_diff(nl1, nl2, fo=None, col_width=50):
     if fo != None:
         fo.write(line)
 
+def get_correlated_nets(list_of_nodes, nlst, keys_to_use=None, ignore_pins=False):
+    """
+    :Args:
+        :in_net (list): net, or list of nodes to look for correlation
+        :in_netlist (Netlist): 
+    :Returns:
+        list of dict of netnames as keys and values between 0 and 1 for the 
+        level of correlation
+    """
+    ret = []
+    nets = nlst.list_of_nets.get_dict()
+    if keys_to_use == None:
+        compare_keys = nets.keys()
+    else:
+        compare_keys = keys_to_use
+    for net in compare_keys:
+        val = calc_node_correlation(list_of_nodes, nets[net], ignore_pins=ignore_pins)
+        if val > 0.0:
+            ret.append({net: val})
+    return ret
+
+def get_most_correlated_net(nets_corr):
+    """
+    :Args:
+        :nets_corr (list of dicts): each dict in the list is a single key value pair
+                                    where the key is the net name and the value is
+                                    the correlation value
+    :Returns:
+        dict where the key is the net name and the value 
+        is the correlation value
+    """
+    lst = []
+    for i in range(len(nets_corr)):
+        lst.append(list(nets_corr[i].values())[0])
+    max_idx = lst.index(max(lst))
+    d = {}
+    d['name'] = list(nets_corr[max_idx].keys())[0] 
+    d['correlation'] = nets_corr[max_idx][d['name']]
+    return d
+
+def calc_node_correlation(node1, node2, ignore_pins=False):
+    """
+    :Args:
+        :node1 (list of pins):
+        "node2 (list of pins):
+    """
+    new_node1 = node1.copy()
+    new_node2 = node2.copy()
+    if ignore_pins:
+        for k in range(len(new_node1)):
+            new_node1[k] = new_node1[k].split(".")[0]
+        for k in range(len(new_node2)):
+            new_node2[k] = new_node2[k].split(".")[0]
+    num_in_common = len(set(new_node1) & set(new_node2))
+    num_not_in_common = len(set(new_node2) - set(new_node1)) + len(set(new_node1) - set(new_node2))
+    val = float(num_in_common)/(num_in_common + num_not_in_common)
+    return val
+
+def map_nets(nl1, nl2, ignore_pins=True):
+    """
+    """
+    n1 = nl1.list_of_nets.get_dict()
+    n2 = nl2.list_of_nets.get_dict()
+    
+    # make a separate list containing all the net names
+    # in each netlist
+    n1_keys = list(n1.keys())
+    n2_keys = list(n2.keys())
+    d = {} 
+    ret = []
+    
+    while len(n2_keys) > 0:
+        B_NAME = n2_keys.pop(0)    # need to remove from n2_keys so there are no duplicates
+        # print("B_NAME: {}".format(B_NAME)) 
+        # gets a list of dicts of net names and the correlation value (0-1)
+        # between the new net name (k2) and the old netlist n1 
+        corr_nets = get_correlated_nets(n2[B_NAME], nl1, keys_to_use=n1_keys, ignore_pins=ignore_pins)
+        if corr_nets == []:
+            # no correlations. add this net name (k2) to the new_nets list
+            ret.append(
+                        {
+                         'TYPE':                'NEW',
+                         'A_NAME':              '',
+                         'A_NODES':             [],
+                         'B_NAME':              B_NAME,
+                         'B_NODES':             n2[B_NAME], 
+                         'CORRELATION':         0,
+                         'DELETED_FROM_A':      [],
+                         'ADDED_TO_B':          n2[B_NAME],
+                         }
+                       )
+        else:
+            best_net = get_most_correlated_net(corr_nets)
+            if best_net['correlation'] == 1.0:
+                net_type = 'SAME'
+            else:
+                net_type = 'CHANGED'
+            A_NAME = n1_keys.pop(n1_keys.index(best_net['name']))  
+            A_NODES = n1[A_NAME]
+            B_NODES = n2[B_NAME]
+            A_DELETED = list(set(A_NODES) - set(B_NODES))
+            B_ADDED = list(set(B_NODES) - set(A_NODES))
+            ret.append(
+                        {
+                         'TYPE':                net_type,
+                         'A_NAME':              A_NAME,
+                         'A_NODES':             A_NODES,
+                         'B_NAME':              B_NAME,
+                         'B_NODES':             n2[B_NAME], 
+                         'CORRELATION':         best_net['correlation'],
+                         'DELETED_FROM_A':      A_DELETED,
+                         'ADDED_TO_B':          B_ADDED,
+                         }
+                       )
+    
+    # remaining keys in n1_keys are deleted nets
+    for k1 in n1_keys:
+        ret.append(
+                    {
+                     'TYPE':                'DELETED',
+                     'A_NAME':              k1,
+                     'A_NODES':             n1[k1],
+                     'B_NAME':              '',
+                     'B_NODES':             [],
+                     'CORRELATION':         0,
+                     'DELETED_FROM_A':      n1[k1],
+                     'ADDED_TO_B':          [],
+                     }
+                   )
+
+    return ret
+
+def correlate_nets_based_on_nodes(nl1, nl2, ignore_pins=False):
+    """
+    Return a dict of matched nets
+    :Args:
+        :nl1 (Netlist): old netlist
+        :nl2 (Netlist): new netlist
+    :Returns:
+        list of dicts with the following keys:
+            :old_name: str net name in nl1
+            :new_name: str 1377                         
+            :old_nodes: list of str nodes on the old net
+            :net_nodes: list of str nodes on the new net
+            :type: str
+    """
+    n1 = nl1.list_of_nets.get_dict()
+    n2 = nl2.list_of_nets.get_dict()
+    
+    # make a separate list containing all the net names
+    # in each netlist
+    n1_keys = list(n1.keys())
+    n2_keys = list(n2.keys())
+    d = {} 
+    ret = []
+    for k in range(len(n2_keys)):
+        # print("k: {}".format(k))
+        B_NAME = n2_keys.pop(k)    # need to remove from n2_keys so there are no duplicates
+        # print("B_NAME: {}".format(B_NAME)) 
+        # gets a list of dicts of net names and the correlation value (0-1)
+        # between the new net name (k2) and the old netlist n1 
+        corr_nets = get_correlated_nets(n2[B_NAME], nl1, ignore_pins=ignore_pins)
+        if corr_nets == []:
+            # no correlations. add this net name (k2) to the new_nets list
+            ret.append(
+                        {
+                         'A_NAME':              '',
+                         'A_NODES':             [],
+                         'B_NAME':              B_NAME,
+                         'B_NODES':             n2[B_NAME], 
+                         'CORRELATION':         0,
+                         'DELETED_FROM_A':      [],
+                         'ADDED_TO_B':          n2[B_NAME],
+                         }
+                       )
+        else:
+            best_net = get_most_correlated_net(corr_nets)
+
+            A_NAME = n1_keys.pop(n1_keys.index(best_net['name']))  
+            A_NODES = n1[A_NAME]
+            B_NODES = n2[B_NAME]
+            A_DELETED = list(set(A_NODES) - set(B_NODES))
+            B_ADDED = list(set(B_NODES) - set(A_NODES))
+            ret.append(
+                        {
+                         'A_NAME':              A_NAME,
+                         'A_NODES':             A_NODES,
+                         'B_NAME':              B_NAME,
+                         'B_NODES':             n2[B_NAME], 
+                         'CORRELATION':         best_net['correlation'],
+                         'DELETED_FROM_A':      A_DELETED,
+                         'ADDED_TO_B':          B_ADDED,
+                         }
+                       )
+
+    # remaining keys in n1_keys are deleted nets
+    for k1 in n1_keys:
+        ret.append(
+                    {
+                     'A_NAME':              k1,
+                     'A_NODES':             n1[k1],
+                     'B_NAME':              '',
+                     'B_NODES':             [],
+                     'CORRELATION':         0,
+                     'DELETED_FROM_A':      n1[k1],
+                     'ADDED_TO_B':          [],
+                     }
+                   )
+
+    return ret
+
+def diff_nets(nl1, nl2, fo=None, col_width=50, ignore_pins=False):
+    """
+    """
+
+    ret = map_nets(nl1, nl2, ignore_pins=ignore_pins)
+
+    nets1 = nl1.list_of_nets.get_dict()
+    nets2 = nl2.list_of_nets.get_dict()
+
+    same = []
+    deleted = []
+    added = []
+    changed = []
+    for r in ret:
+        if r['TYPE'] == 'DELETED':
+            deleted.append(r)
+        elif r['TYPE'] == 'SAME':
+            same.append(r)
+        elif r['TYPE'] == 'CHANGED':
+            changed.append(r)
+        elif r['TYPE'] == 'NEW':
+            added.append(r)
+        else:
+            raise Exception("no type for net {}".format(r))
+
+    line = ""
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("NETLIST CHANGES", "NETLIST CHANGES", w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+
+    master_nets = sort_alpha_num(list(set(nets1.keys()) | set(nets2.keys())))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+    line += ("{:<{w}}|{:<{w}}\n".format("OLD", "NEW", w=col_width))
+    line += ("{:-<{w}}|{:-<{w}}\n".format("", "", w=col_width)) 
+ 
+    for item in changed:
+        line += ("{:<{w}}|{:<{w}}\n".format("*" + item['A_NAME'] + "* --> CHANGED" ,"*" + item['B_NAME'] + "* --> CHANGED",  w=col_width))
+        old_nodes = item['A_NODES']
+        new_nodes = item['B_NODES']
+        all_nodes = list(set(old_nodes).union(new_nodes))
+        nodes_deleted = list(set(old_nodes) - set(new_nodes))
+        nodes_added = list(set(new_nodes) - set(old_nodes))
+        for node in all_nodes:
+            if node in nodes_deleted:
+                node = node + "(-)"
+                line += ("{:<{w}}|{:<{w}}\n".format("    " + node , "",  w=col_width))
+            elif node in nodes_added:
+                node = node + "(+)"
+                line += ("{:<{w}}|{:<{w}}\n".format("", "    " + node ,  w=col_width))
+            else:
+                line += ("{:<{w}}|{:<{w}}\n".format("    " + node, "    " + node ,  w=col_width))
+
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("NETLIST DELETIONS", "", w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    for item in deleted:
+        line += ("{:<{w}}|{:<{w}}\n".format("*" + item['A_NAME'] + "* --> DELETED", "",  w=col_width))
+        old_nodes = item['A_NAME']
+        for node in old_nodes:
+            node = node + "(-)"
+            line += ("{:<{w}}|{:<{w}}\n".format("    " + node, "",  w=col_width))
+
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("", "NETLIST ADDITIONS", w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    for item in added:
+        line += ("{:<{w}}|{:<{w}}\n".format("", "*" + item['B_NAME'] + "* --> NEW NET", w=col_width))
+        new_nodes = item['B_NODES']
+        for node in new_nodes:
+            node = node + "(+)"
+            line += ("{:<{w}}|{:<{w}}\n".format("" , "    " + node,  w=col_width))
+
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    line += ("{:<{w}}|{:<{w}}\n".format("SAME NETS", "SAME NETS", w=col_width))
+    line += ("{:=<{w}}|{:=<{w}}\n".format("", "", w=col_width))
+    
+    for item in same:
+        line += ("{:<{w}}|{:<{w}}\n".format("*" + item['A_NAME'] + "* --> CHANGED" ,"*" + item['B_NAME'] + "* --> CHANGED",  w=col_width))
+        old_nodes = item['A_NODES']
+        new_nodes = item['B_NODES']
+        all_nodes = list(set(old_nodes).union(new_nodes))
+        nodes_deleted = list(set(old_nodes) - set(new_nodes))
+        nodes_added = list(set(new_nodes) - set(old_nodes))
+        for node in all_nodes:
+            if node in nodes_deleted:
+                node = node + "(-)"
+                line += ("{:<{w}}|{:<{w}}\n".format("    " + node , "",  w=col_width))
+            elif node in nodes_added:
+                node = node + "(+)"
+                line += ("{:<{w}}|{:<{w}}\n".format("", "    " + node ,  w=col_width))
+            else:
+                line += ("{:<{w}}|{:<{w}}\n".format("    " + node, "    " + node ,  w=col_width))
+
+    print(line),
+    if fo != None:
+        fo = open(fo, "w")
+        fo.write(line)
+    return added
+
+def quick_get_netlists(f1, f2):
+    """
+    """
+    nl1 = PadsNetlist("MDV-777-RevD.NET")
+    nl2 = KicadNetlist("venom_upgrade.net")
+    return nl1, nl2
 
 
 
+if __name__ == '__main__':
+
+    pass
 
