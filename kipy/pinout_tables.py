@@ -6,12 +6,32 @@ pinout_tables.py
     :Description:
         Utilities for reading pdfs and netlists to create pinout tables
 
-    :Usage:
+    :Usage Instructions:
+
+    :To generate a connector pinout:
+    
+        >>> from kipy import pinout_tables
+        >>> p = pinout_tables.get_pinout_from_netlist("J2", "kipy/netlist_files/ES031201_Hercules.NET", "kipy/netlist_files/fmc.xml", output_file="data/out.txt")
+
+    :To map two netlists through their interfacing connector:
+
+        In this case:
+            Netlist 1 (left) is ES031201_Hercules.NET. The interfacing connector ref des is J2.
+            Netlist 2 (right) is ES024201-B.NET. The interfacing connector ref des is P1.
+            Netlist 1, J2 connects to Netlist 2, P1
+
+        >>> from kipy import pinout_tables
+        >>> l = pinout_tables.get_pinout_from_netlist("J2", "kipy/netlist_files/ES031201_Hercules.NET", "kipy/netlist_files/fmc.xml", output_file="data/out.txt")
+        >>> r = pinout_tables.get_pinout_from_netlist("P1", "kipy/netlist_files/ES024201-X18.NET", "kipy/netlist_files/fmc.xml", output_file="data/skiq-fmc-pinout.txt") 
+        >>> d = pinout_tables.map_pinouts(l, r, l_name="HERC", r_name="SKIQ-X4") 
+        >>> pinout_tables.write_pinmap_to_xml(d, out_xml="data/HERC-SKIQ-X4.xml")
+
 
 """
 
 
-from tabula import read_pdf
+# from tabula import read_pdf
+from tabula import wrapper
 import xml.etree.ElementTree 
 from  xml.etree.ElementTree import Element, SubElement, Comment, tostring
 from dicttoxml import dicttoxml
@@ -22,6 +42,15 @@ import csv
 
 from . import netlist_utils
 
+
+def map_netlists_xml(left_netlist, left_connector, right_netlist, right_connector, out_file):
+    """
+    Map two netlists through their interfacing connectors and write
+    the pin map to a file in xml format
+    """
+    l = get_pinout_from_netlist(left_connector, left_netlist)
+
+
 def read_pdf_tables(in_file):
     """
     :Args:
@@ -30,13 +59,13 @@ def read_pdf_tables(in_file):
         pandas.dataframe
     """
     # dj = read_pdf(in_file, pages="all", output_format="json")
-    df = read_pdf(in_file, pages="all")
+    df = wrapper.read_pdf(in_file, pages="all")
     return df
 
 def write_pdf_table_to_txt(in_file, out_file):
     """
     """
-    df = read_pdf(in_file, pages="all")
+    df = wrapper.read_pdf(in_file, pages="all")
     fo = open(out_file, "w")
     fo.write(df.to_csv())
     fo.close()
@@ -376,7 +405,7 @@ def map_xml_by_pin_numbers(l_xml, r_xml, l_name='SKIQ-X4', r_name='HTG', out_xml
         write_pinmap_to_xml(d, out_xml=out_xml)
     return d
 
-def map_pinouts(left, right, l_name='left_', r_name='right_', map_key='number'):
+def map_pinouts(left, right, l_name='left', r_name='right', map_key='number'):
     """
     """
     l_keys_found = False

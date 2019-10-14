@@ -793,6 +793,7 @@ def parse_net(net_str):
             break
         else:
             node = s.split(".")
+            print("node: {}".format(node))
             nodes.append({'ref': node[0], 'pin': node[1]})
     return name, nodes
      

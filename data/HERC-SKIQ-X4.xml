@@ -1,0 +1,3452 @@
+<?xml version="1.0" ?>
+<pin_map>
+    <pin>
+        <HERC_net>DP1_M2C_P</HERC_net>
+        <HERC_name>DP1_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC264_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A2</number>
+    </pin>
+    <pin>
+        <HERC_net>DP1_M2C_N</HERC_net>
+        <HERC_name>DP1_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC262_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A3</number>
+    </pin>
+    <pin>
+        <HERC_net>DP2_M2C_P</HERC_net>
+        <HERC_name>DP2_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC260_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP2_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A6</number>
+    </pin>
+    <pin>
+        <HERC_net>DP2_M2C_N</HERC_net>
+        <HERC_name>DP2_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC221_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP2_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A7</number>
+    </pin>
+    <pin>
+        <HERC_net>DP3_M2C_P</HERC_net>
+        <HERC_name>DP3_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC218_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP3_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A10</number>
+    </pin>
+    <pin>
+        <HERC_net>DP2_M2C_N</HERC_net>
+        <HERC_name>DP3_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC202_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP3_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A11</number>
+    </pin>
+    <pin>
+        <HERC_net>DP4_M2C_P</HERC_net>
+        <HERC_name>DP4_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC159_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP4_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A14</number>
+    </pin>
+    <pin>
+        <HERC_net>DP4_M2C_N</HERC_net>
+        <HERC_name>DP4_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC106_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP4_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A15</number>
+    </pin>
+    <pin>
+        <HERC_net>DP5_M2C_P</HERC_net>
+        <HERC_name>DP5_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC101_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP5_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A18</number>
+    </pin>
+    <pin>
+        <HERC_net>DP5_M2C_N</HERC_net>
+        <HERC_name>DP5_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC99_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP5_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>A19</number>
+    </pin>
+    <pin>
+        <HERC_net>DP1_C2M_P</HERC_net>
+        <HERC_name>DP1_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC263_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP1_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A22</number>
+    </pin>
+    <pin>
+        <HERC_net>DP1_C2M_N</HERC_net>
+        <HERC_name>DP1_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC261_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP1_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A23</number>
+    </pin>
+    <pin>
+        <HERC_net>DP2_C2M_P</HERC_net>
+        <HERC_name>DP2_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC222_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP2_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A26</number>
+    </pin>
+    <pin>
+        <HERC_net>DP2_C2M_N</HERC_net>
+        <HERC_name>DP2_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC220_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP2_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A27</number>
+    </pin>
+    <pin>
+        <HERC_net>DP3_C2M_P</HERC_net>
+        <HERC_name>DP3_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC203_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP3_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A30</number>
+    </pin>
+    <pin>
+        <HERC_net>DP3_C2M_N</HERC_net>
+        <HERC_name>DP3_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC201_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP3_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A31</number>
+    </pin>
+    <pin>
+        <HERC_net>DP4_C2M_P</HERC_net>
+        <HERC_name>DP4_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC158_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP4_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A34</number>
+    </pin>
+    <pin>
+        <HERC_net>DP4_C2M_N</HERC_net>
+        <HERC_name>DP4_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC105_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP4_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A35</number>
+    </pin>
+    <pin>
+        <HERC_net>DP5_C2M_P</HERC_net>
+        <HERC_name>DP5_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC100_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP5_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A38</number>
+    </pin>
+    <pin>
+        <HERC_net>DP5_C2M_N</HERC_net>
+        <HERC_name>DP5_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC98_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP5_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>A39</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK_DIR</HERC_net>
+        <HERC_name>RES1</HERC_name>
+        <HERC_description>RESERVED</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>RES1</SKIQ-X4_name>
+        <SKIQ-X4_description>RESERVED</SKIQ-X4_description>
+        <number>B1</number>
+    </pin>
+    <pin>
+        <HERC_net>DP9_M2C_P</HERC_net>
+        <HERC_name>DP9_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP9_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B4</number>
+    </pin>
+    <pin>
+        <HERC_net>DP9_M2C_N</HERC_net>
+        <HERC_name>DP9_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP9_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B5</number>
+    </pin>
+    <pin>
+        <HERC_net>DP8_M2C_P</HERC_net>
+        <HERC_name>DP8_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP8_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B8</number>
+    </pin>
+    <pin>
+        <HERC_net>DP8_M2C_N</HERC_net>
+        <HERC_name>DP8_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP8_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B9</number>
+    </pin>
+    <pin>
+        <HERC_net>DP7_M2C_P</HERC_net>
+        <HERC_name>DP7_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC93_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP7_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B12</number>
+    </pin>
+    <pin>
+        <HERC_net>DP7_M2C_N</HERC_net>
+        <HERC_name>DP7_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC91_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP7_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B13</number>
+    </pin>
+    <pin>
+        <HERC_net>DP6_M2C_P</HERC_net>
+        <HERC_name>DP6_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC97_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP6_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B16</number>
+    </pin>
+    <pin>
+        <HERC_net>DP6_M2C_N</HERC_net>
+        <HERC_name>DP6_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC95_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP6_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>B17</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK1_M2C_P</HERC_net>
+        <HERC_name>GBT_CLK1_M2C_P</HERC_name>
+        <HERC_description>gigabit transceiver clock</HERC_description>
+        <SKIQ-X4_net>NetC62_1</SKIQ-X4_net>
+        <SKIQ-X4_name>GBT_CLK1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+        <number>B20</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK1_M2C_N</HERC_net>
+        <HERC_name>GBT_CLK1_M2C_N</HERC_name>
+        <HERC_description>gigabit transceiver clock</HERC_description>
+        <SKIQ-X4_net>NetC56_1</SKIQ-X4_net>
+        <SKIQ-X4_name>GBT_CLK1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+        <number>B21</number>
+    </pin>
+    <pin>
+        <HERC_net>DP9_C2M_P</HERC_net>
+        <HERC_name>DP9_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP9_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B24</number>
+    </pin>
+    <pin>
+        <HERC_net>DP9_C2M_N</HERC_net>
+        <HERC_name>DP9_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP9_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B25</number>
+    </pin>
+    <pin>
+        <HERC_net>DP8_C2M_P</HERC_net>
+        <HERC_name>DP8_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP8_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B28</number>
+    </pin>
+    <pin>
+        <HERC_net>DP8_C2M_N</HERC_net>
+        <HERC_name>DP8_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>DP8_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B29</number>
+    </pin>
+    <pin>
+        <HERC_net>DP7_C2M_P</HERC_net>
+        <HERC_name>DP7_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC92_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP7_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B32</number>
+    </pin>
+    <pin>
+        <HERC_net>DP7_C2M_N</HERC_net>
+        <HERC_name>DP7_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC90_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP7_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B33</number>
+    </pin>
+    <pin>
+        <HERC_net>DP6_C2M_P</HERC_net>
+        <HERC_name>DP6_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC96_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP6_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B36</number>
+    </pin>
+    <pin>
+        <HERC_net>DP6_C2M_N</HERC_net>
+        <HERC_name>DP6_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC94_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP6_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>B37</number>
+    </pin>
+    <pin>
+        <HERC_net>RES0</HERC_net>
+        <HERC_name>RES0</HERC_name>
+        <HERC_description>RESERVED</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>RES0</SKIQ-X4_name>
+        <SKIQ-X4_description>RESERVED</SKIQ-X4_description>
+        <number>B40</number>
+    </pin>
+    <pin>
+        <HERC_net>DP0_C2M_P</HERC_net>
+        <HERC_name>DP0_C2M_P</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC267_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP0_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>C2</number>
+    </pin>
+    <pin>
+        <HERC_net>DP0_C2M_N</HERC_net>
+        <HERC_name>DP0_C2M_N</HERC_name>
+        <HERC_description>high speed diff pair host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC265_2</SKIQ-X4_net>
+        <SKIQ-X4_name>DP0_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair host to mezzanine</SKIQ-X4_description>
+        <number>C3</number>
+    </pin>
+    <pin>
+        <HERC_net>DP0_M2C_P</HERC_net>
+        <HERC_name>DP0_M2C_P</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC268_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>C6</number>
+    </pin>
+    <pin>
+        <HERC_net>DP0_M2C_N</HERC_net>
+        <HERC_name>DP0_M2C_N</HERC_name>
+        <HERC_description>high speed diff pair mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetC266_1</SKIQ-X4_net>
+        <SKIQ-X4_name>DP0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>high speed diff pair mezzanine to host</SKIQ-X4_description>
+        <number>C7</number>
+    </pin>
+    <pin>
+        <HERC_net>LA06_P</HERC_net>
+        <HERC_name>LA06_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO15B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA06_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C10</number>
+    </pin>
+    <pin>
+        <HERC_net>LA06_N</HERC_net>
+        <HERC_name>LA06_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO16B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA06_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C11</number>
+    </pin>
+    <pin>
+        <HERC_net>LA10_P</HERC_net>
+        <HERC_name>LA10_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>TX1_ENABLEB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA10_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C14</number>
+    </pin>
+    <pin>
+        <HERC_net>LA10_N</HERC_net>
+        <HERC_name>LA10_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RX1_ENABLEB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA10_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C15</number>
+    </pin>
+    <pin>
+        <HERC_net>LA14_P</HERC_net>
+        <HERC_name>LA14_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>TX2_ENABLEA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA14_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C18</number>
+    </pin>
+    <pin>
+        <HERC_net>LA14_N</HERC_net>
+        <HERC_name>LA14_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RX2_ENABLEA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA14_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C19</number>
+    </pin>
+    <pin>
+        <HERC_net>LA18_CC_P</HERC_net>
+        <HERC_name>LA18_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>GPIO6A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA18_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>C22</number>
+    </pin>
+    <pin>
+        <HERC_net>LA18_CC_N</HERC_net>
+        <HERC_name>LA18_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>GPIO7A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA18_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>C23</number>
+    </pin>
+    <pin>
+        <HERC_net>LA27_P</HERC_net>
+        <HERC_name>LA27_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>TX2_ENABLEB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA27_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C26</number>
+    </pin>
+    <pin>
+        <HERC_net>LA27_N</HERC_net>
+        <HERC_name>LA27_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RX2_ENABLEB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA27_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>C27</number>
+    </pin>
+    <pin>
+        <HERC_net>FMC_SCL</HERC_net>
+        <HERC_name>SCL</HERC_name>
+        <HERC_description>FMC EEPROM I2C clock</HERC_description>
+        <SKIQ-X4_net>SCL_EEPROM</SKIQ-X4_net>
+        <SKIQ-X4_name>SCL</SKIQ-X4_name>
+        <SKIQ-X4_description>FMC EEPROM I2C clock</SKIQ-X4_description>
+        <number>C30</number>
+    </pin>
+    <pin>
+        <HERC_net>FMC_SDA</HERC_net>
+        <HERC_name>SDA</HERC_name>
+        <HERC_description>FMC EEPROM I2C data</HERC_description>
+        <SKIQ-X4_net>SDA_EEPROM</SKIQ-X4_net>
+        <SKIQ-X4_name>SDA</SKIQ-X4_name>
+        <SKIQ-X4_description>FMC EEPROM I2C data</SKIQ-X4_description>
+        <number>C31</number>
+    </pin>
+    <pin>
+        <HERC_net>GA0</HERC_net>
+        <HERC_name>GA0</HERC_name>
+        <HERC_description>geographical address 1 for EEPROM (intentionally opposite)</HERC_description>
+        <SKIQ-X4_net>GA0</SKIQ-X4_net>
+        <SKIQ-X4_name>GA0</SKIQ-X4_name>
+        <SKIQ-X4_description>geographical address 1 for EEPROM (intentionally opposite)</SKIQ-X4_description>
+        <number>C34</number>
+    </pin>
+    <pin>
+        <HERC_net>10P0V</HERC_net>
+        <HERC_name>12P0V</HERC_name>
+        <HERC_description>main 12V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_12V+</SKIQ-X4_net>
+        <SKIQ-X4_name>12P0V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 12V supply input</SKIQ-X4_description>
+        <number>C35</number>
+    </pin>
+    <pin>
+        <HERC_net>10P0V</HERC_net>
+        <HERC_name>12P0V</HERC_name>
+        <HERC_description>main 12V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_12V+</SKIQ-X4_net>
+        <SKIQ-X4_name>12P0V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 12V supply input</SKIQ-X4_description>
+        <number>C37</number>
+    </pin>
+    <pin>
+        <HERC_net>3P3V</HERC_net>
+        <HERC_name>3P3V</HERC_name>
+        <HERC_description>main 3.3V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+        <number>C39</number>
+    </pin>
+    <pin>
+        <HERC_net>PG_C2M</HERC_net>
+        <HERC_name>PG_C2M</HERC_name>
+        <HERC_description>power good host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetP1_D1</SKIQ-X4_net>
+        <SKIQ-X4_name>PG_C2M</SKIQ-X4_name>
+        <SKIQ-X4_description>power good host to mezzanine</SKIQ-X4_description>
+        <number>D1</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK0_M2C_P</HERC_net>
+        <HERC_name>GBT_CLK0_M2C_P</HERC_name>
+        <HERC_description>gigabit transceiver clock</HERC_description>
+        <SKIQ-X4_net>NetC64_1</SKIQ-X4_net>
+        <SKIQ-X4_name>GBT_CLK0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+        <number>D4</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK0_M2C_N</HERC_net>
+        <HERC_name>GBT_CLK0_M2C_N</HERC_name>
+        <HERC_description>gigabit transceiver clock</HERC_description>
+        <SKIQ-X4_net>NetC63_1</SKIQ-X4_net>
+        <SKIQ-X4_name>GBT_CLK0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>gigabit transceiver clock</SKIQ-X4_description>
+        <number>D5</number>
+    </pin>
+    <pin>
+        <HERC_net>LA01_CC_P</HERC_net>
+        <HERC_name>LA01_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>GP_INTERRUPTB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA01_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>D8</number>
+    </pin>
+    <pin>
+        <HERC_net>LA01_CC_N</HERC_net>
+        <HERC_name>LA01_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>NetP1_D9</SKIQ-X4_net>
+        <SKIQ-X4_name>LA01_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>D9</number>
+    </pin>
+    <pin>
+        <HERC_net>LA05_P</HERC_net>
+        <HERC_name>LA05_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO18B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA05_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D11</number>
+    </pin>
+    <pin>
+        <HERC_net>LA05_N</HERC_net>
+        <HERC_name>LA05_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO18A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA05_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D12</number>
+    </pin>
+    <pin>
+        <HERC_net>LA09_P</HERC_net>
+        <HERC_name>LA09_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_CS_A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA09_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D14</number>
+    </pin>
+    <pin>
+        <HERC_net>LA09_N</HERC_net>
+        <HERC_name>LA09_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_CS_9528</SKIQ-X4_net>
+        <SKIQ-X4_name>LA09_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D15</number>
+    </pin>
+    <pin>
+        <HERC_net>LA13_P</HERC_net>
+        <HERC_name>LA13_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>TX1_ENABLEA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA13_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D17</number>
+    </pin>
+    <pin>
+        <HERC_net>LA13_N</HERC_net>
+        <HERC_name>LA13_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RX1_ENABLEA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA13_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D18</number>
+    </pin>
+    <pin>
+        <HERC_net>LA17_CC_P</HERC_net>
+        <HERC_name>LA17_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>GPIO12B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA17_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>D20</number>
+    </pin>
+    <pin>
+        <HERC_net>LA17_CC_N</HERC_net>
+        <HERC_name>LA17_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>GPIO13B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA17_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>D21</number>
+    </pin>
+    <pin>
+        <HERC_net>LA23_P</HERC_net>
+        <HERC_name>LA23_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_CS_B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA23_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D23</number>
+    </pin>
+    <pin>
+        <HERC_net>LA23_N</HERC_net>
+        <HERC_name>LA23_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO14B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA23_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D24</number>
+    </pin>
+    <pin>
+        <HERC_net>LA26_P</HERC_net>
+        <HERC_name>LA26_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NetP1_D26</SKIQ-X4_net>
+        <SKIQ-X4_name>LA26_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D26</number>
+    </pin>
+    <pin>
+        <HERC_net>LA26_N</HERC_net>
+        <HERC_name>LA26_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO17B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA26_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>D27</number>
+    </pin>
+    <pin>
+        <HERC_net>TCK</HERC_net>
+        <HERC_name>TCK</HERC_name>
+        <HERC_description>JTAG clock</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>TCK</SKIQ-X4_name>
+        <SKIQ-X4_description>JTAG clock</SKIQ-X4_description>
+        <number>D29</number>
+    </pin>
+    <pin>
+        <HERC_net>TDI</HERC_net>
+        <HERC_name>TDI</HERC_name>
+        <HERC_description>JTAG data in</HERC_description>
+        <SKIQ-X4_net>TDI_2_TDO</SKIQ-X4_net>
+        <SKIQ-X4_name>TDI</SKIQ-X4_name>
+        <SKIQ-X4_description>JTAG data in</SKIQ-X4_description>
+        <number>D30</number>
+    </pin>
+    <pin>
+        <HERC_net>TDO</HERC_net>
+        <HERC_name>TDO</HERC_name>
+        <HERC_description>JTAG data out</HERC_description>
+        <SKIQ-X4_net>TDI_2_TDO</SKIQ-X4_net>
+        <SKIQ-X4_name>TDO</SKIQ-X4_name>
+        <SKIQ-X4_description>JTAG data out</SKIQ-X4_description>
+        <number>D31</number>
+    </pin>
+    <pin>
+        <HERC_net>NC</HERC_net>
+        <HERC_name>3P3VAUX</HERC_name>
+        <HERC_description>auxilliary 3.3V power supply</HERC_description>
+        <SKIQ-X4_net>3P3V_AUX</SKIQ-X4_net>
+        <SKIQ-X4_name>3P3VAUX</SKIQ-X4_name>
+        <SKIQ-X4_description>auxilliary 3.3V power supply</SKIQ-X4_description>
+        <number>D32</number>
+    </pin>
+    <pin>
+        <HERC_net>TMS</HERC_net>
+        <HERC_name>TMS</HERC_name>
+        <HERC_description>JTAG mode select</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>TMS</SKIQ-X4_name>
+        <SKIQ-X4_description>JTAG mode select</SKIQ-X4_description>
+        <number>D33</number>
+    </pin>
+    <pin>
+        <HERC_net>TRST_L</HERC_net>
+        <HERC_name>TRST_L</HERC_name>
+        <HERC_description>JTAG reset</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>TRST_L</SKIQ-X4_name>
+        <SKIQ-X4_description>JTAG reset</SKIQ-X4_description>
+        <number>D34</number>
+    </pin>
+    <pin>
+        <HERC_net>GA1</HERC_net>
+        <HERC_name>GA1</HERC_name>
+        <HERC_description>geographical address 0 for EEPROM (intentionally opposite)</HERC_description>
+        <SKIQ-X4_net>GA1</SKIQ-X4_net>
+        <SKIQ-X4_name>GA1</SKIQ-X4_name>
+        <SKIQ-X4_description>geographical address 0 for EEPROM (intentionally opposite)</SKIQ-X4_description>
+        <number>D35</number>
+    </pin>
+    <pin>
+        <HERC_net>3P3V</HERC_net>
+        <HERC_name>3P3V</HERC_name>
+        <HERC_description>main 3.3V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+        <number>D36</number>
+    </pin>
+    <pin>
+        <HERC_net>3P3V</HERC_net>
+        <HERC_name>3P3V</HERC_name>
+        <HERC_description>main 3.3V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+        <number>D38</number>
+    </pin>
+    <pin>
+        <HERC_net>3P3V</HERC_net>
+        <HERC_name>3P3V</HERC_name>
+        <HERC_description>main 3.3V supply input</HERC_description>
+        <SKIQ-X4_net>VSENSE_3V3+</SKIQ-X4_net>
+        <SKIQ-X4_name>3P3V</SKIQ-X4_name>
+        <SKIQ-X4_description>main 3.3V supply input</SKIQ-X4_description>
+        <number>D40</number>
+    </pin>
+    <pin>
+        <HERC_net>HA01_CC_P</HERC_net>
+        <HERC_name>HA01_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>NetC102_2</SKIQ-X4_net>
+        <SKIQ-X4_name>HA01_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>E2</number>
+    </pin>
+    <pin>
+        <HERC_net>HA01_CC_N</HERC_net>
+        <HERC_name>HA01_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>NetC104_2</SKIQ-X4_net>
+        <SKIQ-X4_name>HA01_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>E3</number>
+    </pin>
+    <pin>
+        <HERC_net>HA05_P</HERC_net>
+        <HERC_name>HA05_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NetP1_E6</SKIQ-X4_net>
+        <SKIQ-X4_name>HA05_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E6</number>
+    </pin>
+    <pin>
+        <HERC_net>HA05_N</HERC_net>
+        <HERC_name>HA05_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NetP1_E7</SKIQ-X4_net>
+        <SKIQ-X4_name>HA05_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E7</number>
+    </pin>
+    <pin>
+        <HERC_net>HA09_P</HERC_net>
+        <HERC_name>HA09_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_PPS</SKIQ-X4_net>
+        <SKIQ-X4_name>HA09_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E9</number>
+    </pin>
+    <pin>
+        <HERC_net>HA09_N</HERC_net>
+        <HERC_name>HA09_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA09_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E10</number>
+    </pin>
+    <pin>
+        <HERC_net>HA13_P</HERC_net>
+        <HERC_name>HA13_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA13_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E12</number>
+    </pin>
+    <pin>
+        <HERC_net>HA13_N</HERC_net>
+        <HERC_name>HA13_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA13_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E13</number>
+    </pin>
+    <pin>
+        <HERC_net>HA16_P</HERC_net>
+        <HERC_name>HA16_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA16_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E15</number>
+    </pin>
+    <pin>
+        <HERC_net>HA16_N</HERC_net>
+        <HERC_name>HA16_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA16_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E16</number>
+    </pin>
+    <pin>
+        <HERC_net>HA20_P</HERC_net>
+        <HERC_name>HA20_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA20_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E18</number>
+    </pin>
+    <pin>
+        <HERC_net>HA20_N</HERC_net>
+        <HERC_name>HA20_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA20_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>E19</number>
+    </pin>
+    <pin>
+        <HERC_net>HB03_P</HERC_net>
+        <HERC_name>HB03_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB03_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E21</number>
+    </pin>
+    <pin>
+        <HERC_net>HB03_N</HERC_net>
+        <HERC_name>HB03_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB03_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E22</number>
+    </pin>
+    <pin>
+        <HERC_net>HB05_P</HERC_net>
+        <HERC_name>HB05_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB05_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E24</number>
+    </pin>
+    <pin>
+        <HERC_net>HB05_N</HERC_net>
+        <HERC_name>HB05_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB05_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E25</number>
+    </pin>
+    <pin>
+        <HERC_net>HB09_P</HERC_net>
+        <HERC_name>HB09_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB09_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E27</number>
+    </pin>
+    <pin>
+        <HERC_net>HB09_N</HERC_net>
+        <HERC_name>HB09_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB09_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E28</number>
+    </pin>
+    <pin>
+        <HERC_net>HB13_P</HERC_net>
+        <HERC_name>HB13_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB13_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E30</number>
+    </pin>
+    <pin>
+        <HERC_net>HB13_N</HERC_net>
+        <HERC_name>HB13_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB13_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E31</number>
+    </pin>
+    <pin>
+        <HERC_net>HB19_P</HERC_net>
+        <HERC_name>HB19_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB19_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E33</number>
+    </pin>
+    <pin>
+        <HERC_net>HB19_N</HERC_net>
+        <HERC_name>HB19_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB19_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E34</number>
+    </pin>
+    <pin>
+        <HERC_net>HB21_P</HERC_net>
+        <HERC_name>HB21_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB21_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E36</number>
+    </pin>
+    <pin>
+        <HERC_net>HB21_N</HERC_net>
+        <HERC_name>HB21_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB21_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>E37</number>
+    </pin>
+    <pin>
+        <HERC_net>1V8</HERC_net>
+        <HERC_name>VADJ</HERC_name>
+        <HERC_description>adjustable power supply from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC45_2</SKIQ-X4_net>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+        <number>E39</number>
+    </pin>
+    <pin>
+        <HERC_net>FMC_PG_M2C</HERC_net>
+        <HERC_name>PG_M2C</HERC_name>
+        <HERC_description>power good mezzanine to host</HERC_description>
+        <SKIQ-X4_net>PWR_GOOD</SKIQ-X4_net>
+        <SKIQ-X4_name>PG_M2C</SKIQ-X4_name>
+        <SKIQ-X4_description>power good mezzanine to host</SKIQ-X4_description>
+        <number>F1</number>
+    </pin>
+    <pin>
+        <HERC_net>HA00_CC_P</HERC_net>
+        <HERC_name>HA00_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>CLK_SYSREF_P</SKIQ-X4_net>
+        <SKIQ-X4_name>HA00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>F4</number>
+    </pin>
+    <pin>
+        <HERC_net>HA00_CC_N</HERC_net>
+        <HERC_name>HA00_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>CLK_SYSREF_N</SKIQ-X4_net>
+        <SKIQ-X4_name>HA00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>F5</number>
+    </pin>
+    <pin>
+        <HERC_net>HA04_P</HERC_net>
+        <HERC_name>HA04_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>LED_GRN</SKIQ-X4_net>
+        <SKIQ-X4_name>HA04_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F7</number>
+    </pin>
+    <pin>
+        <HERC_net>HA04_N</HERC_net>
+        <HERC_name>HA04_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>LED_BLU</SKIQ-X4_net>
+        <SKIQ-X4_name>HA04_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F8</number>
+    </pin>
+    <pin>
+        <HERC_net>HA08_P</HERC_net>
+        <HERC_name>HA08_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_VCXO_SEL</SKIQ-X4_net>
+        <SKIQ-X4_name>HA08_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F10</number>
+    </pin>
+    <pin>
+        <HERC_net>HA08_N</HERC_net>
+        <HERC_name>HA08_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>LED_RED</SKIQ-X4_net>
+        <SKIQ-X4_name>HA08_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F11</number>
+    </pin>
+    <pin>
+        <HERC_net>HA12_P</HERC_net>
+        <HERC_name>HA12_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA12_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F13</number>
+    </pin>
+    <pin>
+        <HERC_net>HA12_N</HERC_net>
+        <HERC_name>HA12_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA12_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F14</number>
+    </pin>
+    <pin>
+        <HERC_net>HA15_P</HERC_net>
+        <HERC_name>HA15_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA15_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F16</number>
+    </pin>
+    <pin>
+        <HERC_net>HA15_N</HERC_net>
+        <HERC_name>HA15_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA15_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F17</number>
+    </pin>
+    <pin>
+        <HERC_net>HA19_P</HERC_net>
+        <HERC_name>HA19_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA19_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F19</number>
+    </pin>
+    <pin>
+        <HERC_net>HA19_N</HERC_net>
+        <HERC_name>HA19_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA19_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>F20</number>
+    </pin>
+    <pin>
+        <HERC_net>HB02_P</HERC_net>
+        <HERC_name>HB02_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB02_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F22</number>
+    </pin>
+    <pin>
+        <HERC_net>HB02_N</HERC_net>
+        <HERC_name>HB02_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB02_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F23</number>
+    </pin>
+    <pin>
+        <HERC_net>HB04_P</HERC_net>
+        <HERC_name>HB04_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB04_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F25</number>
+    </pin>
+    <pin>
+        <HERC_net>HB04_N</HERC_net>
+        <HERC_name>HB04_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB04_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F26</number>
+    </pin>
+    <pin>
+        <HERC_net>HB08_P</HERC_net>
+        <HERC_name>HB08_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB08_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F28</number>
+    </pin>
+    <pin>
+        <HERC_net>HB08_N</HERC_net>
+        <HERC_name>HB08_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB08_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F29</number>
+    </pin>
+    <pin>
+        <HERC_net>HB12_P</HERC_net>
+        <HERC_name>HB12_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB12_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F31</number>
+    </pin>
+    <pin>
+        <HERC_net>HB12_N</HERC_net>
+        <HERC_name>HB12_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB12_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F32</number>
+    </pin>
+    <pin>
+        <HERC_net>HB16_P</HERC_net>
+        <HERC_name>HB16_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB16_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F34</number>
+    </pin>
+    <pin>
+        <HERC_net>HB16_N</HERC_net>
+        <HERC_name>HB16_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB16_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F35</number>
+    </pin>
+    <pin>
+        <HERC_net>HB20_P</HERC_net>
+        <HERC_name>HB20_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB20_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F37</number>
+    </pin>
+    <pin>
+        <HERC_net>HB20_N</HERC_net>
+        <HERC_name>HB20_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB20_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>F38</number>
+    </pin>
+    <pin>
+        <HERC_net>1V8</HERC_net>
+        <HERC_name>VADJ</HERC_name>
+        <HERC_description>adjustable power supply from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC45_2</SKIQ-X4_net>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+        <number>F40</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK1_M2C_P</HERC_net>
+        <HERC_name>CLK0_C2M_P</HERC_name>
+        <HERC_description>diff pair clock from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetP1_G2</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK0_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+        <number>G2</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK1_M2C_N</HERC_net>
+        <HERC_name>CLK0_C2M_N</HERC_name>
+        <HERC_description>diff pair clock from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetP1_G3</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK0_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+        <number>G3</number>
+    </pin>
+    <pin>
+        <HERC_net>LA00_CC_P</HERC_net>
+        <HERC_name>LA00_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>OUT3_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>G6</number>
+    </pin>
+    <pin>
+        <HERC_net>LA00_CC_N</HERC_net>
+        <HERC_name>LA00_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>OUT3_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>G7</number>
+    </pin>
+    <pin>
+        <HERC_net>LA03_P</HERC_net>
+        <HERC_name>LA03_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB0A_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA03_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G9</number>
+    </pin>
+    <pin>
+        <HERC_net>LA03_N</HERC_net>
+        <HERC_name>LA03_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB0A_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA03_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G10</number>
+    </pin>
+    <pin>
+        <HERC_net>LA08_P</HERC_net>
+        <HERC_name>LA08_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_MISO</SKIQ-X4_net>
+        <SKIQ-X4_name>LA08_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G12</number>
+    </pin>
+    <pin>
+        <HERC_net>LA08_N</HERC_net>
+        <HERC_name>LA08_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO0B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA08_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G13</number>
+    </pin>
+    <pin>
+        <HERC_net>LA12_P</HERC_net>
+        <HERC_name>LA12_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO1B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA12_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G15</number>
+    </pin>
+    <pin>
+        <HERC_net>LA12_N</HERC_net>
+        <HERC_name>LA12_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO2B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA12_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G16</number>
+    </pin>
+    <pin>
+        <HERC_net>LA16_P</HERC_net>
+        <HERC_name>LA16_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO2A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA16_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G18</number>
+    </pin>
+    <pin>
+        <HERC_net>LA16_N</HERC_net>
+        <HERC_name>LA16_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO3A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA16_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G19</number>
+    </pin>
+    <pin>
+        <HERC_net>LA20_P</HERC_net>
+        <HERC_name>LA20_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO11A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA20_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G21</number>
+    </pin>
+    <pin>
+        <HERC_net>LA20_N</HERC_net>
+        <HERC_name>LA20_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO12A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA20_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G22</number>
+    </pin>
+    <pin>
+        <HERC_net>LA22_P</HERC_net>
+        <HERC_name>LA22_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO15A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA22_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G24</number>
+    </pin>
+    <pin>
+        <HERC_net>LA22_N</HERC_net>
+        <HERC_name>LA22_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO8A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA22_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G25</number>
+    </pin>
+    <pin>
+        <HERC_net>LA25_P</HERC_net>
+        <HERC_name>LA25_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB1A_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA25_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G27</number>
+    </pin>
+    <pin>
+        <HERC_net>LA25_N</HERC_net>
+        <HERC_name>LA25_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB1A_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA25_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G28</number>
+    </pin>
+    <pin>
+        <HERC_net>LA29_P</HERC_net>
+        <HERC_name>LA29_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO14A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA29_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G30</number>
+    </pin>
+    <pin>
+        <HERC_net>LA29_N</HERC_net>
+        <HERC_name>LA29_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO13A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA29_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G31</number>
+    </pin>
+    <pin>
+        <HERC_net>LA31_P</HERC_net>
+        <HERC_name>LA31_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO3B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA31_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G33</number>
+    </pin>
+    <pin>
+        <HERC_net>LA31_N</HERC_net>
+        <HERC_name>LA31_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO4B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA31_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G34</number>
+    </pin>
+    <pin>
+        <HERC_net>LA33_P</HERC_net>
+        <HERC_name>LA33_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO5B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA33_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G36</number>
+    </pin>
+    <pin>
+        <HERC_net>LA33_N</HERC_net>
+        <HERC_name>LA33_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO6B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA33_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>G37</number>
+    </pin>
+    <pin>
+        <HERC_net>1V8</HERC_net>
+        <HERC_name>VADJ</HERC_name>
+        <HERC_description>adjustable power supply from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC45_2</SKIQ-X4_net>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+        <number>G39</number>
+    </pin>
+    <pin>
+        <HERC_net>VREF_A_M2C</HERC_net>
+        <HERC_name>VREF_A_M2C</HERC_name>
+        <HERC_description>reference voltage for signal standard on Band A (LAxx and HAxx)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>VREF_A_M2C</SKIQ-X4_name>
+        <SKIQ-X4_description>reference voltage for signal standard on Band A (LAxx and HAxx)</SKIQ-X4_description>
+        <number>H1</number>
+    </pin>
+    <pin>
+        <HERC_net>PRSNT_M2C_L</HERC_net>
+        <HERC_name>PRSNT_M2C_L</HERC_name>
+        <HERC_description>module present signal (active low)</HERC_description>
+        <SKIQ-X4_net>GND</SKIQ-X4_net>
+        <SKIQ-X4_name>PRSNT_M2C_L</SKIQ-X4_name>
+        <SKIQ-X4_description>module present signal (active low)</SKIQ-X4_description>
+        <number>H2</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK0_M2C_P</HERC_net>
+        <HERC_name>CLK0_M2C_P</HERC_name>
+        <HERC_description>diff pair clock from mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetP1_H4</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK0_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+        <number>H4</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK0_M2C_N</HERC_net>
+        <HERC_name>CLK0_M2C_N</HERC_name>
+        <HERC_description>diff pair clock from mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NetP1_H5</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK0_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+        <number>H5</number>
+    </pin>
+    <pin>
+        <HERC_net>LA02_P</HERC_net>
+        <HERC_name>LA02_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCOUTB0A_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA02_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H7</number>
+    </pin>
+    <pin>
+        <HERC_net>LA02_N</HERC_net>
+        <HERC_name>LA02_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCOUTB0A_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA02_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H8</number>
+    </pin>
+    <pin>
+        <HERC_net>LA04_P</HERC_net>
+        <HERC_name>LA04_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RESETBA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA04_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H10</number>
+    </pin>
+    <pin>
+        <HERC_net>LA04_N</HERC_net>
+        <HERC_name>LA04_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GP_INTERRUPTA</SKIQ-X4_net>
+        <SKIQ-X4_name>LA04_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H11</number>
+    </pin>
+    <pin>
+        <HERC_net>LA07_P</HERC_net>
+        <HERC_name>LA07_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_CLK</SKIQ-X4_net>
+        <SKIQ-X4_name>LA07_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H13</number>
+    </pin>
+    <pin>
+        <HERC_net>LA07_N</HERC_net>
+        <HERC_name>LA07_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SPI_MOSI</SKIQ-X4_net>
+        <SKIQ-X4_name>LA07_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H14</number>
+    </pin>
+    <pin>
+        <HERC_net>LA11_P</HERC_net>
+        <HERC_name>LA11_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCOUTB0B_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA11_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H16</number>
+    </pin>
+    <pin>
+        <HERC_net>LA11_N</HERC_net>
+        <HERC_name>LA11_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCOUTB0B_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA11_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H17</number>
+    </pin>
+    <pin>
+        <HERC_net>LA15_P</HERC_net>
+        <HERC_name>LA15_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO0A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA15_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H19</number>
+    </pin>
+    <pin>
+        <HERC_net>LA15_N</HERC_net>
+        <HERC_name>LA15_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO1A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA15_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H20</number>
+    </pin>
+    <pin>
+        <HERC_net>LA19_P</HERC_net>
+        <HERC_name>LA19_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO9A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA19_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H22</number>
+    </pin>
+    <pin>
+        <HERC_net>LA19_N</HERC_net>
+        <HERC_name>LA19_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO10A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA19_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H23</number>
+    </pin>
+    <pin>
+        <HERC_net>LA21_P</HERC_net>
+        <HERC_name>LA21_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO4A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA21_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H25</number>
+    </pin>
+    <pin>
+        <HERC_net>LA21_N</HERC_net>
+        <HERC_name>LA21_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO5A</SKIQ-X4_net>
+        <SKIQ-X4_name>LA21_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H26</number>
+    </pin>
+    <pin>
+        <HERC_net>LA24_P</HERC_net>
+        <HERC_name>LA24_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB1B_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA24_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H28</number>
+    </pin>
+    <pin>
+        <HERC_net>LA24_N</HERC_net>
+        <HERC_name>LA24_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB1B_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA24_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H29</number>
+    </pin>
+    <pin>
+        <HERC_net>LA28_P</HERC_net>
+        <HERC_name>LA28_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB0B_P</SKIQ-X4_net>
+        <SKIQ-X4_name>LA28_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H31</number>
+    </pin>
+    <pin>
+        <HERC_net>LA28_N</HERC_net>
+        <HERC_name>LA28_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>SYNCINB0B_N</SKIQ-X4_net>
+        <SKIQ-X4_name>LA28_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H32</number>
+    </pin>
+    <pin>
+        <HERC_net>LA30_P</HERC_net>
+        <HERC_name>LA30_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO7B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA30_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H34</number>
+    </pin>
+    <pin>
+        <HERC_net>LA30_N</HERC_net>
+        <HERC_name>LA30_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO8B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA30_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H35</number>
+    </pin>
+    <pin>
+        <HERC_net>LA32_P</HERC_net>
+        <HERC_name>LA32_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>RESETBB</SKIQ-X4_net>
+        <SKIQ-X4_name>LA32_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H37</number>
+    </pin>
+    <pin>
+        <HERC_net>LA32_N</HERC_net>
+        <HERC_name>LA32_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>GPIO9B</SKIQ-X4_net>
+        <SKIQ-X4_name>LA32_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>H38</number>
+    </pin>
+    <pin>
+        <HERC_net>1V8</HERC_net>
+        <HERC_name>VADJ</HERC_name>
+        <HERC_description>adjustable power supply from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>NetC45_2</SKIQ-X4_net>
+        <SKIQ-X4_name>VADJ</SKIQ-X4_name>
+        <SKIQ-X4_description>adjustable power supply from host to mezzanine</SKIQ-X4_description>
+        <number>H40</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK3_BIDIR_P</HERC_net>
+        <HERC_name>CLK1_C2M_P</HERC_name>
+        <HERC_description>diff pair clock from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>FMC_REF_IN_P</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK1_C2M_P</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+        <number>J2</number>
+    </pin>
+    <pin>
+        <HERC_net>CLK3_BIDIR_N</HERC_net>
+        <HERC_name>CLK1_C2M_N</HERC_name>
+        <HERC_description>diff pair clock from host to mezzanine</HERC_description>
+        <SKIQ-X4_net>FMC_REF_IN_N</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK1_C2M_N</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from host to mezzanine</SKIQ-X4_description>
+        <number>J3</number>
+    </pin>
+    <pin>
+        <HERC_net>HA03_P</HERC_net>
+        <HERC_name>HA03_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA03_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J6</number>
+    </pin>
+    <pin>
+        <HERC_net>HA03_N</HERC_net>
+        <HERC_name>HA03_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA03_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J7</number>
+    </pin>
+    <pin>
+        <HERC_net>HA07_P</HERC_net>
+        <HERC_name>HA07_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA07_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J9</number>
+    </pin>
+    <pin>
+        <HERC_net>HA07_N</HERC_net>
+        <HERC_name>HA07_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA07_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J10</number>
+    </pin>
+    <pin>
+        <HERC_net>HA11_P</HERC_net>
+        <HERC_name>HA11_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA11_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J12</number>
+    </pin>
+    <pin>
+        <HERC_net>HA11_N</HERC_net>
+        <HERC_name>HA11_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA11_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J13</number>
+    </pin>
+    <pin>
+        <HERC_net>HA14_P</HERC_net>
+        <HERC_name>HA14_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA14_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J15</number>
+    </pin>
+    <pin>
+        <HERC_net>HA14_N</HERC_net>
+        <HERC_name>HA14_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA14_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J16</number>
+    </pin>
+    <pin>
+        <HERC_net>HA18_P</HERC_net>
+        <HERC_name>HA18_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA18_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J18</number>
+    </pin>
+    <pin>
+        <HERC_net>HA18_N</HERC_net>
+        <HERC_name>HA18_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA18_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J19</number>
+    </pin>
+    <pin>
+        <HERC_net>HA22_P</HERC_net>
+        <HERC_name>HA22_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA22_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J21</number>
+    </pin>
+    <pin>
+        <HERC_net>HA22_N</HERC_net>
+        <HERC_name>HA22_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA22_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>J22</number>
+    </pin>
+    <pin>
+        <HERC_net>HB01_P</HERC_net>
+        <HERC_name>HB01_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB01_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J24</number>
+    </pin>
+    <pin>
+        <HERC_net>HB01_N</HERC_net>
+        <HERC_name>HB01_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB01_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J25</number>
+    </pin>
+    <pin>
+        <HERC_net>HB07_P</HERC_net>
+        <HERC_name>HB07_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB07_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J27</number>
+    </pin>
+    <pin>
+        <HERC_net>HB07_N</HERC_net>
+        <HERC_name>HB07_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB07_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J28</number>
+    </pin>
+    <pin>
+        <HERC_net>HB11_P</HERC_net>
+        <HERC_name>HB11_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB11_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J30</number>
+    </pin>
+    <pin>
+        <HERC_net>HB11_N</HERC_net>
+        <HERC_name>HB11_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB11_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J31</number>
+    </pin>
+    <pin>
+        <HERC_net>HB15_P</HERC_net>
+        <HERC_name>HB15_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB15_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J33</number>
+    </pin>
+    <pin>
+        <HERC_net>HB15_N</HERC_net>
+        <HERC_name>HB15_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB15_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J34</number>
+    </pin>
+    <pin>
+        <HERC_net>HB18_P</HERC_net>
+        <HERC_name>HB18_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB18_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J36</number>
+    </pin>
+    <pin>
+        <HERC_net>HB18_N</HERC_net>
+        <HERC_name>HB18_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB18_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>J37</number>
+    </pin>
+    <pin>
+        <HERC_net>VIO_B_M2C</HERC_net>
+        <HERC_name>VIO_B_M2C</HERC_name>
+        <HERC_description>voltage generated from mezzanine to power IO band B on FPGA</HERC_description>
+        <SKIQ-X4_net>VDD_INTERFACE</SKIQ-X4_net>
+        <SKIQ-X4_name>VIO_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_description>voltage generated from mezzanine to power IO band B on FPGA</SKIQ-X4_description>
+        <number>J39</number>
+    </pin>
+    <pin>
+        <HERC_net>VREF_B_M2C</HERC_net>
+        <HERC_name>VREF_B_M2C</HERC_name>
+        <HERC_description>reference voltage for signal standard on Band B (LBxx and HBxx)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>VREF_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_description>reference voltage for signal standard on Band B (LBxx and HBxx)</SKIQ-X4_description>
+        <number>K1</number>
+    </pin>
+    <pin>
+        <HERC_net>FMC_40M_CLK_P</HERC_net>
+        <HERC_name>CLK1_M2C_P</HERC_name>
+        <HERC_description>diff pair clock from mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK1_M2C_P</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+        <number>K4</number>
+    </pin>
+    <pin>
+        <HERC_net>FMC_40M_CLK_N</HERC_net>
+        <HERC_name>CLK1_M2C_N</HERC_name>
+        <HERC_description>diff pair clock from mezzanine to host</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>CLK1_M2C_N</SKIQ-X4_name>
+        <SKIQ-X4_description>diff pair clock from mezzanine to host</SKIQ-X4_description>
+        <number>K5</number>
+    </pin>
+    <pin>
+        <HERC_net>HA02_P</HERC_net>
+        <HERC_name>HA02_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SDA</SKIQ-X4_net>
+        <SKIQ-X4_name>HA02_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K7</number>
+    </pin>
+    <pin>
+        <HERC_net>HA02_N</HERC_net>
+        <HERC_name>HA02_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SCL</SKIQ-X4_net>
+        <SKIQ-X4_name>HA02_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K8</number>
+    </pin>
+    <pin>
+        <HERC_net>HA06_P</HERC_net>
+        <HERC_name>HA06_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_SYSREF_REQ</SKIQ-X4_net>
+        <SKIQ-X4_name>HA06_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K10</number>
+    </pin>
+    <pin>
+        <HERC_net>HA06_N</HERC_net>
+        <HERC_name>HA06_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>FMC_10M_EN</SKIQ-X4_net>
+        <SKIQ-X4_name>HA06_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K11</number>
+    </pin>
+    <pin>
+        <HERC_net>HA10_P</HERC_net>
+        <HERC_name>HA10_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA10_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K13</number>
+    </pin>
+    <pin>
+        <HERC_net>HA10_N</HERC_net>
+        <HERC_name>HA10_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA10_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K14</number>
+    </pin>
+    <pin>
+        <HERC_net>HA17_CC_P</HERC_net>
+        <HERC_name>HA17_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA17_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>K16</number>
+    </pin>
+    <pin>
+        <HERC_net>HA17_CC_N</HERC_net>
+        <HERC_name>HA17_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank A (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA17_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A (clock capable)</SKIQ-X4_description>
+        <number>K17</number>
+    </pin>
+    <pin>
+        <HERC_net>HA21_P</HERC_net>
+        <HERC_name>HA21_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA21_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K19</number>
+    </pin>
+    <pin>
+        <HERC_net>HA21_N</HERC_net>
+        <HERC_name>HA21_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA21_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K20</number>
+    </pin>
+    <pin>
+        <HERC_net>HA23_P</HERC_net>
+        <HERC_name>HA23_P</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA23_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K22</number>
+    </pin>
+    <pin>
+        <HERC_net>HA23_N</HERC_net>
+        <HERC_name>HA23_N</HERC_name>
+        <HERC_description>user defined signal on bank A</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HA23_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank A</SKIQ-X4_description>
+        <number>K23</number>
+    </pin>
+    <pin>
+        <HERC_net>HB00_CC_P</HERC_net>
+        <HERC_name>HB00_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank B (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB00_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+        <number>K25</number>
+    </pin>
+    <pin>
+        <HERC_net>HB00_CC_N</HERC_net>
+        <HERC_name>HB00_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank B (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB00_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+        <number>K26</number>
+    </pin>
+    <pin>
+        <HERC_net>HB06_CC_P</HERC_net>
+        <HERC_name>HB06_P_CC</HERC_name>
+        <HERC_description>user defined signal on bank B (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB06_P_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+        <number>K28</number>
+    </pin>
+    <pin>
+        <HERC_net>HB06_CC_N</HERC_net>
+        <HERC_name>HB06_N_CC</HERC_name>
+        <HERC_description>user defined signal on bank B (clock capable)</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB06_N_CC</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B (clock capable)</SKIQ-X4_description>
+        <number>K29</number>
+    </pin>
+    <pin>
+        <HERC_net>HB10_P</HERC_net>
+        <HERC_name>HB10_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB10_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K31</number>
+    </pin>
+    <pin>
+        <HERC_net>HB10_N</HERC_net>
+        <HERC_name>HB10_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB10_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K32</number>
+    </pin>
+    <pin>
+        <HERC_net>HB14_P</HERC_net>
+        <HERC_name>HB14_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB14_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K34</number>
+    </pin>
+    <pin>
+        <HERC_net>HB14_N</HERC_net>
+        <HERC_name>HB14_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB14_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K35</number>
+    </pin>
+    <pin>
+        <HERC_net>HB17_CC_P</HERC_net>
+        <HERC_name>HB17_P</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB17_P</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K37</number>
+    </pin>
+    <pin>
+        <HERC_net>HB17_CC_N</HERC_net>
+        <HERC_name>HB17_N</HERC_name>
+        <HERC_description>user defined signal on bank B</HERC_description>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>HB17_N</SKIQ-X4_name>
+        <SKIQ-X4_description>user defined signal on bank B</SKIQ-X4_description>
+        <number>K38</number>
+    </pin>
+    <pin>
+        <HERC_net>VIO_B_M2C</HERC_net>
+        <HERC_name>VIO_B_M2C</HERC_name>
+        <HERC_description>voltage generated from mezzanine to power IO band B on FPGA</HERC_description>
+        <SKIQ-X4_net>VDD_INTERFACE</SKIQ-X4_net>
+        <SKIQ-X4_name>VIO_B_M2C</SKIQ-X4_name>
+        <SKIQ-X4_description>voltage generated from mezzanine to power IO band B on FPGA</SKIQ-X4_description>
+        <number>K40</number>
+    </pin>
+    <pin>
+        <HERC_net>RES1</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L1</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L2</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L3</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK4_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L4</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK4_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L5</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L6</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L7</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK3_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L8</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK3_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L9</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L10</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L11</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK2_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L12</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK2_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L13</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L14</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L15</number>
+    </pin>
+    <pin>
+        <HERC_net>SYNC_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L16</number>
+    </pin>
+    <pin>
+        <HERC_net>SYNC_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L17</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L18</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L19</number>
+    </pin>
+    <pin>
+        <HERC_net>REFCLK_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L20</number>
+    </pin>
+    <pin>
+        <HERC_net>REFCLK_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L21</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L22</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L23</number>
+    </pin>
+    <pin>
+        <HERC_net>REFCLK_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L24</number>
+    </pin>
+    <pin>
+        <HERC_net>REFCLK_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L25</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L26</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L27</number>
+    </pin>
+    <pin>
+        <HERC_net>SYNC_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L28</number>
+    </pin>
+    <pin>
+        <HERC_net>SYNC_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L29</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L30</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L31</number>
+    </pin>
+    <pin>
+        <HERC_net>RES2</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L32</number>
+    </pin>
+    <pin>
+        <HERC_net>RES3</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L33</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L34</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L35</number>
+    </pin>
+    <pin>
+        <HERC_net>10P0V</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L36</number>
+    </pin>
+    <pin>
+        <HERC_net>10P0V</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L37</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L38</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L39</number>
+    </pin>
+    <pin>
+        <HERC_net>10P0V</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>L40</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M1</number>
+    </pin>
+    <pin>
+        <HERC_net>DP23_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M2</number>
+    </pin>
+    <pin>
+        <HERC_net>DP23_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M3</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M4</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M5</number>
+    </pin>
+    <pin>
+        <HERC_net>DP22_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M6</number>
+    </pin>
+    <pin>
+        <HERC_net>DP22_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M7</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M8</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M9</number>
+    </pin>
+    <pin>
+        <HERC_net>DP21_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M10</number>
+    </pin>
+    <pin>
+        <HERC_net>DP21_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M11</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M12</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M13</number>
+    </pin>
+    <pin>
+        <HERC_net>DP20_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M14</number>
+    </pin>
+    <pin>
+        <HERC_net>DP20_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M15</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M16</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M17</number>
+    </pin>
+    <pin>
+        <HERC_net>DP14_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M18</number>
+    </pin>
+    <pin>
+        <HERC_net>DP14_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M19</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M20</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M21</number>
+    </pin>
+    <pin>
+        <HERC_net>DP15_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M22</number>
+    </pin>
+    <pin>
+        <HERC_net>DP15_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M23</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M24</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M25</number>
+    </pin>
+    <pin>
+        <HERC_net>DP16_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M26</number>
+    </pin>
+    <pin>
+        <HERC_net>DP16_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M27</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M28</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M29</number>
+    </pin>
+    <pin>
+        <HERC_net>DP17_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M30</number>
+    </pin>
+    <pin>
+        <HERC_net>DP17_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M31</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M32</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M33</number>
+    </pin>
+    <pin>
+        <HERC_net>DP18_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M34</number>
+    </pin>
+    <pin>
+        <HERC_net>DP18_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M35</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M36</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M37</number>
+    </pin>
+    <pin>
+        <HERC_net>DP19_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M38</number>
+    </pin>
+    <pin>
+        <HERC_net>DP19_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M39</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>M40</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y1</number>
+    </pin>
+    <pin>
+        <HERC_net>DP23_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y2</number>
+    </pin>
+    <pin>
+        <HERC_net>DP23_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y3</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y4</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y5</number>
+    </pin>
+    <pin>
+        <HERC_net>DP21_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y6</number>
+    </pin>
+    <pin>
+        <HERC_net>DP21_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y7</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y8</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y9</number>
+    </pin>
+    <pin>
+        <HERC_net>DP10_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y10</number>
+    </pin>
+    <pin>
+        <HERC_net>DP10_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y11</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y12</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y13</number>
+    </pin>
+    <pin>
+        <HERC_net>DP12_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y14</number>
+    </pin>
+    <pin>
+        <HERC_net>DP12_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y15</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y16</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y17</number>
+    </pin>
+    <pin>
+        <HERC_net>DP14_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y18</number>
+    </pin>
+    <pin>
+        <HERC_net>DP14_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y19</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y20</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y21</number>
+    </pin>
+    <pin>
+        <HERC_net>DP15_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y22</number>
+    </pin>
+    <pin>
+        <HERC_net>DP15_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y23</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y24</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y25</number>
+    </pin>
+    <pin>
+        <HERC_net>DP11_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y26</number>
+    </pin>
+    <pin>
+        <HERC_net>DP11_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y27</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y28</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y29</number>
+    </pin>
+    <pin>
+        <HERC_net>DP13_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y30</number>
+    </pin>
+    <pin>
+        <HERC_net>DP13_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y31</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y32</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y33</number>
+    </pin>
+    <pin>
+        <HERC_net>DP17_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y34</number>
+    </pin>
+    <pin>
+        <HERC_net>DP17_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y35</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y36</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y37</number>
+    </pin>
+    <pin>
+        <HERC_net>DP19_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y38</number>
+    </pin>
+    <pin>
+        <HERC_net>DP19_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y39</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Y40</number>
+    </pin>
+    <pin>
+        <HERC_net>HSPC_PRSNT_M2C_L</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z1</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z2</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z3</number>
+    </pin>
+    <pin>
+        <HERC_net>DP22_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z4</number>
+    </pin>
+    <pin>
+        <HERC_net>DP22_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z5</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z6</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z7</number>
+    </pin>
+    <pin>
+        <HERC_net>DP20_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z8</number>
+    </pin>
+    <pin>
+        <HERC_net>DP20_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z9</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z10</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z11</number>
+    </pin>
+    <pin>
+        <HERC_net>DP11_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z12</number>
+    </pin>
+    <pin>
+        <HERC_net>DP11_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z13</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z14</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z15</number>
+    </pin>
+    <pin>
+        <HERC_net>DP13_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z16</number>
+    </pin>
+    <pin>
+        <HERC_net>DP13_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z17</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z18</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z19</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK5_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z20</number>
+    </pin>
+    <pin>
+        <HERC_net>GBTCLK5_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z21</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z22</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z23</number>
+    </pin>
+    <pin>
+        <HERC_net>DP10_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z24</number>
+    </pin>
+    <pin>
+        <HERC_net>DP10_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z25</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z26</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z27</number>
+    </pin>
+    <pin>
+        <HERC_net>DP12_C2M_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z28</number>
+    </pin>
+    <pin>
+        <HERC_net>DP12_C2M_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z29</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z30</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z31</number>
+    </pin>
+    <pin>
+        <HERC_net>DP16_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z32</number>
+    </pin>
+    <pin>
+        <HERC_net>DP16_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z33</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z34</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z35</number>
+    </pin>
+    <pin>
+        <HERC_net>DP18_M2C_P</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z36</number>
+    </pin>
+    <pin>
+        <HERC_net>DP18_M2C_N</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z37</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z38</number>
+    </pin>
+    <pin>
+        <HERC_net>GND</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z39</number>
+    </pin>
+    <pin>
+        <HERC_net>3P3V</HERC_net>
+        <HERC_name>NC</HERC_name>
+        <SKIQ-X4_net>NC</SKIQ-X4_net>
+        <SKIQ-X4_name>NC</SKIQ-X4_name>
+        <SKIQ-X4_description>NC</SKIQ-X4_description>
+        <number>Z40</number>
+    </pin>
+</pin_map>
